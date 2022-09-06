@@ -1,0 +1,40 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: GET
+    uri: https://ssapi.shipstation.com/carriers
+  response:
+    body:
+      string: '[{"name":"UPS","code":"ups","accountNumber":"453F7W","requiresFundedAccount":false,"balance":0.0,"nickname":"UPS","shippingProviderId":559397,"primary":true},{"name":"FedEx","code":"fedex","accountNumber":"360095770","requiresFundedAccount":false,"balance":0.0,"nickname":"Hak_Premium_1934","shippingProviderId":139925,"primary":true},{"name":"Endicia","code":"endicia","accountNumber":"1259032","requiresFundedAccount":true,"balance":3665.85,"nickname":"hak_domestic","shippingProviderId":182809,"primary":true},{"name":"DHL
+        eCommerce","code":"dhl_global_mail","accountNumber":"5362373","requiresFundedAccount":false,"balance":0.0,"nickname":null,"shippingProviderId":445080,"primary":true},{"name":"DHL
+        Express","code":"dhl_express","accountNumber":"848340757","requiresFundedAccount":false,"balance":0.0,"nickname":"HAK_International","shippingProviderId":314277,"primary":true}]'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '882'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 22 Aug 2022 07:52:38 GMT
+      X-Rate-Limit-Limit:
+      - '40'
+      X-Rate-Limit-Remaining:
+      - '39'
+      X-Rate-Limit-Reset:
+      - '23'
+      cache-control:
+      - no-cache
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+version: 1
