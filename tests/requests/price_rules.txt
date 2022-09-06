@@ -1,0 +1,102 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-06+13%3A00%3A00%2B00%3A00&updated_at_max=2022-09-06+13%3A23%3A29%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[{"id":933888720919,"value_type":"percentage","value":"-20.0","customer_selection":"all","target_type":"line_item","target_selection":"entitled","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2021-06-03T11:55:45-04:00","ends_at":null,"created_at":"2021-06-03T11:56:00-04:00","updated_at":"2022-09-06T09:20:02-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[154120683543],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"ELISE","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/933888720919"},{"id":1014504718359,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2022-08-01T11:44:32-04:00","ends_at":null,"created_at":"2022-08-01T11:44:36-04:00","updated_at":"2022-09-06T09:05:02-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"HOUSEINHABIT","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1014504718359"},{"id":1016194859031,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":false,"usage_limit":null,"starts_at":"2022-08-10T16:51:51-04:00","ends_at":"2022-09-09T12:00:59-04:00","created_at":"2022-08-10T16:52:26-04:00","updated_at":"2022-09-06T09:20:04-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"RESET","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1016194859031"},{"id":1017198805015,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2022-08-15T16:39:00-04:00","ends_at":null,"created_at":"2022-08-15T16:39:11-04:00","updated_at":"2022-09-06T09:00:10-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"FSAFE22","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1017198805015"},{"id":1018937704471,"value_type":"percentage","value":"-20.0","customer_selection":"all","target_type":"line_item","target_selection":"entitled","allocation_method":"across","allocation_limit":null,"once_per_customer":false,"usage_limit":null,"starts_at":"2022-08-24T14:36:47-04:00","ends_at":"2022-09-06T12:00:59-04:00","created_at":"2022-08-24T14:37:49-04:00","updated_at":"2022-09-06T09:18:54-04:00","entitled_product_ids":[6573374013463,6715069267991],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"SUMMER22","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1018937704471"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 746785008a7368af-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=589ea6ac-bced-491d-a96e-f1025acb8c4d'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:23:30 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?limit=250&page_info=eyJzdGF0dXMiOiJhbnkiLCJ1cGRhdGVkX2F0X21pbiI6IjIwMjItMDktMDYgMTM6MDA6MDAgVVRDIiwidXBkYXRlZF9hdF9tYXgiOiIyMDIyLTA5LTA2IDEzOjIzOjI5IFVUQyIsIm9yZGVyIjoiaWQgYXNjIiwibGFzdF9pZCI6OTMzODg4NzIwOTE5LCJsYXN0X3ZhbHVlIjo5MzM4ODg3MjA5MTksImRpcmVjdGlvbiI6InByZXYifQ>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BeEgds1iQp7fc%2BW3RWQSG%2FsWkQtfcPLrMkU7X9EUXg8W7ELt%2FRNIs5YpKCc1x8lepMu5Y2T0%2Bf1tDDcFkbpm7Azz0uwNQNeS%2BTjWhPKdRYh7i6wzhYsXk6fZHlyLBERNmvox%2BQNg"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 589ea6ac-bced-491d-a96e-f1025acb8c4d
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=589ea6ac-bced-491d-a96e-f1025acb8c4d
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1

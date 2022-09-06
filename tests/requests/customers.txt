@@ -1,0 +1,747 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/customers.json?since_id=1&updated_at_min=2022-09-06+13%3A00%3A00%2B00%3A00&updated_at_max=2022-09-06+13%3A42%3A18%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: "{\"customers\":[{\"id\":2246782976023,\"email\":\"andrea.brown04@yahoo.com\",\"accepts_marketing\":true,\"created_at\":\"2019-09-09T16:31:00-04:00\",\"updated_at\":\"2022-09-06T09:39:31-04:00\",\"first_name\":\"Andrea\",\"last_name\":\"Brown\",\"orders_count\":3,\"state\":\"disabled\",\"total_spent\":\"293.74\",\"last_order_id\":4516003184663,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523133\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":4444875456535,\"customer_id\":2246782976023,\"first_name\":\"Andrea\",\"last_name\":\"Brown\",\"company\":null,\"address1\":\"1509
+        W Pierson St\",\"address2\":\"Apt 2\",\"city\":\"Phoenix\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"85015\",\"phone\":\"4804538675\",\"name\":\"Andrea Brown\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6858592976919,\"customer_id\":2246782976023,\"first_name\":\"Andrea\",\"last_name\":\"Brown\",\"company\":null,\"address1\":\"1207
+        North 48th Street\",\"address2\":\"103\",\"city\":\"Phoenix\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"85008\",\"phone\":\"(602) 483-9032\",\"name\":\"Andrea
+        Brown\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7135015534615,\"customer_id\":2246782976023,\"first_name\":\"Andrea\",\"last_name\":\"Brown\",\"company\":null,\"address1\":\"1207
+        North 48th Street\",\"address2\":\"103  \",\"city\":\"Phoenix\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"85008\",\"phone\":\"4804538675\",\"name\":\"Andrea Brown\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2019-09-09T16:31:00-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/2246782976023\",\"default_address\":{\"id\":7135015534615,\"customer_id\":2246782976023,\"first_name\":\"Andrea\",\"last_name\":\"Brown\",\"company\":null,\"address1\":\"1207
+        North 48th Street\",\"address2\":\"103  \",\"city\":\"Phoenix\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"85008\",\"phone\":\"4804538675\",\"name\":\"Andrea Brown\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":2800680271895,\"email\":\"lapeerrd99@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2020-03-03T00:01:06-05:00\",\"updated_at\":\"2022-09-06T09:08:40-04:00\",\"first_name\":\"Justin\",\"last_name\":\"Beauliu\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"124.20\",\"last_order_id\":4497671913495,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2509360\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":2972698050583,\"customer_id\":2800680271895,\"first_name\":\"Justin\",\"last_name\":\"Beauliu\",\"company\":null,\"address1\":\"9326
+        Monica Dr\",\"address2\":\"\",\"city\":\"Davison\",\"province\":\"Michigan\",\"country\":\"United
+        States\",\"zip\":\"48423\",\"phone\":\"(810) 553-8939\",\"name\":\"Justin
+        Beauliu\",\"province_code\":\"MI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7118182842391,\"customer_id\":2800680271895,\"first_name\":\"Justin\",\"last_name\":\"Beaulieu\",\"company\":\"\",\"address1\":\"9326
+        Monica Drive\",\"address2\":\"\",\"city\":\"Davison\",\"province\":\"Michigan\",\"country\":\"United
+        States\",\"zip\":\"48423\",\"phone\":\"+18105538939\",\"name\":\"Justin Beaulieu\",\"province_code\":\"MI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2020-03-03T00:01:06-05:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/2800680271895\",\"default_address\":{\"id\":7118182842391,\"customer_id\":2800680271895,\"first_name\":\"Justin\",\"last_name\":\"Beaulieu\",\"company\":\"\",\"address1\":\"9326
+        Monica Drive\",\"address2\":\"\",\"city\":\"Davison\",\"province\":\"Michigan\",\"country\":\"United
+        States\",\"zip\":\"48423\",\"phone\":\"+18105538939\",\"name\":\"Justin Beaulieu\",\"province_code\":\"MI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":2840103747607,\"email\":\"christopherl12@hotmail.com\",\"accepts_marketing\":true,\"created_at\":\"2020-04-06T17:04:08-04:00\",\"updated_at\":\"2022-09-06T09:12:20-04:00\",\"first_name\":\"Christopher\",\"last_name\":\"Rivera\",\"orders_count\":7,\"state\":\"disabled\",\"total_spent\":\"566.21\",\"last_order_id\":4515970318359,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2523112\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":3018408296471,\"customer_id\":2840103747607,\"first_name\":\"Christopher\",\"last_name\":\"Rivera\",\"company\":\"\",\"address1\":\"6
+        Arthur St\",\"address2\":\"\",\"city\":\"West Warwick\",\"province\":\"Rhode
+        Island\",\"country\":\"United States\",\"zip\":\"02893-5102\",\"phone\":null,\"name\":\"Christopher
+        Rivera\",\"province_code\":\"RI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7101772693527,\"customer_id\":2840103747607,\"first_name\":\"Christopher\",\"last_name\":\"Rivera\",\"company\":null,\"address1\":\"6
+        ARTHUR ST\",\"address2\":\"\",\"city\":\"WEST WARWICK\",\"province\":\"Rhode
+        Island\",\"country\":\"United States\",\"zip\":\"02893\",\"phone\":\"4012560267\",\"name\":\"Christopher
+        Rivera\",\"province_code\":\"RI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7134993874967,\"customer_id\":2840103747607,\"first_name\":\"Christopher\",\"last_name\":\"Rivera\",\"company\":null,\"address1\":\"6
+        Arthur St\",\"address2\":\"\",\"city\":\"West Warwick\",\"province\":\"Rhode
+        Island\",\"country\":\"United States\",\"zip\":\"02893-5102\",\"phone\":\"(401)
+        256-0267\",\"name\":\"Christopher Rivera\",\"province_code\":\"RI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2020-04-06T17:04:08-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/2840103747607\",\"default_address\":{\"id\":7134993874967,\"customer_id\":2840103747607,\"first_name\":\"Christopher\",\"last_name\":\"Rivera\",\"company\":null,\"address1\":\"6
+        Arthur St\",\"address2\":\"\",\"city\":\"West Warwick\",\"province\":\"Rhode
+        Island\",\"country\":\"United States\",\"zip\":\"02893-5102\",\"phone\":\"(401)
+        256-0267\",\"name\":\"Christopher Rivera\",\"province_code\":\"RI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":2875774337047,\"email\":\"jsbagley88@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2020-04-27T15:06:32-04:00\",\"updated_at\":\"2022-09-06T09:42:01-04:00\",\"first_name\":\"Justin\",\"last_name\":\"Bagley\",\"orders_count\":3,\"state\":\"disabled\",\"total_spent\":\"266.00\",\"last_order_id\":4083109101591,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2131147\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":3061228503063,\"customer_id\":2875774337047,\"first_name\":\"Justin\",\"last_name\":\"Bagley\",\"company\":\"\",\"address1\":\"23285
+        N 1050th Rd\",\"address2\":\"\",\"city\":\"Adair\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61411\",\"phone\":null,\"name\":\"Justin Bagley\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":3061234434071,\"customer_id\":2875774337047,\"first_name\":\"Justin\",\"last_name\":\"Bagley\",\"company\":\"\",\"address1\":\"22485
+        County Road 950 North\",\"address2\":\"\",\"city\":\"Adair\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61411\",\"phone\":\"\",\"name\":\"Justin Bagley\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6187161944087,\"customer_id\":2875774337047,\"first_name\":\"Justin\",\"last_name\":\"Bagley\",\"company\":\"\",\"address1\":\"22485
+        N 950th Rd\",\"address2\":\"\",\"city\":\"Adair\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61411\",\"phone\":null,\"name\":\"Justin Bagley\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6640536190999,\"customer_id\":2875774337047,\"first_name\":\"Justin\",\"last_name\":\"Bagley\",\"company\":null,\"address1\":\"22485
+        North 950 Road\",\"address2\":\"\",\"city\":\"Adair\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61411\",\"phone\":\"(309) 337-6087\",\"name\":\"Justin
+        Bagley\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2020-04-27T15:06:32-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/2875774337047\",\"default_address\":{\"id\":6640536190999,\"customer_id\":2875774337047,\"first_name\":\"Justin\",\"last_name\":\"Bagley\",\"company\":null,\"address1\":\"22485
+        North 950 Road\",\"address2\":\"\",\"city\":\"Adair\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61411\",\"phone\":\"(309) 337-6087\",\"name\":\"Justin
+        Bagley\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":2924283068439,\"email\":\"michaelboren57@yahoo.com\",\"accepts_marketing\":false,\"created_at\":\"2020-05-22T14:50:48-04:00\",\"updated_at\":\"2022-09-06T09:32:27-04:00\",\"first_name\":\"Michael\",\"last_name\":\"Boren\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"161.49\",\"last_order_id\":4515995779095,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523128\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":3132042248215,\"customer_id\":2924283068439,\"first_name\":\"Michael\",\"last_name\":\"Boren\",\"company\":null,\"address1\":\"11046
+        Poynter Street\",\"address2\":\"\",\"city\":\"Quantico\",\"province\":\"Virginia\",\"country\":\"United
+        States\",\"zip\":\"22134\",\"phone\":\"\",\"name\":\"Michael Boren\",\"province_code\":\"VA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7135010979863,\"customer_id\":2924283068439,\"first_name\":\"Michael\",\"last_name\":\"Boren\",\"company\":null,\"address1\":\"474677
+        E 611TH ROAD\",\"address2\":\"\",\"city\":\"WATTS\",\"province\":\"Oklahoma\",\"country\":\"United
+        States\",\"zip\":\"74964\",\"phone\":\"4797479260\",\"name\":\"Michael Boren\",\"province_code\":\"OK\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2020-05-22T14:50:49-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/2924283068439\",\"default_address\":{\"id\":7135010979863,\"customer_id\":2924283068439,\"first_name\":\"Michael\",\"last_name\":\"Boren\",\"company\":null,\"address1\":\"474677
+        E 611TH ROAD\",\"address2\":\"\",\"city\":\"WATTS\",\"province\":\"Oklahoma\",\"country\":\"United
+        States\",\"zip\":\"74964\",\"phone\":\"4797479260\",\"name\":\"Michael Boren\",\"province_code\":\"OK\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":3067830599703,\"email\":\"cweih55@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2020-08-16T12:23:29-04:00\",\"updated_at\":\"2022-09-06T09:36:23-04:00\",\"first_name\":\"Chris\",\"last_name\":\"Weih\",\"orders_count\":13,\"state\":\"enabled\",\"total_spent\":\"834.75\",\"last_order_id\":4500108640279,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Headliner\",\"last_order_name\":\"#2512064\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":3297853440023,\"customer_id\":3067830599703,\"first_name\":\"Chris\",\"last_name\":\"Weih\",\"company\":\"\",\"address1\":\"8285
+        Nelson Street\",\"address2\":\"\",\"city\":\"West Des Moines\",\"province\":\"Iowa\",\"country\":\"United
+        States\",\"zip\":\"50266\",\"phone\":\"5157835795\",\"name\":\"Chris Weih\",\"province_code\":\"IA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6432341229591,\"customer_id\":3067830599703,\"first_name\":\"Chris
+        \",\"last_name\":\"Weih\",\"company\":null,\"address1\":\"8285 Nelson St\",\"address2\":\"\",\"city\":\"West
+        Des Moines\",\"province\":\"Iowa\",\"country\":\"United States\",\"zip\":\"50266\",\"phone\":\"+1
+        515-783-5795\",\"name\":\"Chris  Weih\",\"province_code\":\"IA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6504894824471,\"customer_id\":3067830599703,\"first_name\":\"Chris\",\"last_name\":\"Weih\",\"company\":null,\"address1\":\"8285
+        Nelson Street\",\"address2\":\"\",\"city\":\"West Des Moines\",\"province\":\"Iowa\",\"country\":\"United
+        States\",\"zip\":\"50266\",\"phone\":null,\"name\":\"Chris Weih\",\"province_code\":\"IA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7120579166231,\"customer_id\":3067830599703,\"first_name\":\"Chris\",\"last_name\":\"Weih\",\"company\":null,\"address1\":\"8285
+        Nelson Street\",\"address2\":\"\",\"city\":\"West Des Moines\",\"province\":\"Iowa\",\"country\":\"United
+        States\",\"zip\":\"50266\",\"phone\":\"+1 515-783-5795\",\"name\":\"Chris
+        Weih\",\"province_code\":\"IA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2021-02-01T21:47:15-05:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3067830599703\",\"default_address\":{\"id\":7120579166231,\"customer_id\":3067830599703,\"first_name\":\"Chris\",\"last_name\":\"Weih\",\"company\":null,\"address1\":\"8285
+        Nelson Street\",\"address2\":\"\",\"city\":\"West Des Moines\",\"province\":\"Iowa\",\"country\":\"United
+        States\",\"zip\":\"50266\",\"phone\":\"+1 515-783-5795\",\"name\":\"Chris
+        Weih\",\"province_code\":\"IA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":3075557949463,\"email\":\"kiric982@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2020-08-22T00:47:39-04:00\",\"updated_at\":\"2022-09-06T09:26:28-04:00\",\"first_name\":\"Leighanne\",\"last_name\":\"camp\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"253.43\",\"last_order_id\":4515986505751,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523122\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":3308804145175,\"customer_id\":3075557949463,\"first_name\":\"b
+        \",\"last_name\":\"h\",\"company\":null,\"address1\":\"ty\",\"address2\":\"\",\"city\":\"hubj
+        \",\"province\":\"Utah\",\"country\":\"United States\",\"zip\":\"84404\",\"phone\":\"\",\"name\":\"b
+        \ h\",\"province_code\":\"UT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":3315163430935,\"customer_id\":3075557949463,\"first_name\":\"Kiri\",\"last_name\":\"Camp\",\"company\":null,\"address1\":\"2869
+        Adams Avenue\",\"address2\":\"\",\"city\":\"Ogden\",\"province\":\"Utah\",\"country\":\"United
+        States\",\"zip\":\"84403\",\"phone\":\"\",\"name\":\"Kiri Camp\",\"province_code\":\"UT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":3315163463703,\"customer_id\":3075557949463,\"first_name\":\"Leighanne\",\"last_name\":\"camp\",\"company\":null,\"address1\":\"1889
+        w 700 s\",\"address2\":\"\",\"city\":\"Ogden\",\"province\":\"Utah\",\"country\":\"United
+        States\",\"zip\":\"84404\",\"phone\":\"\",\"name\":\"Leighanne camp\",\"province_code\":\"UT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7135004327959,\"customer_id\":3075557949463,\"first_name\":\"Kiri\",\"last_name\":\"Camp\",\"company\":null,\"address1\":\"2873
+        Adams Avenue\",\"address2\":\"\",\"city\":\"Ogden\",\"province\":\"Utah\",\"country\":\"United
+        States\",\"zip\":\"84403\",\"phone\":\"8014303854\",\"name\":\"Kiri Camp\",\"province_code\":\"UT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2020-08-25T19:20:03-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3075557949463\",\"default_address\":{\"id\":7135004327959,\"customer_id\":3075557949463,\"first_name\":\"Kiri\",\"last_name\":\"Camp\",\"company\":null,\"address1\":\"2873
+        Adams Avenue\",\"address2\":\"\",\"city\":\"Ogden\",\"province\":\"Utah\",\"country\":\"United
+        States\",\"zip\":\"84403\",\"phone\":\"8014303854\",\"name\":\"Kiri Camp\",\"province_code\":\"UT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":3091140313111,\"email\":\"beaurain.clan@orange.fr\",\"accepts_marketing\":true,\"created_at\":\"2020-09-02T15:10:28-04:00\",\"updated_at\":\"2022-09-06T09:21:11-04:00\",\"first_name\":\"Francois\",\"last_name\":\"Beaurain\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"84.80\",\"last_order_id\":2270991089687,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#1056854\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":3327621103639,\"customer_id\":3091140313111,\"first_name\":\"Francois\",\"last_name\":\"Beaurain\",\"company\":null,\"address1\":\"5
+        Route de Cantiers\",\"address2\":\"\",\"city\":\"Les Thilliers-en-Vexin\",\"province\":null,\"country\":\"France\",\"zip\":\"27420\",\"phone\":\"\",\"name\":\"Francois
+        Beaurain\",\"province_code\":null,\"country_code\":\"FR\",\"country_name\":\"France\",\"default\":true}],\"accepts_marketing_updated_at\":\"2020-09-02T15:14:43-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3091140313111\",\"default_address\":{\"id\":3327621103639,\"customer_id\":3091140313111,\"first_name\":\"Francois\",\"last_name\":\"Beaurain\",\"company\":null,\"address1\":\"5
+        Route de Cantiers\",\"address2\":\"\",\"city\":\"Les Thilliers-en-Vexin\",\"province\":null,\"country\":\"France\",\"zip\":\"27420\",\"phone\":\"\",\"name\":\"Francois
+        Beaurain\",\"province_code\":null,\"country_code\":\"FR\",\"country_name\":\"France\",\"default\":true}},{\"id\":3808846086167,\"email\":\"heather.murray@mchsi.com\",\"accepts_marketing\":true,\"created_at\":\"2020-10-24T12:40:16-04:00\",\"updated_at\":\"2022-09-06T09:22:28-04:00\",\"first_name\":\"Heather\",\"last_name\":\"Mustian\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"68.00\",\"last_order_id\":2850770419735,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#1174561\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":4411890499607,\"customer_id\":3808846086167,\"first_name\":\"Heather\",\"last_name\":\"Mustian\",\"company\":\"\",\"address1\":\"30102
+        Iron Branch Rd\",\"address2\":\"\",\"city\":\"Dagsboro\",\"province\":\"Delaware\",\"country\":\"United
+        States\",\"zip\":\"19939\",\"phone\":null,\"name\":\"Heather Mustian\",\"province_code\":\"DE\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2020-10-24T12:40:16-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3808846086167\",\"default_address\":{\"id\":4411890499607,\"customer_id\":3808846086167,\"first_name\":\"Heather\",\"last_name\":\"Mustian\",\"company\":\"\",\"address1\":\"30102
+        Iron Branch Rd\",\"address2\":\"\",\"city\":\"Dagsboro\",\"province\":\"Delaware\",\"country\":\"United
+        States\",\"zip\":\"19939\",\"phone\":null,\"name\":\"Heather Mustian\",\"province_code\":\"DE\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":3827610386455,\"email\":\"gabriel.cisneros01@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2020-11-04T12:29:01-05:00\",\"updated_at\":\"2022-09-06T09:18:18-04:00\",\"first_name\":\"gabriel\",\"last_name\":\"cisneros\",\"orders_count\":4,\"state\":\"disabled\",\"total_spent\":\"212.73\",\"last_order_id\":4508958720023,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2518485\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":4434968739863,\"customer_id\":3827610386455,\"first_name\":\"gabriel\",\"last_name\":\"cisneros\",\"company\":null,\"address1\":\"11037
+        30th Ave NE\",\"address2\":\"\",\"city\":\"Seattle\",\"province\":\"Washington\",\"country\":\"United
+        States\",\"zip\":\"98125\",\"phone\":\"2065828223\",\"name\":\"gabriel cisneros\",\"province_code\":\"WA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2021-12-05T12:30:14-05:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3827610386455\",\"default_address\":{\"id\":4434968739863,\"customer_id\":3827610386455,\"first_name\":\"gabriel\",\"last_name\":\"cisneros\",\"company\":null,\"address1\":\"11037
+        30th Ave NE\",\"address2\":\"\",\"city\":\"Seattle\",\"province\":\"Washington\",\"country\":\"United
+        States\",\"zip\":\"98125\",\"phone\":\"2065828223\",\"name\":\"gabriel cisneros\",\"province_code\":\"WA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":3828817592343,\"email\":\"catinmyshirtx@hotmail.ca\",\"accepts_marketing\":true,\"created_at\":\"2020-11-05T10:40:37-05:00\",\"updated_at\":\"2022-09-06T09:41:59-04:00\",\"first_name\":\"Michael\",\"last_name\":\"Mannix\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"197.53\",\"last_order_id\":4516010295319,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2523139\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":4437703688215,\"customer_id\":3828817592343,\"first_name\":\"Michael\",\"last_name\":\"Mannix\",\"company\":\"\",\"address1\":\"1105
+        Leger Way\",\"address2\":\"\",\"city\":\"Milton\",\"province\":\"Ontario\",\"country\":\"Canada\",\"zip\":\"L9E1K7\",\"phone\":null,\"name\":\"Michael
+        Mannix\",\"province_code\":\"ON\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":false},{\"id\":7135019991063,\"customer_id\":3828817592343,\"first_name\":\"Michael\",\"last_name\":\"Mannix\",\"company\":null,\"address1\":\"1105
+        Leger Way\",\"address2\":\"624\",\"city\":\"Milton\",\"province\":\"Ontario\",\"country\":\"Canada\",\"zip\":\"L9E1K7\",\"phone\":\"9052136492\",\"name\":\"Michael
+        Mannix\",\"province_code\":\"ON\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":true}],\"accepts_marketing_updated_at\":\"2020-11-05T10:40:37-05:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3828817592343\",\"default_address\":{\"id\":7135019991063,\"customer_id\":3828817592343,\"first_name\":\"Michael\",\"last_name\":\"Mannix\",\"company\":null,\"address1\":\"1105
+        Leger Way\",\"address2\":\"624\",\"city\":\"Milton\",\"province\":\"Ontario\",\"country\":\"Canada\",\"zip\":\"L9E1K7\",\"phone\":\"9052136492\",\"name\":\"Michael
+        Mannix\",\"province_code\":\"ON\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":true}},{\"id\":3834125221911,\"email\":\"smmoffat96@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2020-11-08T19:46:33-05:00\",\"updated_at\":\"2022-09-06T09:39:13-04:00\",\"first_name\":\"Shannon\",\"last_name\":\"Moffat\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"197.86\",\"last_order_id\":4516003217431,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523134\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":4442186055703,\"customer_id\":3834125221911,\"first_name\":\"Shannon\",\"last_name\":\"Moffat\",\"company\":\"\",\"address1\":\"7303
+        Avalon Drive\",\"address2\":\"\",\"city\":\"Bedford\",\"province\":\"Massachusetts\",\"country\":\"United
+        States\",\"zip\":\"01730\",\"phone\":\"+17742781365\",\"name\":\"Shannon Moffat\",\"province_code\":\"MA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":4442186088471,\"customer_id\":3834125221911,\"first_name\":\"Shannon\",\"last_name\":\"Moffat\",\"company\":\"\",\"address1\":\"4
+        Trevor Lane\",\"address2\":\"\",\"city\":\"Hopkinton\",\"province\":\"Massachusetts\",\"country\":\"United
+        States\",\"zip\":\"01748\",\"phone\":\"\",\"name\":\"Shannon Moffat\",\"province_code\":\"MA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7135015600151,\"customer_id\":3834125221911,\"first_name\":\"Shannon\",\"last_name\":\"Moffat\",\"company\":\"\",\"address1\":\"4
+        Trevor Lane\",\"address2\":\"\",\"city\":\"Hopkinton\",\"province\":\"Massachusetts\",\"country\":\"United
+        States\",\"zip\":\"01748\",\"phone\":\"+1 774-278-1365\",\"name\":\"Shannon
+        Moffat\",\"province_code\":\"MA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true},{\"id\":7135015632919,\"customer_id\":3834125221911,\"first_name\":\"Shannon\",\"last_name\":\"Moffat\",\"company\":\"\",\"address1\":\"4
+        Trevor Lane\",\"address2\":\"\",\"city\":\"Hopkinton\",\"province\":\"Massachusetts\",\"country\":\"United
+        States\",\"zip\":\"01748\",\"phone\":\"+17742781365\",\"name\":\"Shannon Moffat\",\"province_code\":\"MA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false}],\"accepts_marketing_updated_at\":\"2020-11-08T19:46:33-05:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3834125221911\",\"default_address\":{\"id\":7135015600151,\"customer_id\":3834125221911,\"first_name\":\"Shannon\",\"last_name\":\"Moffat\",\"company\":\"\",\"address1\":\"4
+        Trevor Lane\",\"address2\":\"\",\"city\":\"Hopkinton\",\"province\":\"Massachusetts\",\"country\":\"United
+        States\",\"zip\":\"01748\",\"phone\":\"+1 774-278-1365\",\"name\":\"Shannon
+        Moffat\",\"province_code\":\"MA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":3836329394199,\"email\":\"johnsipin991@yahoo.com\",\"accepts_marketing\":true,\"created_at\":\"2020-11-10T10:34:24-05:00\",\"updated_at\":\"2022-09-06T09:18:31-04:00\",\"first_name\":\"Johnathan\",\"last_name\":\"Sipin\",\"orders_count\":5,\"state\":\"disabled\",\"total_spent\":\"513.65\",\"last_order_id\":4515974905879,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523114\",\"currency\":\"USD\",\"phone\":\"+17247974045\",\"addresses\":[{\"id\":4444744187927,\"customer_id\":3836329394199,\"first_name\":\"Johnathan\",\"last_name\":\"Sipin\",\"company\":\"\",\"address1\":\"1102
+        9th Street\",\"address2\":\"\",\"city\":\"Donora\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"15033\",\"phone\":\"+17247974045\",\"name\":\"Johnathan
+        Sipin\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":4484106223639,\"customer_id\":3836329394199,\"first_name\":\"Johnathan\",\"last_name\":\"Sipin\",\"company\":null,\"address1\":\"1102
+        9th Street\",\"address2\":\"\",\"city\":\"Donora\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"15033\",\"phone\":\"(724) 797-4045\",\"name\":\"Johnathan
+        Sipin\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true},{\"id\":4484106256407,\"customer_id\":3836329394199,\"first_name\":\"Johnathan
+        \",\"last_name\":\"Sipin\",\"company\":null,\"address1\":\"64 Pennsylvania
+        Blvd\",\"address2\":\"\",\"city\":\"Monesson\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"15062\",\"phone\":\"\",\"name\":\"Johnathan  Sipin\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":4623692791831,\"customer_id\":3836329394199,\"first_name\":\"Johnathan\",\"last_name\":\"Sipin\",\"company\":null,\"address1\":\"64
+        Pennsylvania Blvd\",\"address2\":\"\",\"city\":\"Monessen\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"15062\",\"phone\":\"\",\"name\":\"Johnathan Sipin\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6473255452695,\"customer_id\":3836329394199,\"first_name\":\"Johnathan\",\"last_name\":\"Sipin\",\"company\":null,\"address1\":\"64
+        Pennsylvania Blvd\",\"address2\":\"\",\"city\":\"Monessen\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"15062\",\"phone\":\"7247974045\",\"name\":\"Johnathan Sipin\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false}],\"accepts_marketing_updated_at\":\"2020-11-10T10:34:25-05:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":{\"state\":\"subscribed\",\"opt_in_level\":\"single_opt_in\",\"consent_updated_at\":\"2022-09-06T09:16:00-04:00\",\"consent_collected_from\":\"SHOPIFY\"},\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3836329394199\",\"default_address\":{\"id\":4484106223639,\"customer_id\":3836329394199,\"first_name\":\"Johnathan\",\"last_name\":\"Sipin\",\"company\":null,\"address1\":\"1102
+        9th Street\",\"address2\":\"\",\"city\":\"Donora\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"15033\",\"phone\":\"(724) 797-4045\",\"name\":\"Johnathan
+        Sipin\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":3963372339223,\"email\":\"josem.armenta028@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2021-02-03T13:14:19-05:00\",\"updated_at\":\"2022-09-06T09:07:51-04:00\",\"first_name\":\"Jose\",\"last_name\":\"Armenta\",\"orders_count\":4,\"state\":\"enabled\",\"total_spent\":\"212.98\",\"last_order_id\":4515962093591,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523105\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":4612549378071,\"customer_id\":3963372339223,\"first_name\":\"Jose\",\"last_name\":\"Armenta\",\"company\":\"\",\"address1\":\"8048
+        Conner Street\",\"address2\":\"105\",\"city\":\"Fort Riley\",\"province\":\"Kansas\",\"country\":\"United
+        States\",\"zip\":\"66442\",\"phone\":null,\"name\":\"Jose Armenta\",\"province_code\":\"KS\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6524549627927,\"customer_id\":3963372339223,\"first_name\":\"Jose\",\"last_name\":\"Armenta\",\"company\":null,\"address1\":\"8048
+        Conner Street\",\"address2\":\"105\",\"city\":\"Fort Riley\",\"province\":\"Kansas\",\"country\":\"United
+        States\",\"zip\":\"66442\",\"phone\":\"(323) 395-4740\",\"name\":\"Jose Armenta\",\"province_code\":\"KS\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6832450535447,\"customer_id\":3963372339223,\"first_name\":\"Jose\",\"last_name\":\"Armenta\",\"company\":null,\"address1\":\"PSC
+        444 Box 2514\",\"address2\":\"\",\"city\":\"APO\",\"province\":\"Armed Forces
+        Pacific\",\"country\":\"United States\",\"zip\":\"96297\",\"phone\":\"01082544021\",\"name\":\"Jose
+        Armenta\",\"province_code\":\"AP\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6832450568215,\"customer_id\":3963372339223,\"first_name\":\"Jose\",\"last_name\":\"Armenta\",\"company\":null,\"address1\":\"728
+        East 122nd Street\",\"address2\":\"\",\"city\":\"Los Angeles\",\"province\":\"California\",\"country\":\"United
+        States\",\"zip\":\"90059\",\"phone\":\"3234011285\",\"name\":\"Jose Armenta\",\"province_code\":\"CA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7134989910039,\"customer_id\":3963372339223,\"first_name\":\"Jose\",\"last_name\":\"Armenta\",\"company\":null,\"address1\":\"PSC
+        444 Box 2514\",\"address2\":\"\",\"city\":\"APO\",\"province\":\"Armed Forces
+        Pacific\",\"country\":\"United States\",\"zip\":\"96271\",\"phone\":\"01082544021\",\"name\":\"Jose
+        Armenta\",\"province_code\":\"AP\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2021-02-03T13:14:19-05:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/3963372339223\",\"default_address\":{\"id\":7134989910039,\"customer_id\":3963372339223,\"first_name\":\"Jose\",\"last_name\":\"Armenta\",\"company\":null,\"address1\":\"PSC
+        444 Box 2514\",\"address2\":\"\",\"city\":\"APO\",\"province\":\"Armed Forces
+        Pacific\",\"country\":\"United States\",\"zip\":\"96271\",\"phone\":\"01082544021\",\"name\":\"Jose
+        Armenta\",\"province_code\":\"AP\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5036169330711,\"email\":\"g.cittolin@icloud.com\",\"accepts_marketing\":true,\"created_at\":\"2021-03-10T05:08:47-05:00\",\"updated_at\":\"2022-09-06T09:37:55-04:00\",\"first_name\":\"greta
+        \",\"last_name\":\"cittolin\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"129.72\",\"last_order_id\":3655366508567,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#1546842\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6204114534423,\"customer_id\":5036169330711,\"first_name\":\"greta
+        \",\"last_name\":\"cittolin\",\"company\":null,\"address1\":\"Vicolo Calle
+        Spin\",\"address2\":\"n 8 \",\"city\":\"Mareno di Piave\",\"province\":\"Treviso\",\"country\":\"Italy\",\"zip\":\"31010\",\"phone\":\"+39
+        351 775 8545\",\"name\":\"greta  cittolin\",\"province_code\":\"TV\",\"country_code\":\"IT\",\"country_name\":\"Italy\",\"default\":true}],\"accepts_marketing_updated_at\":\"2021-03-10T05:08:47-05:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5036169330711\",\"default_address\":{\"id\":6204114534423,\"customer_id\":5036169330711,\"first_name\":\"greta
+        \",\"last_name\":\"cittolin\",\"company\":null,\"address1\":\"Vicolo Calle
+        Spin\",\"address2\":\"n 8 \",\"city\":\"Mareno di Piave\",\"province\":\"Treviso\",\"country\":\"Italy\",\"zip\":\"31010\",\"phone\":\"+39
+        351 775 8545\",\"name\":\"greta  cittolin\",\"province_code\":\"TV\",\"country_code\":\"IT\",\"country_name\":\"Italy\",\"default\":true}},{\"id\":5036521947159,\"email\":\"tfaison8235@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2021-03-10T12:49:31-05:00\",\"updated_at\":\"2022-09-06T09:29:32-04:00\",\"first_name\":\"Thomas\",\"last_name\":\"Faison\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"293.08\",\"last_order_id\":4515993059351,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2523126\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6204510371863,\"customer_id\":5036521947159,\"first_name\":\"Thomas\",\"last_name\":\"Faison\",\"company\":null,\"address1\":\"1214
+        Bryantown Rd\",\"address2\":\"\",\"city\":\"Rich Square\",\"province\":\"North
+        Carolina\",\"country\":\"United States\",\"zip\":\"27869\",\"phone\":\"2524288125\",\"name\":\"Thomas
+        Faison\",\"province_code\":\"NC\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true},{\"id\":6204513845271,\"customer_id\":5036521947159,\"first_name\":\"Thomas\",\"last_name\":\"Faison\",\"company\":null,\"address1\":\"902
+        Monroe Street\",\"address2\":\"\",\"city\":\"Roanoke Rapids\",\"province\":\"North
+        Carolina\",\"country\":\"United States\",\"zip\":\"27870\",\"phone\":\"(252)
+        428-8125\",\"name\":\"Thomas Faison\",\"province_code\":\"NC\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7135008620567,\"customer_id\":5036521947159,\"first_name\":\"Thomas\",\"last_name\":\"Faison
+        \",\"company\":null,\"address1\":\"1354 Bryantown Rd\",\"address2\":null,\"city\":\"Rich
+        Square\",\"province\":\"North Carolina\",\"country\":\"United States\",\"zip\":\"27869\",\"phone\":\"\",\"name\":\"Thomas
+        Faison \",\"province_code\":\"NC\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false}],\"accepts_marketing_updated_at\":\"2021-03-10T12:49:31-05:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5036521947159\",\"default_address\":{\"id\":6204510371863,\"customer_id\":5036521947159,\"first_name\":\"Thomas\",\"last_name\":\"Faison\",\"company\":null,\"address1\":\"1214
+        Bryantown Rd\",\"address2\":\"\",\"city\":\"Rich Square\",\"province\":\"North
+        Carolina\",\"country\":\"United States\",\"zip\":\"27869\",\"phone\":\"2524288125\",\"name\":\"Thomas
+        Faison\",\"province_code\":\"NC\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5217110720535,\"email\":\"kiara_skeena@hotmail.com\",\"accepts_marketing\":false,\"created_at\":\"2021-06-12T13:23:27-04:00\",\"updated_at\":\"2022-09-06T09:15:44-04:00\",\"first_name\":\"Caroline\",\"last_name\":\"Vieira-Cardinal\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"264.27\",\"last_order_id\":3942486114327,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Headliner\",\"last_order_name\":\"#1895436\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6393010913303,\"customer_id\":5217110720535,\"first_name\":\"Caroline\",\"last_name\":\"Vieira-Cardinal\",\"company\":\"\",\"address1\":\"4685
+        Rue Des Pommetiers\",\"address2\":\"\",\"city\":\"St-hubert\",\"province\":\"Quebec\",\"country\":\"Canada\",\"zip\":\"J3Y0L1\",\"phone\":\"5142958636\",\"name\":\"Caroline
+        Vieira-Cardinal\",\"province_code\":\"QC\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":true}],\"accepts_marketing_updated_at\":\"2021-06-12T13:23:27-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5217110720535\",\"default_address\":{\"id\":6393010913303,\"customer_id\":5217110720535,\"first_name\":\"Caroline\",\"last_name\":\"Vieira-Cardinal\",\"company\":\"\",\"address1\":\"4685
+        Rue Des Pommetiers\",\"address2\":\"\",\"city\":\"St-hubert\",\"province\":\"Quebec\",\"country\":\"Canada\",\"zip\":\"J3Y0L1\",\"phone\":\"5142958636\",\"name\":\"Caroline
+        Vieira-Cardinal\",\"province_code\":\"QC\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":true}},{\"id\":5235808403479,\"email\":\"whamrick@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2021-07-02T16:52:39-04:00\",\"updated_at\":\"2022-09-06T09:26:15-04:00\",\"first_name\":\"Wendy-Anne\",\"last_name\":\"Hamrick\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"80.00\",\"last_order_id\":4515988045847,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2523123\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6416681664535,\"customer_id\":5235808403479,\"first_name\":\"Wendy-Anne\",\"last_name\":\"Hamrick\",\"company\":\"\",\"address1\":\"1350
+        Em Avenue\",\"address2\":\"\",\"city\":\"Silt\",\"province\":\"Colorado\",\"country\":\"United
+        States\",\"zip\":\"81652\",\"phone\":\"+17204181734\",\"name\":\"Wendy-Anne
+        Hamrick\",\"province_code\":\"CO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7135005638679,\"customer_id\":5235808403479,\"first_name\":\"Wendy-Anne\",\"last_name\":\"Hamrick\",\"company\":\"\",\"address1\":\"1014
+        Grand Avenue\",\"address2\":\"\",\"city\":\"Glenwood Springs\",\"province\":\"Colorado\",\"country\":\"United
+        States\",\"zip\":\"81601\",\"phone\":\"+17204181734\",\"name\":\"Wendy-Anne
+        Hamrick\",\"province_code\":\"CO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:26:15-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5235808403479\",\"default_address\":{\"id\":7135005638679,\"customer_id\":5235808403479,\"first_name\":\"Wendy-Anne\",\"last_name\":\"Hamrick\",\"company\":\"\",\"address1\":\"1014
+        Grand Avenue\",\"address2\":\"\",\"city\":\"Glenwood Springs\",\"province\":\"Colorado\",\"country\":\"United
+        States\",\"zip\":\"81601\",\"phone\":\"+17204181734\",\"name\":\"Wendy-Anne
+        Hamrick\",\"province_code\":\"CO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5245794648087,\"email\":\"jonahcarbrey73@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2021-07-14T01:08:25-04:00\",\"updated_at\":\"2022-09-06T09:36:25-04:00\",\"first_name\":\"Jonah\",\"last_name\":\"Carbrey\",\"orders_count\":3,\"state\":\"disabled\",\"total_spent\":\"220.75\",\"last_order_id\":4516002267159,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523132\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6428976185367,\"customer_id\":5245794648087,\"first_name\":\"Jonah\",\"last_name\":\"Carbrey\",\"company\":null,\"address1\":\"36
+        Matchlock Dr\",\"address2\":\"\",\"city\":\"St Peters\",\"province\":\"Missouri\",\"country\":\"United
+        States\",\"zip\":\"63376\",\"phone\":\"(636) 279-5544\",\"name\":\"Jonah Carbrey\",\"province_code\":\"MO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2021-07-14T01:08:26-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5245794648087\",\"default_address\":{\"id\":6428976185367,\"customer_id\":5245794648087,\"first_name\":\"Jonah\",\"last_name\":\"Carbrey\",\"company\":null,\"address1\":\"36
+        Matchlock Dr\",\"address2\":\"\",\"city\":\"St Peters\",\"province\":\"Missouri\",\"country\":\"United
+        States\",\"zip\":\"63376\",\"phone\":\"(636) 279-5544\",\"name\":\"Jonah Carbrey\",\"province_code\":\"MO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5261895434263,\"email\":\"bosemankimberly@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2021-07-31T18:27:17-04:00\",\"updated_at\":\"2022-09-06T09:19:43-04:00\",\"first_name\":\"Kimberly\",\"last_name\":\"Cassaday\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"307.98\",\"last_order_id\":4089922387991,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2141596\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6449331208215,\"customer_id\":5261895434263,\"first_name\":\"Kimberly\",\"last_name\":\"Cassaday\",\"company\":null,\"address1\":\"126
+        Lee Circle\",\"address2\":\"\",\"city\":\"Elizabeth City\",\"province\":\"North
+        Carolina\",\"country\":\"United States\",\"zip\":\"27909\",\"phone\":\"(252)
+        548-3949\",\"name\":\"Kimberly Cassaday\",\"province_code\":\"NC\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6449382785047,\"customer_id\":5261895434263,\"first_name\":\"Kimberly\",\"last_name\":\"Cassaday\",\"company\":\"\",\"address1\":\"126
+        Lee Circle\",\"address2\":\"\",\"city\":\"Elizabeth City\",\"province\":\"North
+        Carolina\",\"country\":\"United States\",\"zip\":\"27909\",\"phone\":\"+12525483949\",\"name\":\"Kimberly
+        Cassaday\",\"province_code\":\"NC\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6647027662871,\"customer_id\":5261895434263,\"first_name\":\"Vivian\",\"last_name\":\"Cassaday\",\"company\":null,\"address1\":\"14351
+        Southeast 63rd Avenue\",\"address2\":\"\",\"city\":\"Summerfield\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"34491\",\"phone\":\"(352) 426-8868\",\"name\":\"Vivian
+        Cassaday\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2021-07-31T18:27:18-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5261895434263\",\"default_address\":{\"id\":6647027662871,\"customer_id\":5261895434263,\"first_name\":\"Vivian\",\"last_name\":\"Cassaday\",\"company\":null,\"address1\":\"14351
+        Southeast 63rd Avenue\",\"address2\":\"\",\"city\":\"Summerfield\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"34491\",\"phone\":\"(352) 426-8868\",\"name\":\"Vivian
+        Cassaday\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5294888910871,\"email\":\"marcellshort@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2021-09-01T14:33:08-04:00\",\"updated_at\":\"2022-09-06T09:27:39-04:00\",\"first_name\":\"Marcell\",\"last_name\":\"short\",\"orders_count\":3,\"state\":\"disabled\",\"total_spent\":\"156.06\",\"last_order_id\":4515990306839,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2523125\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6491027669015,\"customer_id\":5294888910871,\"first_name\":\"Marcell\",\"last_name\":\"Short\",\"company\":null,\"address1\":\"320
+        Warner Avenue\",\"address2\":\"\",\"city\":\"Syracuse\",\"province\":\"New
+        York\",\"country\":\"United States\",\"zip\":\"13205\",\"phone\":\"(315) 928-9169\",\"name\":\"Marcell
+        Short\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6492278652951,\"customer_id\":5294888910871,\"first_name\":\"Marcell\",\"last_name\":\"short\",\"company\":null,\"address1\":\"320
+        waner\",\"address2\":\"\",\"city\":\"syracuse\",\"province\":\"New York\",\"country\":\"United
+        States\",\"zip\":\"13205\",\"phone\":\"3159289169\",\"name\":\"Marcell short\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6506353754135,\"customer_id\":5294888910871,\"first_name\":\"Marcell\",\"last_name\":\"short\",\"company\":\"\",\"address1\":\"320
+        Waner Avenue\",\"address2\":\"\",\"city\":\"Syracuse\",\"province\":\"New
+        York\",\"country\":\"United States\",\"zip\":\"13205\",\"phone\":\"+1 315-928-9169\",\"name\":\"Marcell
+        short\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7135006916631,\"customer_id\":5294888910871,\"first_name\":\"Marcell\",\"last_name\":\"Short\",\"company\":null,\"address1\":\"144
+        elmwood avenue\",\"address2\":\"\",\"city\":\"Syracuse\",\"province\":\"New
+        York\",\"country\":\"United States\",\"zip\":\"13207\",\"phone\":\"(315) 928-9169\",\"name\":\"Marcell
+        Short\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:27:39-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5294888910871\",\"default_address\":{\"id\":7135006916631,\"customer_id\":5294888910871,\"first_name\":\"Marcell\",\"last_name\":\"Short\",\"company\":null,\"address1\":\"144
+        elmwood avenue\",\"address2\":\"\",\"city\":\"Syracuse\",\"province\":\"New
+        York\",\"country\":\"United States\",\"zip\":\"13207\",\"phone\":\"(315) 928-9169\",\"name\":\"Marcell
+        Short\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5364070940695,\"email\":\"mollycwatkins26@aol.com\",\"accepts_marketing\":true,\"created_at\":\"2021-11-05T20:13:45-04:00\",\"updated_at\":\"2022-09-06T09:37:53-04:00\",\"first_name\":\"Molly\",\"last_name\":\"Watkins
+        \",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"151.99\",\"last_order_id\":4020144865303,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2006749\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6567019020311,\"customer_id\":5364070940695,\"first_name\":\"Molly
+        \",\"last_name\":\"Watkins \",\"company\":null,\"address1\":null,\"address2\":null,\"city\":\"Indianapolis\",\"province\":\"Indiana\",\"country\":\"United
+        States\",\"zip\":\"46226\",\"phone\":null,\"name\":\"Molly  Watkins \",\"province_code\":\"IN\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6567019053079,\"customer_id\":5364070940695,\"first_name\":\"Molly
+        \",\"last_name\":\"Watkins \",\"company\":null,\"address1\":\"7201 New Augusta
+        Road\",\"address2\":\"\",\"city\":\"Indianapolis\",\"province\":\"Indiana\",\"country\":\"United
+        States\",\"zip\":\"46268\",\"phone\":\"(317) 749-6088\",\"name\":\"Molly  Watkins
+        \",\"province_code\":\"IN\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true},{\"id\":6567022329879,\"customer_id\":5364070940695,\"first_name\":\"Molly\",\"last_name\":\"Watkins
+        \",\"company\":null,\"address1\":\"5135 N Post Rd \",\"address2\":\"Lot 243\",\"city\":\"Indianapolis\",\"province\":\"Indiana\",\"country\":\"United
+        States\",\"zip\":\"46226\",\"phone\":\"3177496088\",\"name\":\"Molly Watkins
+        \",\"province_code\":\"IN\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false}],\"accepts_marketing_updated_at\":\"2021-11-05T20:13:45-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5364070940695\",\"default_address\":{\"id\":6567019053079,\"customer_id\":5364070940695,\"first_name\":\"Molly
+        \",\"last_name\":\"Watkins \",\"company\":null,\"address1\":\"7201 New Augusta
+        Road\",\"address2\":\"\",\"city\":\"Indianapolis\",\"province\":\"Indiana\",\"country\":\"United
+        States\",\"zip\":\"46268\",\"phone\":\"(317) 749-6088\",\"name\":\"Molly  Watkins
+        \",\"province_code\":\"IN\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5407755665431,\"email\":\"hillary.schneckloth@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2021-11-29T08:41:20-05:00\",\"updated_at\":\"2022-09-06T09:40:01-04:00\",\"first_name\":\"Hillary\",\"last_name\":\"Schneckloth\",\"orders_count\":3,\"state\":\"disabled\",\"total_spent\":\"160.99\",\"last_order_id\":4516007641111,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2523136\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6621392306199,\"customer_id\":5407755665431,\"first_name\":\"Hillary\",\"last_name\":\"Schneckloth\",\"company\":\"\",\"address1\":\"2116
+        Littleton Drive\",\"address2\":\"\",\"city\":\"Leander\",\"province\":\"Texas\",\"country\":\"United
+        States\",\"zip\":\"78641\",\"phone\":\"+14066062845\",\"name\":\"Hillary Schneckloth\",\"province_code\":\"TX\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6621392338967,\"customer_id\":5407755665431,\"first_name\":\"Hillary\",\"last_name\":\"Schneckloth\",\"company\":\"\",\"address1\":\"405
+        Ed Street\",\"address2\":\"\",\"city\":\"Billings\",\"province\":\"Montana\",\"country\":\"United
+        States\",\"zip\":\"59101\",\"phone\":\"+14066062845\",\"name\":\"Hillary Schneckloth\",\"province_code\":\"MT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":6621394534423,\"customer_id\":5407755665431,\"first_name\":\"Hillary\",\"last_name\":\"Schneckloth\",\"company\":\"\",\"address1\":\"405
+        Ed Street\",\"address2\":\"\",\"city\":\"Billings\",\"province\":\"Montana\",\"country\":\"United
+        States\",\"zip\":\"59101\",\"phone\":\"+1 406-606-2845\",\"name\":\"Hillary
+        Schneckloth\",\"province_code\":\"MT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7135018287127,\"customer_id\":5407755665431,\"first_name\":\"Hillary\",\"last_name\":\"Schneckloth\",\"company\":null,\"address1\":\"405
+        Ed Street\",\"address2\":\"\",\"city\":\"Billings\",\"province\":\"Montana\",\"country\":\"United
+        States\",\"zip\":\"59101\",\"phone\":\"(406) 879-1799\",\"name\":\"Hillary
+        Schneckloth\",\"province_code\":\"MT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2021-11-29T08:41:20-05:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5407755665431\",\"default_address\":{\"id\":7135018287127,\"customer_id\":5407755665431,\"first_name\":\"Hillary\",\"last_name\":\"Schneckloth\",\"company\":null,\"address1\":\"405
+        Ed Street\",\"address2\":\"\",\"city\":\"Billings\",\"province\":\"Montana\",\"country\":\"United
+        States\",\"zip\":\"59101\",\"phone\":\"(406) 879-1799\",\"name\":\"Hillary
+        Schneckloth\",\"province_code\":\"MT\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5667730358295,\"email\":\"patriotsrule54@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-06-20T22:44:26-04:00\",\"updated_at\":\"2022-09-06T09:41:21-04:00\",\"first_name\":\"Michael\",\"last_name\":\"Poland\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"78.87\",\"last_order_id\":4364881264663,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2419296\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":6933829124119,\"customer_id\":5667730358295,\"first_name\":\"Michael\",\"last_name\":\"Poland\",\"company\":null,\"address1\":\"12309
+        Stoney Bottom Road\",\"address2\":\"\",\"city\":\"Germantown\",\"province\":\"Maryland\",\"country\":\"United
+        States\",\"zip\":\"20874\",\"phone\":\"(240) 486-5464\",\"name\":\"Michael
+        Poland\",\"province_code\":\"MD\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-06-20T22:44:26-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5667730358295\",\"default_address\":{\"id\":6933829124119,\"customer_id\":5667730358295,\"first_name\":\"Michael\",\"last_name\":\"Poland\",\"company\":null,\"address1\":\"12309
+        Stoney Bottom Road\",\"address2\":\"\",\"city\":\"Germantown\",\"province\":\"Maryland\",\"country\":\"United
+        States\",\"zip\":\"20874\",\"phone\":\"(240) 486-5464\",\"name\":\"Michael
+        Poland\",\"province_code\":\"MD\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5717696872471,\"email\":\"noemie070295@hotmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-07-21T10:19:23-04:00\",\"updated_at\":\"2022-09-06T09:24:15-04:00\",\"first_name\":\"No\xE9mie\",\"last_name\":\"Laurendeau\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7064389550103,\"customer_id\":5717696872471,\"first_name\":\"No\xE9mie\",\"last_name\":\"Laurendeau\",\"company\":null,\"address1\":\"1-4830
+        Rue Hochelaga\",\"address2\":\"1\",\"city\":\"Montreal\",\"province\":\"Quebec\",\"country\":\"Canada\",\"zip\":\"H1V
+        3V7\",\"phone\":\"4183554073\",\"name\":\"No\xE9mie Laurendeau\",\"province_code\":\"QC\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-07-21T10:19:23-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5717696872471\",\"default_address\":{\"id\":7064389550103,\"customer_id\":5717696872471,\"first_name\":\"No\xE9mie\",\"last_name\":\"Laurendeau\",\"company\":null,\"address1\":\"1-4830
+        Rue Hochelaga\",\"address2\":\"1\",\"city\":\"Montreal\",\"province\":\"Quebec\",\"country\":\"Canada\",\"zip\":\"H1V
+        3V7\",\"phone\":\"4183554073\",\"name\":\"No\xE9mie Laurendeau\",\"province_code\":\"QC\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":true}},{\"id\":5736627929111,\"email\":\"bjamotte@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-08-03T18:40:55-04:00\",\"updated_at\":\"2022-09-06T09:00:54-04:00\",\"first_name\":\"Bianca\",\"last_name\":\"LeRoux\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"369.30\",\"last_order_id\":4515952492567,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Icon\",\"last_order_name\":\"#2523103\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7086684307479,\"customer_id\":5736627929111,\"first_name\":\"Bianca\",\"last_name\":\"LeRoux\",\"company\":null,\"address1\":\"358
+        Sea Cliff Ave\",\"address2\":\"\",\"city\":\"Sea Cliff\",\"province\":\"New
+        York\",\"country\":\"United States\",\"zip\":\"11579\",\"phone\":\"(917) 225-7166\",\"name\":\"Bianca
+        LeRoux\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7134984142871,\"customer_id\":5736627929111,\"first_name\":\"Bianca\",\"last_name\":\"LeRoux\",\"company\":null,\"address1\":\"358
+        Sea Cliff Avenue\",\"address2\":\"\",\"city\":\"Sea Cliff\",\"province\":\"New
+        York\",\"country\":\"United States\",\"zip\":\"11579\",\"phone\":\"9172257166\",\"name\":\"Bianca
+        LeRoux\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-08-03T18:40:56-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5736627929111\",\"default_address\":{\"id\":7134984142871,\"customer_id\":5736627929111,\"first_name\":\"Bianca\",\"last_name\":\"LeRoux\",\"company\":null,\"address1\":\"358
+        Sea Cliff Avenue\",\"address2\":\"\",\"city\":\"Sea Cliff\",\"province\":\"New
+        York\",\"country\":\"United States\",\"zip\":\"11579\",\"phone\":\"9172257166\",\"name\":\"Bianca
+        LeRoux\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5752952094743,\"email\":\"badger.kinard@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-08-18T15:40:26-04:00\",\"updated_at\":\"2022-09-06T09:06:26-04:00\",\"first_name\":\"Thatcher\",\"last_name\":\"Kinard\",\"orders_count\":1,\"state\":\"enabled\",\"total_spent\":\"71.76\",\"last_order_id\":4515962552343,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523106\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7106608267287,\"customer_id\":5752952094743,\"first_name\":\"Thatcher\",\"last_name\":\"Kinard\",\"company\":null,\"address1\":\"3802
+        Whisper Hollow Drive\",\"address2\":\"\",\"city\":\"Colorado Springs\",\"province\":\"Colorado\",\"country\":\"United
+        States\",\"zip\":\"80920\",\"phone\":\"+17193933688\",\"name\":\"Thatcher
+        Kinard\",\"province_code\":\"CO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7134990041111,\"customer_id\":5752952094743,\"first_name\":\"Thatcher\",\"last_name\":\"Kinard\",\"company\":null,\"address1\":\"3802
+        Whisper Hollow Drive\",\"address2\":\"\",\"city\":\"Colorado Springs\",\"province\":\"Colorado\",\"country\":\"United
+        States\",\"zip\":\"80920\",\"phone\":\"+1 719-393-3688\",\"name\":\"Thatcher
+        Kinard\",\"province_code\":\"CO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-08-18T15:40:26-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5752952094743\",\"default_address\":{\"id\":7134990041111,\"customer_id\":5752952094743,\"first_name\":\"Thatcher\",\"last_name\":\"Kinard\",\"company\":null,\"address1\":\"3802
+        Whisper Hollow Drive\",\"address2\":\"\",\"city\":\"Colorado Springs\",\"province\":\"Colorado\",\"country\":\"United
+        States\",\"zip\":\"80920\",\"phone\":\"+1 719-393-3688\",\"name\":\"Thatcher
+        Kinard\",\"province_code\":\"CO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5754936098839,\"email\":\"james.b.hacker@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-08-19T20:49:07-04:00\",\"updated_at\":\"2022-09-06T09:09:38-04:00\",\"first_name\":\"James\",\"last_name\":\"Hacker\",\"orders_count\":3,\"state\":\"disabled\",\"total_spent\":\"188.66\",\"last_order_id\":4515966746647,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523110\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7108970643479,\"customer_id\":5754936098839,\"first_name\":\"James\",\"last_name\":\"Hacker\",\"company\":\"\",\"address1\":\"158
+        Kelley Court\",\"address2\":\"\",\"city\":\"Grantville\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"17028\",\"phone\":\"+12106214043\",\"name\":\"James Hacker\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-08-19T20:50:24-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5754936098839\",\"default_address\":{\"id\":7108970643479,\"customer_id\":5754936098839,\"first_name\":\"James\",\"last_name\":\"Hacker\",\"company\":\"\",\"address1\":\"158
+        Kelley Court\",\"address2\":\"\",\"city\":\"Grantville\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"17028\",\"phone\":\"+12106214043\",\"name\":\"James Hacker\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5760631799831,\"email\":\"adam.gambino@yahoo.com\",\"accepts_marketing\":false,\"created_at\":\"2022-08-25T08:08:19-04:00\",\"updated_at\":\"2022-09-06T09:14:55-04:00\",\"first_name\":\"Adam\",\"last_name\":\"Gambino\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"73.44\",\"last_order_id\":4515973660695,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523113\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7116184420375,\"customer_id\":5760631799831,\"first_name\":\"Adam\",\"last_name\":\"Gambino\",\"company\":\"\",\"address1\":\"9707
+        Windmill Road\",\"address2\":\"\",\"city\":\"Fairhope\",\"province\":\"Alabama\",\"country\":\"United
+        States\",\"zip\":\"36532\",\"phone\":\"+12516803938\",\"name\":\"Adam Gambino\",\"province_code\":\"AL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7134996234263,\"customer_id\":5760631799831,\"first_name\":\"Adam\",\"last_name\":\"Gambino\",\"company\":null,\"address1\":\"9707
+        Windmill Rd\",\"address2\":\"\",\"city\":\"Fairhope\",\"province\":\"Alabama\",\"country\":\"United
+        States\",\"zip\":\"36532\",\"phone\":\"2516803938\",\"name\":\"Adam Gambino\",\"province_code\":\"AL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-08-25T08:08:19-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5760631799831\",\"default_address\":{\"id\":7134996234263,\"customer_id\":5760631799831,\"first_name\":\"Adam\",\"last_name\":\"Gambino\",\"company\":null,\"address1\":\"9707
+        Windmill Rd\",\"address2\":\"\",\"city\":\"Fairhope\",\"province\":\"Alabama\",\"country\":\"United
+        States\",\"zip\":\"36532\",\"phone\":\"2516803938\",\"name\":\"Adam Gambino\",\"province_code\":\"AL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5765050531863,\"email\":\"gavinlmorris05@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-08-29T10:18:41-04:00\",\"updated_at\":\"2022-09-06T09:25:02-04:00\",\"first_name\":\"Gavin\",\"last_name\":\"Morris\",\"orders_count\":2,\"state\":\"disabled\",\"total_spent\":\"179.24\",\"last_order_id\":4515983687703,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523118\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7121568661527,\"customer_id\":5765050531863,\"first_name\":\"Gavin\",\"last_name\":\"Morris\",\"company\":null,\"address1\":\"4943
+        wood brook CT\",\"address2\":\"\",\"city\":\"Colorado springs\",\"province\":\"Colorado\",\"country\":\"United
+        States\",\"zip\":\"80917\",\"phone\":\"(719) 600-9198\",\"name\":\"Gavin Morris\",\"province_code\":\"CO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-08-29T10:18:42-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5765050531863\",\"default_address\":{\"id\":7121568661527,\"customer_id\":5765050531863,\"first_name\":\"Gavin\",\"last_name\":\"Morris\",\"company\":null,\"address1\":\"4943
+        wood brook CT\",\"address2\":\"\",\"city\":\"Colorado springs\",\"province\":\"Colorado\",\"country\":\"United
+        States\",\"zip\":\"80917\",\"phone\":\"(719) 600-9198\",\"name\":\"Gavin Morris\",\"province_code\":\"CO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5770275160087,\"email\":\"amyketcherside10@yahoo.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-02T08:47:39-04:00\",\"updated_at\":\"2022-09-06T09:36:23-04:00\",\"first_name\":\"Amy\",\"last_name\":\"Ketcherside\",\"orders_count\":3,\"state\":\"disabled\",\"total_spent\":\"102.00\",\"last_order_id\":4516002201623,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523131\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7128562139159,\"customer_id\":5770275160087,\"first_name\":\"Amy\",\"last_name\":\"Ketcherside\",\"company\":null,\"address1\":\"849
+        Pacific Ave \",\"address2\":\"Unit F\",\"city\":\"Hoffman Estates\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"60169\",\"phone\":\"(636) 221-0250\",\"name\":\"Amy Ketcherside\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7129190793239,\"customer_id\":5770275160087,\"first_name\":\"Amy\",\"last_name\":\"Ketcherside\",\"company\":null,\"address1\":\"849
+        Pacific Ave\",\"address2\":\"Unit F\",\"city\":\"Hoffman Estates\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"60169\",\"phone\":\"6362210250\",\"name\":\"Amy Ketcherside\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:36:23-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5770275160087\",\"default_address\":{\"id\":7129190793239,\"customer_id\":5770275160087,\"first_name\":\"Amy\",\"last_name\":\"Ketcherside\",\"company\":null,\"address1\":\"849
+        Pacific Ave\",\"address2\":\"Unit F\",\"city\":\"Hoffman Estates\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"60169\",\"phone\":\"6362210250\",\"name\":\"Amy Ketcherside\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5771222155287,\"email\":\"n97242998w@privaterelay.appleid.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-02T22:44:35-04:00\",\"updated_at\":\"2022-09-06T09:38:33-04:00\",\"first_name\":null,\"last_name\":null,\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[],\"accepts_marketing_updated_at\":\"2022-09-02T22:44:35-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5771222155287\"},{\"id\":5774422048791,\"email\":\"michellewiggers96@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-05T16:28:09-04:00\",\"updated_at\":\"2022-09-06T09:40:06-04:00\",\"first_name\":\"Michelle\",\"last_name\":\"Giesel\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"73.78\",\"last_order_id\":4516007804951,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523137\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7133936910359,\"customer_id\":5774422048791,\"first_name\":\"Michelle\",\"last_name\":\"Giesel\",\"company\":null,\"address1\":\"518
+        N Main Street\",\"address2\":\"\",\"city\":\"Hesston\",\"province\":\"Kansas\",\"country\":\"United
+        States\",\"zip\":\"67062\",\"phone\":\"(316) 217-2956\",\"name\":\"Michelle
+        Giesel\",\"province_code\":\"KS\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-05T16:28:09-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5774422048791\",\"default_address\":{\"id\":7133936910359,\"customer_id\":5774422048791,\"first_name\":\"Michelle\",\"last_name\":\"Giesel\",\"company\":null,\"address1\":\"518
+        N Main Street\",\"address2\":\"\",\"city\":\"Hesston\",\"province\":\"Kansas\",\"country\":\"United
+        States\",\"zip\":\"67062\",\"phone\":\"(316) 217-2956\",\"name\":\"Michelle
+        Giesel\",\"province_code\":\"KS\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775244689431,\"email\":\"emaniceg@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:00:45-04:00\",\"updated_at\":\"2022-09-06T09:01:07-04:00\",\"first_name\":\"Eman\",\"last_name\":\"G\",\"orders_count\":0,\"state\":\"enabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":false,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134985093143,\"customer_id\":5775244689431,\"first_name\":\"Eman\",\"last_name\":\"G\",\"company\":null,\"address1\":null,\"address2\":null,\"city\":null,\"province\":null,\"country\":\"United
+        States\",\"zip\":null,\"phone\":null,\"name\":\"Eman G\",\"province_code\":null,\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:00:45-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775244689431\",\"default_address\":{\"id\":7134985093143,\"customer_id\":5775244689431,\"first_name\":\"Eman\",\"last_name\":\"G\",\"company\":null,\"address1\":null,\"address2\":null,\"city\":null,\"province\":null,\"country\":\"United
+        States\",\"zip\":null,\"phone\":null,\"name\":\"Eman G\",\"province_code\":null,\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775245115415,\"email\":\"ponzere1@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:01:58-04:00\",\"updated_at\":\"2022-09-06T09:03:15-04:00\",\"first_name\":\"Emily\",\"last_name\":\"Ponzer\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"72.08\",\"last_order_id\":4515957374999,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523104\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134985617431,\"customer_id\":5775245115415,\"first_name\":\"Emily\",\"last_name\":\"Ponzer\",\"company\":\"\",\"address1\":\"1839
+        Independence Rd\",\"address2\":\"\",\"city\":\"Independence\",\"province\":\"Kentucky\",\"country\":\"United
+        States\",\"zip\":\"41051-8696\",\"phone\":null,\"name\":\"Emily Ponzer\",\"province_code\":\"KY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7134986698775,\"customer_id\":5775245115415,\"first_name\":\"Emily\",\"last_name\":\"Ponzer\",\"company\":null,\"address1\":\"1839
+        Independence Rd\",\"address2\":\"\",\"city\":\"Independence\",\"province\":\"Kentucky\",\"country\":\"United
+        States\",\"zip\":\"41051-8696\",\"phone\":\"(859) 609-7275\",\"name\":\"Emily
+        Ponzer\",\"province_code\":\"KY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:01:58-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775245115415\",\"default_address\":{\"id\":7134986698775,\"customer_id\":5775245115415,\"first_name\":\"Emily\",\"last_name\":\"Ponzer\",\"company\":null,\"address1\":\"1839
+        Independence Rd\",\"address2\":\"\",\"city\":\"Independence\",\"province\":\"Kentucky\",\"country\":\"United
+        States\",\"zip\":\"41051-8696\",\"phone\":\"(859) 609-7275\",\"name\":\"Emily
+        Ponzer\",\"province_code\":\"KY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775245738007,\"email\":\"deano92@hotmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:02:48-04:00\",\"updated_at\":\"2022-09-06T09:02:58-04:00\",\"first_name\":\"Gary\",\"last_name\":\"LeVar\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134986371095,\"customer_id\":5775245738007,\"first_name\":\"Gary
+        \",\"last_name\":\"LeVar\",\"company\":null,\"address1\":\"88 Waldheim Road\",\"address2\":\"\",\"city\":\"Morton\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61550\",\"phone\":\"+1 309-361-8586\",\"name\":\"Gary  LeVar\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:02:49-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775245738007\",\"default_address\":{\"id\":7134986371095,\"customer_id\":5775245738007,\"first_name\":\"Gary
+        \",\"last_name\":\"LeVar\",\"company\":null,\"address1\":\"88 Waldheim Road\",\"address2\":\"\",\"city\":\"Morton\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61550\",\"phone\":\"+1 309-361-8586\",\"name\":\"Gary  LeVar\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775246098455,\"email\":\"emaniceg777@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:03:27-04:00\",\"updated_at\":\"2022-09-06T09:10:58-04:00\",\"first_name\":\"Eman\",\"last_name\":\"G\",\"orders_count\":1,\"state\":\"enabled\",\"total_spent\":\"103.92\",\"last_order_id\":4515966943255,\"note\":null,\"verified_email\":false,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523111\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134986862615,\"customer_id\":5775246098455,\"first_name\":\"Eman
+        \",\"last_name\":\"G\",\"company\":null,\"address1\":null,\"address2\":null,\"city\":null,\"province\":null,\"country\":\"United
+        States\",\"zip\":null,\"phone\":null,\"name\":\"Eman  G\",\"province_code\":null,\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7134992007191,\"customer_id\":5775246098455,\"first_name\":\"Eman
+        \",\"last_name\":\"G\",\"company\":null,\"address1\":\"9802 Cantera Court\",\"address2\":\"Apt
+        902\",\"city\":\"Laredo\",\"province\":\"Texas\",\"country\":\"United States\",\"zip\":\"78045\",\"phone\":\"1
+        (956) 319-3080\",\"name\":\"Eman  G\",\"province_code\":\"TX\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:03:27-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775246098455\",\"default_address\":{\"id\":7134992007191,\"customer_id\":5775246098455,\"first_name\":\"Eman
+        \",\"last_name\":\"G\",\"company\":null,\"address1\":\"9802 Cantera Court\",\"address2\":\"Apt
+        902\",\"city\":\"Laredo\",\"province\":\"Texas\",\"country\":\"United States\",\"zip\":\"78045\",\"phone\":\"1
+        (956) 319-3080\",\"name\":\"Eman  G\",\"province_code\":\"TX\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775247671319,\"email\":\"ammiracle416@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:04:58-04:00\",\"updated_at\":\"2022-09-06T09:06:46-04:00\",\"first_name\":\"Anna\",\"last_name\":\"Miracle\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"72.08\",\"last_order_id\":4515963043863,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523107\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134989123607,\"customer_id\":5775247671319,\"first_name\":\"Anna\",\"last_name\":\"Miracle\",\"company\":null,\"address1\":\"6169
+        Hoff Road\",\"address2\":\"\",\"city\":\"Spring Grove\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"17362\",\"phone\":\"(717) 793-7258\",\"name\":\"Anna Miracle\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:04:58-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775247671319\",\"default_address\":{\"id\":7134989123607,\"customer_id\":5775247671319,\"first_name\":\"Anna\",\"last_name\":\"Miracle\",\"company\":null,\"address1\":\"6169
+        Hoff Road\",\"address2\":\"\",\"city\":\"Spring Grove\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"17362\",\"phone\":\"(717) 793-7258\",\"name\":\"Anna Miracle\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775248162839,\"email\":\"katiemaeb@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:05:43-04:00\",\"updated_at\":\"2022-09-06T09:07:21-04:00\",\"first_name\":\"Katherine\",\"last_name\":\"Hoffman\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"86.48\",\"last_order_id\":4515963797527,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523108\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134989713431,\"customer_id\":5775248162839,\"first_name\":\"Gabriela\",\"last_name\":\"Descoto\",\"company\":null,\"address1\":\"485
+        East Sunburst Lane\",\"address2\":\"\",\"city\":\"Tempe\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"85284\",\"phone\":\"(520) 260-7379\",\"name\":\"Gabriela
+        Descoto\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true},{\"id\":7134990434327,\"customer_id\":5775248162839,\"first_name\":\"Katherine\",\"last_name\":\"Hoffman\",\"company\":null,\"address1\":\"3756
+        North Placita Vergel\",\"address2\":\"\",\"city\":\"Tucson\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"85719\",\"phone\":\"520 260 7379\",\"name\":\"Katherine
+        Hoffman\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false}],\"accepts_marketing_updated_at\":\"2022-09-06T09:05:43-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775248162839\",\"default_address\":{\"id\":7134989713431,\"customer_id\":5775248162839,\"first_name\":\"Gabriela\",\"last_name\":\"Descoto\",\"company\":null,\"address1\":\"485
+        East Sunburst Lane\",\"address2\":\"\",\"city\":\"Tempe\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"85284\",\"phone\":\"(520) 260-7379\",\"name\":\"Gabriela
+        Descoto\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775248261143,\"email\":\"jkennedy_stovall@hotmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:05:50-04:00\",\"updated_at\":\"2022-09-06T09:28:19-04:00\",\"first_name\":\"Jennifer\",\"last_name\":\"Stovall\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"103.92\",\"last_order_id\":4515989618711,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523124\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134989778967,\"customer_id\":5775248261143,\"first_name\":\"Jennifer\",\"last_name\":\"Stovall\",\"company\":\"\",\"address1\":\"603
+        Montclair Blvd\",\"address2\":\"\",\"city\":\"Sugar Land\",\"province\":\"Texas\",\"country\":\"United
+        States\",\"zip\":\"77478\",\"phone\":\"+17132568924\",\"name\":\"Jennifer
+        Stovall\",\"province_code\":\"TX\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:27:03-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775248261143\",\"default_address\":{\"id\":7134989778967,\"customer_id\":5775248261143,\"first_name\":\"Jennifer\",\"last_name\":\"Stovall\",\"company\":\"\",\"address1\":\"603
+        Montclair Blvd\",\"address2\":\"\",\"city\":\"Sugar Land\",\"province\":\"Texas\",\"country\":\"United
+        States\",\"zip\":\"77478\",\"phone\":\"+17132568924\",\"name\":\"Jennifer
+        Stovall\",\"province_code\":\"TX\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775249506327,\"email\":\"eli.carey@me.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:08:55-04:00\",\"updated_at\":\"2022-09-06T09:09:32-04:00\",\"first_name\":\"Eli\",\"last_name\":\"Carey\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"85.99\",\"last_order_id\":4515965861911,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523109\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134991319063,\"customer_id\":5775249506327,\"first_name\":\"Eli\",\"last_name\":\"Carey\",\"company\":null,\"address1\":\"\",\"address2\":null,\"city\":\"Kissimme\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"34746\",\"phone\":\"\",\"name\":\"Eli Carey\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false},{\"id\":7134991351831,\"customer_id\":5775249506327,\"first_name\":\"Eli\",\"last_name\":\"Carey\",\"company\":null,\"address1\":\"Kyngs
+        Heath\",\"address2\":\"123\",\"city\":\"Kissimme\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"34746\",\"phone\":\"4076192459\",\"name\":\"Eli Carey\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true},{\"id\":7134991384599,\"customer_id\":5775249506327,\"first_name\":\"Eli\",\"last_name\":\"Carey\",\"company\":null,\"address1\":\"Kyngs
+        Heath\",\"address2\":\"123\",\"city\":\"Kissimme\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"34746\",\"phone\":\"\",\"name\":\"Eli Carey\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false}],\"accepts_marketing_updated_at\":\"2022-09-06T09:08:56-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775249506327\",\"default_address\":{\"id\":7134991351831,\"customer_id\":5775249506327,\"first_name\":\"Eli\",\"last_name\":\"Carey\",\"company\":null,\"address1\":\"Kyngs
+        Heath\",\"address2\":\"123\",\"city\":\"Kissimme\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"34746\",\"phone\":\"4076192459\",\"name\":\"Eli Carey\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775250620439,\"email\":\"josse11289@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:11:16-04:00\",\"updated_at\":\"2022-09-06T09:22:46-04:00\",\"first_name\":\"Victor\",\"last_name\":\"Romero\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"73.61\",\"last_order_id\":4515983491095,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523117\",\"currency\":\"USD\",\"phone\":\"+18323391569\",\"addresses\":[{\"id\":7134993121303,\"customer_id\":5775250620439,\"first_name\":\"Victor\",\"last_name\":\"Romero\",\"company\":null,\"address1\":\"863
+        Enterprise St\",\"address2\":\"\",\"city\":\"Houston\",\"province\":\"Texas\",\"country\":\"United
+        States\",\"zip\":\"77088\",\"phone\":\"(832) 339-1569\",\"name\":\"Victor
+        Romero\",\"province_code\":\"TX\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:11:16-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":{\"state\":\"subscribed\",\"opt_in_level\":\"single_opt_in\",\"consent_updated_at\":\"2022-09-06T09:11:16-04:00\",\"consent_collected_from\":\"SHOPIFY\"},\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775250620439\",\"default_address\":{\"id\":7134993121303,\"customer_id\":5775250620439,\"first_name\":\"Victor\",\"last_name\":\"Romero\",\"company\":null,\"address1\":\"863
+        Enterprise St\",\"address2\":\"\",\"city\":\"Houston\",\"province\":\"Texas\",\"country\":\"United
+        States\",\"zip\":\"77088\",\"phone\":\"(832) 339-1569\",\"name\":\"Victor
+        Romero\",\"province_code\":\"TX\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775252488215,\"email\":\"thebestassassin101@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:13:39-04:00\",\"updated_at\":\"2022-09-06T09:16:29-04:00\",\"first_name\":\"David\",\"last_name\":\"Rivas\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134995152919,\"customer_id\":5775252488215,\"first_name\":\"David\",\"last_name\":\"Rivas\",\"company\":null,\"address1\":\"2130
+        W Crescent Ave\",\"address2\":\"Apt 1025\",\"city\":\"Anaheim\",\"province\":\"California\",\"country\":\"United
+        States\",\"zip\":\"92801\",\"phone\":\"(714) 395-1630\",\"name\":\"David Rivas\",\"province_code\":\"CA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:13:39-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775252488215\",\"default_address\":{\"id\":7134995152919,\"customer_id\":5775252488215,\"first_name\":\"David\",\"last_name\":\"Rivas\",\"company\":null,\"address1\":\"2130
+        W Crescent Ave\",\"address2\":\"Apt 1025\",\"city\":\"Anaheim\",\"province\":\"California\",\"country\":\"United
+        States\",\"zip\":\"92801\",\"phone\":\"(714) 395-1630\",\"name\":\"David Rivas\",\"province_code\":\"CA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775253241879,\"email\":\"dj8starr@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:14:58-04:00\",\"updated_at\":\"2022-09-06T09:21:37-04:00\",\"first_name\":\"David\",\"last_name\":\"Starr\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"101.76\",\"last_order_id\":4515977920535,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523115\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134996299799,\"customer_id\":5775253241879,\"first_name\":\"David\",\"last_name\":\"Starr\",\"company\":null,\"address1\":\"8315
+        Hatler Lane\",\"address2\":\"\",\"city\":\"Fort Meade\",\"province\":\"Maryland\",\"country\":\"United
+        States\",\"zip\":\"20755\",\"phone\":\"7575507339\",\"name\":\"David Starr\",\"province_code\":\"MD\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:14:59-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775253241879\",\"default_address\":{\"id\":7134996299799,\"customer_id\":5775253241879,\"first_name\":\"David\",\"last_name\":\"Starr\",\"company\":null,\"address1\":\"8315
+        Hatler Lane\",\"address2\":\"\",\"city\":\"Fort Meade\",\"province\":\"Maryland\",\"country\":\"United
+        States\",\"zip\":\"20755\",\"phone\":\"7575507339\",\"name\":\"David Starr\",\"province_code\":\"MD\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775253700631,\"email\":\"tripsandtastes@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:15:44-04:00\",\"updated_at\":\"2022-09-06T09:18:38-04:00\",\"first_name\":\"Kristin\",\"last_name\":\"Matteo\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134996955159,\"customer_id\":5775253700631,\"first_name\":\"Kristin\",\"last_name\":\"Matteo\",\"company\":null,\"address1\":\"104
+        Embury Ave\",\"address2\":\"\",\"city\":\"Ocean Grove\",\"province\":\"New
+        Jersey\",\"country\":\"United States\",\"zip\":\"07756\",\"phone\":\"(732)
+        861-5564\",\"name\":\"Kristin Matteo\",\"province_code\":\"NJ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:15:45-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775253700631\",\"default_address\":{\"id\":7134996955159,\"customer_id\":5775253700631,\"first_name\":\"Kristin\",\"last_name\":\"Matteo\",\"company\":null,\"address1\":\"104
+        Embury Ave\",\"address2\":\"\",\"city\":\"Ocean Grove\",\"province\":\"New
+        Jersey\",\"country\":\"United States\",\"zip\":\"07756\",\"phone\":\"(732)
+        861-5564\",\"name\":\"Kristin Matteo\",\"province_code\":\"NJ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775254847511,\"email\":\"brooke.blankemeyer@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-06T09:17:46-04:00\",\"updated_at\":\"2022-09-06T09:21:09-04:00\",\"first_name\":\"Brooke\",\"last_name\":\"Schwass\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134998233111,\"customer_id\":5775254847511,\"first_name\":\"Brooke\",\"last_name\":\"Schwass\",\"company\":null,\"address1\":\"2635
+        Old Columbus Rd\",\"address2\":\"\",\"city\":\"Granville\",\"province\":\"Ohio\",\"country\":\"United
+        States\",\"zip\":\"43023\",\"phone\":\"6145800530\",\"name\":\"Brooke Schwass\",\"province_code\":\"OH\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:17:47-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775254847511\",\"default_address\":{\"id\":7134998233111,\"customer_id\":5775254847511,\"first_name\":\"Brooke\",\"last_name\":\"Schwass\",\"company\":null,\"address1\":\"2635
+        Old Columbus Rd\",\"address2\":\"\",\"city\":\"Granville\",\"province\":\"Ohio\",\"country\":\"United
+        States\",\"zip\":\"43023\",\"phone\":\"6145800530\",\"name\":\"Brooke Schwass\",\"province_code\":\"OH\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775255044119,\"email\":\"isaacwm98@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:17:59-04:00\",\"updated_at\":\"2022-09-06T09:21:03-04:00\",\"first_name\":\"Isaac\",\"last_name\":\"Williams-Matias\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134998462487,\"customer_id\":5775255044119,\"first_name\":\"Isaac\",\"last_name\":\"Williams-Matias\",\"company\":null,\"address1\":null,\"address2\":null,\"city\":\"London\",\"province\":\"England\",\"country\":\"United
+        Kingdom\",\"zip\":\"N22 \",\"phone\":null,\"name\":\"Isaac Williams-Matias\",\"province_code\":\"ENG\",\"country_code\":\"GB\",\"country_name\":\"United
+        Kingdom\",\"default\":false},{\"id\":7134998495255,\"customer_id\":5775255044119,\"first_name\":\"Isaac\",\"last_name\":\"Williams-Matias\",\"company\":null,\"address1\":\"66
+        Cranbrook Park Wood Green\",\"address2\":\"\",\"city\":\"London\",\"province\":\"England\",\"country\":\"United
+        Kingdom\",\"zip\":\"N22 5NA\",\"phone\":\"07860275413\",\"name\":\"Isaac Williams-Matias\",\"province_code\":\"ENG\",\"country_code\":\"GB\",\"country_name\":\"United
+        Kingdom\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:17:59-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775255044119\",\"default_address\":{\"id\":7134998495255,\"customer_id\":5775255044119,\"first_name\":\"Isaac\",\"last_name\":\"Williams-Matias\",\"company\":null,\"address1\":\"66
+        Cranbrook Park Wood Green\",\"address2\":\"\",\"city\":\"London\",\"province\":\"England\",\"country\":\"United
+        Kingdom\",\"zip\":\"N22 5NA\",\"phone\":\"07860275413\",\"name\":\"Isaac Williams-Matias\",\"province_code\":\"ENG\",\"country_code\":\"GB\",\"country_name\":\"United
+        Kingdom\",\"default\":true}},{\"id\":5775255339031,\"email\":\"bricezerck@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-06T09:18:32-04:00\",\"updated_at\":\"2022-09-06T09:21:52-04:00\",\"first_name\":\"Brice\",\"last_name\":\"Zerck\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134998822935,\"customer_id\":5775255339031,\"first_name\":\"Brice\",\"last_name\":\"Zerck\",\"company\":\"\",\"address1\":\"341
+        Saddlerock Drive\",\"address2\":\"\",\"city\":\"Ellensburg\",\"province\":\"Washington\",\"country\":\"United
+        States\",\"zip\":\"98926\",\"phone\":\"+15094802417\",\"name\":\"Brice Zerck\",\"province_code\":\"WA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:18:33-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775255339031\",\"default_address\":{\"id\":7134998822935,\"customer_id\":5775255339031,\"first_name\":\"Brice\",\"last_name\":\"Zerck\",\"company\":\"\",\"address1\":\"341
+        Saddlerock Drive\",\"address2\":\"\",\"city\":\"Ellensburg\",\"province\":\"Washington\",\"country\":\"United
+        States\",\"zip\":\"98926\",\"phone\":\"+15094802417\",\"name\":\"Brice Zerck\",\"province_code\":\"WA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775255830551,\"email\":\"jakper@hotmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:19:26-04:00\",\"updated_at\":\"2022-09-06T09:23:44-04:00\",\"first_name\":\"Janice\",\"last_name\":\"Kraehling\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"103.00\",\"last_order_id\":4515981361175,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523116\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134999445527,\"customer_id\":5775255830551,\"first_name\":\"Janice\",\"last_name\":\"Kraehling\",\"company\":null,\"address1\":\"120
+        James St\",\"address2\":\"RR1\",\"city\":\"Moorefield\",\"province\":\"Ontario\",\"country\":\"Canada\",\"zip\":\"N0G
+        2K0\",\"phone\":\"5195886423\",\"name\":\"Janice Kraehling\",\"province_code\":\"ON\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:19:27-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775255830551\",\"default_address\":{\"id\":7134999445527,\"customer_id\":5775255830551,\"first_name\":\"Janice\",\"last_name\":\"Kraehling\",\"company\":null,\"address1\":\"120
+        James St\",\"address2\":\"RR1\",\"city\":\"Moorefield\",\"province\":\"Ontario\",\"country\":\"Canada\",\"zip\":\"N0G
+        2K0\",\"phone\":\"5195886423\",\"name\":\"Janice Kraehling\",\"province_code\":\"ON\",\"country_code\":\"CA\",\"country_name\":\"Canada\",\"default\":true}},{\"id\":5775256027159,\"email\":\"mahaga001@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-06T09:19:34-04:00\",\"updated_at\":\"2022-09-06T09:35:14-04:00\",\"first_name\":\"Matthew\",\"last_name\":\"Gaither\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"161.56\",\"last_order_id\":4515999973399,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523130\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7134999740439,\"customer_id\":5775256027159,\"first_name\":\"Matthew\",\"last_name\":\"Gaither\",\"company\":\"\",\"address1\":\"809
+        Penn St\",\"address2\":\"\",\"city\":\"Jeffersonville\",\"province\":\"Indiana\",\"country\":\"United
+        States\",\"zip\":\"47130\",\"phone\":\"(812) 913-8304\",\"name\":\"Matthew
+        Gaither\",\"province_code\":\"IN\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:19:35-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775256027159\",\"default_address\":{\"id\":7134999740439,\"customer_id\":5775256027159,\"first_name\":\"Matthew\",\"last_name\":\"Gaither\",\"company\":\"\",\"address1\":\"809
+        Penn St\",\"address2\":\"\",\"city\":\"Jeffersonville\",\"province\":\"Indiana\",\"country\":\"United
+        States\",\"zip\":\"47130\",\"phone\":\"(812) 913-8304\",\"name\":\"Matthew
+        Gaither\",\"province_code\":\"IN\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775256715287,\"email\":\"awoodgate15@icloud.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-06T09:20:59-04:00\",\"updated_at\":\"2022-09-06T09:23:10-04:00\",\"first_name\":\"Adam\",\"last_name\":\"Woodgate\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135000854551,\"customer_id\":5775256715287,\"first_name\":\"Adam\",\"last_name\":\"Woodgate\",\"company\":\"\",\"address1\":\"16
+        Seymour Street\",\"address2\":\"\",\"city\":\"CHELMSFORD\",\"province\":\"England\",\"country\":\"United
+        Kingdom\",\"zip\":\"CM2 0RX\",\"phone\":\"07596 120822\",\"name\":\"Adam Woodgate\",\"province_code\":\"ENG\",\"country_code\":\"GB\",\"country_name\":\"United
+        Kingdom\",\"default\":true},{\"id\":7135000887319,\"customer_id\":5775256715287,\"first_name\":\"Adam\",\"last_name\":\"Woodgate\",\"company\":\"\",\"address1\":\"16
+        seymour street\",\"address2\":\"\",\"city\":\"Chelmsford\",\"province\":\"England\",\"country\":\"United
+        Kingdom\",\"zip\":\"CM2 0RX\",\"phone\":\"+447596120822\",\"name\":\"Adam
+        Woodgate\",\"province_code\":\"ENG\",\"country_code\":\"GB\",\"country_name\":\"United
+        Kingdom\",\"default\":false}],\"accepts_marketing_updated_at\":\"2022-09-06T09:20:59-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775256715287\",\"default_address\":{\"id\":7135000854551,\"customer_id\":5775256715287,\"first_name\":\"Adam\",\"last_name\":\"Woodgate\",\"company\":\"\",\"address1\":\"16
+        Seymour Street\",\"address2\":\"\",\"city\":\"CHELMSFORD\",\"province\":\"England\",\"country\":\"United
+        Kingdom\",\"zip\":\"CM2 0RX\",\"phone\":\"07596 120822\",\"name\":\"Adam Woodgate\",\"province_code\":\"ENG\",\"country_code\":\"GB\",\"country_name\":\"United
+        Kingdom\",\"default\":true}},{\"id\":5775257305111,\"email\":\"isepie55@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:21:55-04:00\",\"updated_at\":\"2022-09-06T09:24:36-04:00\",\"first_name\":\"isac\",\"last_name\":\"lindsey\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"70.87\",\"last_order_id\":4515986112535,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523120\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135001640983,\"customer_id\":5775257305111,\"first_name\":\"isac\",\"last_name\":\"lindsey\",\"company\":null,\"address1\":\"603
+        Hunters Creek Drive\",\"address2\":\"\",\"city\":\"Lebanon\",\"province\":\"Missouri\",\"country\":\"United
+        States\",\"zip\":\"65536\",\"phone\":\"(417) 991-6949\",\"name\":\"isac lindsey\",\"province_code\":\"MO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:21:55-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775257305111\",\"default_address\":{\"id\":7135001640983,\"customer_id\":5775257305111,\"first_name\":\"isac\",\"last_name\":\"lindsey\",\"company\":null,\"address1\":\"603
+        Hunters Creek Drive\",\"address2\":\"\",\"city\":\"Lebanon\",\"province\":\"Missouri\",\"country\":\"United
+        States\",\"zip\":\"65536\",\"phone\":\"(417) 991-6949\",\"name\":\"isac lindsey\",\"province_code\":\"MO\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775257632791,\"email\":\"princeanime234@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-06T09:22:25-04:00\",\"updated_at\":\"2022-09-06T09:24:43-04:00\",\"first_name\":\"Megan\",\"last_name\":\"Mitchell\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135002099735,\"customer_id\":5775257632791,\"first_name\":\"Mason\",\"last_name\":\"Mitchell\",\"company\":\"\",\"address1\":\"631
+        Northwest 48th Avenue\",\"address2\":\"\",\"city\":\"Coconut Creek\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"33063\",\"phone\":\"+1 754-801-4303\",\"name\":\"Mason
+        Mitchell\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true},{\"id\":7135002132503,\"customer_id\":5775257632791,\"first_name\":\"Megan\",\"last_name\":\"Mitchell\",\"company\":\"\",\"address1\":\"631
+        Northwest 48th Avenue\",\"address2\":\"\",\"city\":\"Coconut Creek\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"33063\",\"phone\":\"+1 754-801-4303\",\"name\":\"Megan
+        Mitchell\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":false}],\"accepts_marketing_updated_at\":\"2022-09-06T09:22:25-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775257632791\",\"default_address\":{\"id\":7135002099735,\"customer_id\":5775257632791,\"first_name\":\"Mason\",\"last_name\":\"Mitchell\",\"company\":\"\",\"address1\":\"631
+        Northwest 48th Avenue\",\"address2\":\"\",\"city\":\"Coconut Creek\",\"province\":\"Florida\",\"country\":\"United
+        States\",\"zip\":\"33063\",\"phone\":\"+1 754-801-4303\",\"name\":\"Mason
+        Mitchell\",\"province_code\":\"FL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775258058775,\"email\":\"annatapparo96@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:23:14-04:00\",\"updated_at\":\"2022-09-06T09:25:25-04:00\",\"first_name\":\"TEDDY\",\"last_name\":\"TAPPARO\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"90.10\",\"last_order_id\":4515986145303,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523121\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135002722327,\"customer_id\":5775258058775,\"first_name\":\"TEDDY\",\"last_name\":\"TAPPARO\",\"company\":null,\"address1\":\"11821
+        Glen Mill Rd\",\"address2\":\"\",\"city\":\"Potomac\",\"province\":\"Maryland\",\"country\":\"United
+        States\",\"zip\":\"20854\",\"phone\":\"(301) 717-3150\",\"name\":\"TEDDY TAPPARO\",\"province_code\":\"MD\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:23:14-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775258058775\",\"default_address\":{\"id\":7135002722327,\"customer_id\":5775258058775,\"first_name\":\"TEDDY\",\"last_name\":\"TAPPARO\",\"company\":null,\"address1\":\"11821
+        Glen Mill Rd\",\"address2\":\"\",\"city\":\"Potomac\",\"province\":\"Maryland\",\"country\":\"United
+        States\",\"zip\":\"20854\",\"phone\":\"(301) 717-3150\",\"name\":\"TEDDY TAPPARO\",\"province_code\":\"MD\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775258517527,\"email\":\"magbergs@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-06T09:23:47-04:00\",\"updated_at\":\"2022-09-06T09:25:42-04:00\",\"first_name\":\"Margaret\",\"last_name\":\"Stephens\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"84.99\",\"last_order_id\":4515985719319,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523119\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135003475991,\"customer_id\":5775258517527,\"first_name\":\"Margaret\",\"last_name\":\"Stephens\",\"company\":\"\",\"address1\":\"23560
+        north 1600 east road\",\"address2\":\"\",\"city\":\"Hudson\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61748\",\"phone\":\"+13096455177\",\"name\":\"Margaret
+        Stephens\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:23:47-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775258517527\",\"default_address\":{\"id\":7135003475991,\"customer_id\":5775258517527,\"first_name\":\"Margaret\",\"last_name\":\"Stephens\",\"company\":\"\",\"address1\":\"23560
+        north 1600 east road\",\"address2\":\"\",\"city\":\"Hudson\",\"province\":\"Illinois\",\"country\":\"United
+        States\",\"zip\":\"61748\",\"phone\":\"+13096455177\",\"name\":\"Margaret
+        Stephens\",\"province_code\":\"IL\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775260254231,\"email\":\"hajra_panjwani@yahoo.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:25:57-04:00\",\"updated_at\":\"2022-09-06T09:28:10-04:00\",\"first_name\":\"Hajra\",\"last_name\":\"Panjwani\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135005343767,\"customer_id\":5775260254231,\"first_name\":\"Hajra\",\"last_name\":\"Panjwani\",\"company\":\"\",\"address1\":\"4
+        lambert drive\",\"address2\":\"\",\"city\":\"Sparta\",\"province\":\"New Jersey\",\"country\":\"United
+        States\",\"zip\":\"07871\",\"phone\":null,\"name\":\"Hajra Panjwani\",\"province_code\":\"NJ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:25:57-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775260254231\",\"default_address\":{\"id\":7135005343767,\"customer_id\":5775260254231,\"first_name\":\"Hajra\",\"last_name\":\"Panjwani\",\"company\":\"\",\"address1\":\"4
+        lambert drive\",\"address2\":\"\",\"city\":\"Sparta\",\"province\":\"New Jersey\",\"country\":\"United
+        States\",\"zip\":\"07871\",\"phone\":null,\"name\":\"Hajra Panjwani\",\"province_code\":\"NJ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775262089239,\"email\":\"robdudzman@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:27:55-04:00\",\"updated_at\":\"2022-09-06T09:29:39-04:00\",\"first_name\":\"Yusuf\",\"last_name\":\"Mavlon\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":\"+12672963811\",\"addresses\":[{\"id\":7135007178775,\"customer_id\":5775262089239,\"first_name\":\"Yusuf\",\"last_name\":\"Mavlon\",\"company\":null,\"address1\":\"1920
+        Mount Vernon St\",\"address2\":\"\",\"city\":\"philadelphia\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"19130\",\"phone\":\"(267) 296-3811\",\"name\":\"Yusuf Mavlon\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:27:56-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":{\"state\":\"subscribed\",\"opt_in_level\":\"single_opt_in\",\"consent_updated_at\":\"2022-09-06T09:27:55-04:00\",\"consent_collected_from\":\"SHOPIFY\"},\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775262089239\",\"default_address\":{\"id\":7135007178775,\"customer_id\":5775262089239,\"first_name\":\"Yusuf\",\"last_name\":\"Mavlon\",\"company\":null,\"address1\":\"1920
+        Mount Vernon St\",\"address2\":\"\",\"city\":\"philadelphia\",\"province\":\"Pennsylvania\",\"country\":\"United
+        States\",\"zip\":\"19130\",\"phone\":\"(267) 296-3811\",\"name\":\"Yusuf Mavlon\",\"province_code\":\"PA\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775262253079,\"email\":\"john.lunt64@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:28:04-04:00\",\"updated_at\":\"2022-09-06T09:31:50-04:00\",\"first_name\":\"John
+        \",\"last_name\":\"Lunt\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"74.24\",\"last_order_id\":4515996008471,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523129\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135007342615,\"customer_id\":5775262253079,\"first_name\":\"John
+        \",\"last_name\":\"Lunt\",\"company\":null,\"address1\":\"1000 W Forest Meadows
+        St \",\"address2\":\"Apt 111\",\"city\":\"Flagstaff\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"86001\",\"phone\":\"(928) 243-6445\",\"name\":\"John  Lunt\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:28:04-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775262253079\",\"default_address\":{\"id\":7135007342615,\"customer_id\":5775262253079,\"first_name\":\"John
+        \",\"last_name\":\"Lunt\",\"company\":null,\"address1\":\"1000 W Forest Meadows
+        St \",\"address2\":\"Apt 111\",\"city\":\"Flagstaff\",\"province\":\"Arizona\",\"country\":\"United
+        States\",\"zip\":\"86001\",\"phone\":\"(928) 243-6445\",\"name\":\"John  Lunt\",\"province_code\":\"AZ\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775262908439,\"email\":\"erickewitzki@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:28:56-04:00\",\"updated_at\":\"2022-09-06T09:30:48-04:00\",\"first_name\":\"Eric\",\"last_name\":\"Kewitzki\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"89.15\",\"last_order_id\":4515994599447,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523127\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135008129047,\"customer_id\":5775262908439,\"first_name\":\"Eric\",\"last_name\":\"Kewitzki\",\"company\":\"\",\"address1\":\"Brachgasse
+        20\",\"address2\":\"\",\"city\":\"Kempten\",\"province\":null,\"country\":\"Germany\",\"zip\":\"87439\",\"phone\":null,\"name\":\"Eric
+        Kewitzki\",\"province_code\":null,\"country_code\":\"DE\",\"country_name\":\"Germany\",\"default\":false},{\"id\":7135009636375,\"customer_id\":5775262908439,\"first_name\":\"Eric\",\"last_name\":\"Kewitzki\",\"company\":null,\"address1\":\"Brachgasse
+        20\",\"address2\":\"\",\"city\":\"Kempten\",\"province\":null,\"country\":\"Germany\",\"zip\":\"87439\",\"phone\":\"4915170005718\",\"name\":\"Eric
+        Kewitzki\",\"province_code\":null,\"country_code\":\"DE\",\"country_name\":\"Germany\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:28:56-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775262908439\",\"default_address\":{\"id\":7135009636375,\"customer_id\":5775262908439,\"first_name\":\"Eric\",\"last_name\":\"Kewitzki\",\"company\":null,\"address1\":\"Brachgasse
+        20\",\"address2\":\"\",\"city\":\"Kempten\",\"province\":null,\"country\":\"Germany\",\"zip\":\"87439\",\"phone\":\"4915170005718\",\"name\":\"Eric
+        Kewitzki\",\"province_code\":null,\"country_code\":\"DE\",\"country_name\":\"Germany\",\"default\":true}},{\"id\":5775267397655,\"email\":\"fr_heemskerk@hotmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:34:54-04:00\",\"updated_at\":\"2022-09-06T09:39:53-04:00\",\"first_name\":\"Suzy\",\"last_name\":\"Heemskerk\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"127.25\",\"last_order_id\":4516004233239,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Signed\",\"last_order_name\":\"#2523135\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135013601303,\"customer_id\":5775267397655,\"first_name\":\"Suzy\",\"last_name\":\"Heemskerk\",\"company\":null,\"address1\":\"Rijswijkse
+        Landingslaan 241\",\"address2\":\"\",\"city\":\"Den Haag\",\"province\":null,\"country\":\"Netherlands\",\"zip\":\"2497
+        CL\",\"phone\":\"+31 6 23752161\",\"name\":\"Suzy Heemskerk\",\"province_code\":null,\"country_code\":\"NL\",\"country_name\":\"Netherlands\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:34:54-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775267397655\",\"default_address\":{\"id\":7135013601303,\"customer_id\":5775267397655,\"first_name\":\"Suzy\",\"last_name\":\"Heemskerk\",\"company\":null,\"address1\":\"Rijswijkse
+        Landingslaan 241\",\"address2\":\"\",\"city\":\"Den Haag\",\"province\":null,\"country\":\"Netherlands\",\"zip\":\"2497
+        CL\",\"phone\":\"+31 6 23752161\",\"name\":\"Suzy Heemskerk\",\"province_code\":null,\"country_code\":\"NL\",\"country_name\":\"Netherlands\",\"default\":true}},{\"id\":5775270346775,\"email\":\"ken.sands@gmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:38:47-04:00\",\"updated_at\":\"2022-09-06T09:40:54-04:00\",\"first_name\":\"Ken\",\"last_name\":\"Sands\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"37.08\",\"last_order_id\":4516008722455,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#2523138\",\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135017107479,\"customer_id\":5775270346775,\"first_name\":\"Ken\",\"last_name\":\"Sands\",\"company\":null,\"address1\":\"4631
+        30th Street Northwest\",\"address2\":\"\",\"city\":\"Washington\",\"province\":\"District
+        of Columbia\",\"country\":\"United States\",\"zip\":\"20008\",\"phone\":\"+1
+        509-496-2715\",\"name\":\"Ken Sands\",\"province_code\":\"DC\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:38:48-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775270346775\",\"default_address\":{\"id\":7135017107479,\"customer_id\":5775270346775,\"first_name\":\"Ken\",\"last_name\":\"Sands\",\"company\":null,\"address1\":\"4631
+        30th Street Northwest\",\"address2\":\"\",\"city\":\"Washington\",\"province\":\"District
+        of Columbia\",\"country\":\"United States\",\"zip\":\"20008\",\"phone\":\"+1
+        509-496-2715\",\"name\":\"Ken Sands\",\"province_code\":\"DC\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775271034903,\"email\":\"elliemcole@hotmail.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-06T09:39:59-04:00\",\"updated_at\":\"2022-09-06T09:39:59-04:00\",\"first_name\":\"Katlin\",\"last_name\":\"Galonski\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135018254359,\"customer_id\":5775271034903,\"first_name\":\"Katlin
+        \",\"last_name\":\"Galonski\",\"company\":null,\"address1\":\"4650 South 47th
+        Street\",\"address2\":\"\",\"city\":\"Greenfield\",\"province\":\"Wisconsin\",\"country\":\"United
+        States\",\"zip\":\"53220\",\"phone\":\"(414) 254-0520\",\"name\":\"Katlin
+        \ Galonski\",\"province_code\":\"WI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:39:59-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775271034903\",\"default_address\":{\"id\":7135018254359,\"customer_id\":5775271034903,\"first_name\":\"Katlin
+        \",\"last_name\":\"Galonski\",\"company\":null,\"address1\":\"4650 South 47th
+        Street\",\"address2\":\"\",\"city\":\"Greenfield\",\"province\":\"Wisconsin\",\"country\":\"United
+        States\",\"zip\":\"53220\",\"phone\":\"(414) 254-0520\",\"name\":\"Katlin
+        \ Galonski\",\"province_code\":\"WI\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},{\"id\":5775271690263,\"email\":\"kali2004armando@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-06T09:40:49-04:00\",\"updated_at\":\"2022-09-06T09:40:49-04:00\",\"first_name\":\"Armando\",\"last_name\":\"Hernandez\",\"orders_count\":0,\"state\":\"disabled\",\"total_spent\":\"0.00\",\"last_order_id\":null,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":null,\"currency\":\"USD\",\"phone\":null,\"addresses\":[{\"id\":7135019073559,\"customer_id\":5775271690263,\"first_name\":\"Armando\",\"last_name\":\"Hernandez\",\"company\":\"\",\"address1\":\"949
+        27th Street\",\"address2\":\"\",\"city\":\"Hood River\",\"province\":\"Oregon\",\"country\":\"United
+        States\",\"zip\":\"97031\",\"phone\":\"+15413997976\",\"name\":\"Armando Hernandez\",\"province_code\":\"OR\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}],\"accepts_marketing_updated_at\":\"2022-09-06T09:40:49-04:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5775271690263\",\"default_address\":{\"id\":7135019073559,\"customer_id\":5775271690263,\"first_name\":\"Armando\",\"last_name\":\"Hernandez\",\"company\":\"\",\"address1\":\"949
+        27th Street\",\"address2\":\"\",\"city\":\"Hood River\",\"province\":\"Oregon\",\"country\":\"United
+        States\",\"zip\":\"97031\",\"phone\":\"+15413997976\",\"name\":\"Armando Hernandez\",\"province_code\":\"OR\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}}]}"
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a08d5dc5c1aa-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fcustomers&source%5Bsection%5D=admin_api&source%5Buuid%5D=117efd35-73c8-4dee-8f1c-876ead5de7f6'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:42:20 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/customers.json?limit=250&page_info=eyJ1cGRhdGVkX2F0X21pbiI6IjIwMjItMDktMDYgMTM6MDA6MDAgVVRDIiwidXBkYXRlZF9hdF9tYXgiOiIyMDIyLTA5LTA2IDEzOjQyOjE4IFVUQyIsIm9yZGVyIjoiaWQgYXNjIiwibGFzdF9pZCI6MjI0Njc4Mjk3NjAyMywibGFzdF92YWx1ZSI6MjI0Njc4Mjk3NjAyMywiZGlyZWN0aW9uIjoicHJldiJ9>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BjLa4YzD8WrOJOT45%2FP1zO0UJQyVYT5mZWGPWL3IkkTi4jZAYVIVNFuwTiIwdqPzGxM0y1pqq5Qs2X3VIowyue%2FuVmXvnD9ffdZKTuNVtxx5CMSs7TNNKtkUg9y9WHuVHNxu0TbQ"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 117efd35-73c8-4dee-8f1c-876ead5de7f6
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fcustomers&source%5Bsection%5D=admin_api&source%5Buuid%5D=117efd35-73c8-4dee-8f1c-876ead5de7f6
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1

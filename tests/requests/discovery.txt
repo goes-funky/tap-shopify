@@ -1,0 +1,132 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/orders.json?limit=1
+  response:
+    body:
+      string: "{\"orders\":[{\"id\":4515881025559,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Order\\/4515881025559\",\"app_id\":580111,\"browser_ip\":\"163.153.218.101\",\"buyer_accepts_marketing\":true,\"cancel_reason\":null,\"cancelled_at\":null,\"cart_token\":\"5dc822f8ce54862af24c1003e20a449e\",\"checkout_id\":24989158703127,\"checkout_token\":\"7728e8e95806926ea646aaa7292908ad\",\"client_details\":{\"accept_language\":\"en-US,en;q=0.9\",\"browser_height\":715,\"browser_ip\":\"163.153.218.101\",\"browser_width\":414,\"session_hash\":null,\"user_agent\":\"Mozilla\\/5.0
+        (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML,
+        like Gecko) Version\\/15.6.1 Mobile\\/15E148 Safari\\/604.1\"},\"closed_at\":null,\"confirmed\":true,\"contact_email\":\"danimarie379@outlook.com\",\"created_at\":\"2022-09-06T08:10:14-04:00\",\"currency\":\"USD\",\"current_subtotal_price\":\"68.00\",\"current_subtotal_price_set\":{\"shop_money\":{\"amount\":\"68.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"68.00\",\"currency_code\":\"USD\"}},\"current_total_discounts\":\"11.99\",\"current_total_discounts_set\":{\"shop_money\":{\"amount\":\"11.99\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"11.99\",\"currency_code\":\"USD\"}},\"current_total_duties_set\":null,\"current_total_price\":\"73.44\",\"current_total_price_set\":{\"shop_money\":{\"amount\":\"73.44\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"73.44\",\"currency_code\":\"USD\"}},\"current_total_tax\":\"5.44\",\"current_total_tax_set\":{\"shop_money\":{\"amount\":\"5.44\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"5.44\",\"currency_code\":\"USD\"}},\"customer_locale\":\"en\",\"device_id\":null,\"discount_codes\":[{\"code\":\"RESET\",\"amount\":\"11.99\",\"type\":\"percentage\"}],\"email\":\"danimarie379@outlook.com\",\"estimated_taxes\":false,\"financial_status\":\"paid\",\"fulfillment_status\":null,\"gateway\":\"shopify_payments\",\"landing_site\":\"\\/products\\/e25-true-wireless-earbuds?nbt=nb:adwords:x:17607012709::\\u0026nb_adtype=pla_with_promotion\\u0026nb_kwd=\\u0026nb_ti=\\u0026nb_mi=134289658\\u0026nb_pc=online\\u0026nb_pi=shopify_US_6634256728087_39559430471703\\u0026nb_ppi=\\u0026nb_placement=\\u0026nb_si={sourceid}\\u0026nb_li_ms=\\u0026nb_lp_ms=\\u0026nb_fii=\\u0026nb_ap=\\u0026nb_mt=\\u0026campaignid=17607012709\\u0026adgroupid=\\u0026keyword=\\u0026device=m\\u0026utm_source=google\\u0026utm_medium=cpc\\u0026gclid=EAIaIQobChMI0OjF8o2A-gIVIdSzCh2pNAO5EAQYASACEgJwc_D_BwE\",\"landing_site_ref\":null,\"location_id\":null,\"name\":\"#2523078\",\"note\":null,\"note_attributes\":[{\"name\":\"lang\",\"value\":\"en\"},{\"name\":\"Invoice
+        Language\",\"value\":\"en\"},{\"name\":\"language\",\"value\":\"en\"},{\"name\":\"_elevar__fbp\",\"value\":\"fb.1.1662465323351.774961037\"},{\"name\":\"_elevar__ga\",\"value\":\"GA1.2.2053323003.1662465322\"},{\"name\":\"_elevar__gaexp\",\"value\":\"GAX1.2.uCP_cqCsS9-yT-PHijldSg.19316.1!GbeuRbN0T3eHadBVggbm3g.19330.1\"},{\"name\":\"_elevar__gid\",\"value\":\"GA1.2.13694448.1662465323\"},{\"name\":\"_elevar__ga_5DMKD8PDJV\",\"value\":\"GS1.1.1662465322.1.1.1662465363.0.0.0\"},{\"name\":\"_elevar__ga_S5PSPP6KFJ\",\"value\":\"GS1.1.1662465324.1.1.1662465362.0.0.0\"},{\"name\":\"_elevar_visitor_info\",\"value\":\"{\\\"utm_source\\\":\\\"google\\\",\\\"utm_medium\\\":\\\"cpc\\\",\\\"gclid\\\":\\\"EAIaIQobChMI0OjF8o2A-gIVIdSzCh2pNAO5EAQYASACEgJwc_D_BwE\\\",\\\"user_id\\\":\\\"85b32fff-795e-4987-b9a9-fed65071f7b0\\\"}\"}],\"number\":2522078,\"order_number\":2523078,\"order_status_url\":\"https:\\/\\/test-8192global.com\\/24040041\\/orders\\/f541295e3ef10e06a3915d6cc04e3bee\\/authenticate?key=2d8935b062618c9b4d89a7159dd2993e\",\"original_total_duties_set\":null,\"payment_gateway_names\":[\"shopify_payments\"],\"phone\":null,\"presentment_currency\":\"USD\",\"processed_at\":\"2022-09-06T08:10:10-04:00\",\"processing_method\":\"direct\",\"reference\":null,\"referring_site\":\"https:\\/\\/www.google.com\\/\",\"source_identifier\":null,\"source_name\":\"web\",\"source_url\":null,\"subtotal_price\":\"68.00\",\"subtotal_price_set\":{\"shop_money\":{\"amount\":\"68.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"68.00\",\"currency_code\":\"USD\"}},\"tags\":\"nofraud_pass\",\"tax_lines\":[{\"price\":\"2.72\",\"rate\":0.04,\"title\":\"NY
+        COUNTY TAX\",\"price_set\":{\"shop_money\":{\"amount\":\"2.72\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"2.72\",\"currency_code\":\"USD\"}},\"channel_liable\":false},{\"price\":\"2.72\",\"rate\":0.04,\"title\":\"NY
+        STATE TAX\",\"price_set\":{\"shop_money\":{\"amount\":\"2.72\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"2.72\",\"currency_code\":\"USD\"}},\"channel_liable\":false}],\"taxes_included\":false,\"test\":false,\"token\":\"f541295e3ef10e06a3915d6cc04e3bee\",\"total_discounts\":\"11.99\",\"total_discounts_set\":{\"shop_money\":{\"amount\":\"11.99\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"11.99\",\"currency_code\":\"USD\"}},\"total_line_items_price\":\"79.99\",\"total_line_items_price_set\":{\"shop_money\":{\"amount\":\"79.99\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"79.99\",\"currency_code\":\"USD\"}},\"total_outstanding\":\"0.00\",\"total_price\":\"73.44\",\"total_price_set\":{\"shop_money\":{\"amount\":\"73.44\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"73.44\",\"currency_code\":\"USD\"}},\"total_price_usd\":\"73.44\",\"total_shipping_price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"}},\"total_tax\":\"5.44\",\"total_tax_set\":{\"shop_money\":{\"amount\":\"5.44\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"5.44\",\"currency_code\":\"USD\"}},\"total_tip_received\":\"0.00\",\"total_weight\":283,\"updated_at\":\"2022-09-06T08:11:31-04:00\",\"user_id\":null,\"billing_address\":{\"first_name\":\"Chase\",\"address1\":\"6099
+        Sentinel Road\",\"phone\":\"(518) 852-1749\",\"city\":\"Lake Placid\",\"zip\":\"12946\",\"province\":\"New
+        York\",\"country\":\"United States\",\"last_name\":\"Wiznack\",\"address2\":\"\",\"company\":null,\"latitude\":44.2768383,\"longitude\":-73.9818976,\"name\":\"Chase
+        Wiznack\",\"country_code\":\"US\",\"province_code\":\"NY\"},\"customer\":{\"id\":5771374624791,\"email\":\"danimarie379@outlook.com\",\"accepts_marketing\":true,\"created_at\":\"2022-09-03T03:23:54-04:00\",\"updated_at\":\"2022-09-06T08:10:15-04:00\",\"first_name\":\"Chase\",\"last_name\":\"Wiznack\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"73.44\",\"last_order_id\":4515881025559,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"StampedVIPTier:
+        Up \\u0026 Comer\",\"last_order_name\":\"#2523078\",\"currency\":\"USD\",\"phone\":\"+15188521749\",\"accepts_marketing_updated_at\":\"2022-09-03T03:23:54-04:00\",\"marketing_opt_in_level\":\"single_opt_in\",\"tax_exemptions\":[],\"sms_marketing_consent\":{\"state\":\"subscribed\",\"opt_in_level\":\"single_opt_in\",\"consent_updated_at\":\"2022-09-03T03:23:54-04:00\",\"consent_collected_from\":\"SHOPIFY\"},\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/5771374624791\",\"default_address\":{\"id\":7134947868695,\"customer_id\":5771374624791,\"first_name\":\"Chase\",\"last_name\":\"Wiznack\",\"company\":null,\"address1\":\"6099
+        Sentinel Road\",\"address2\":\"\",\"city\":\"Lake Placid\",\"province\":\"New
+        York\",\"country\":\"United States\",\"zip\":\"12946\",\"phone\":\"(518) 852-1749\",\"name\":\"Chase
+        Wiznack\",\"province_code\":\"NY\",\"country_code\":\"US\",\"country_name\":\"United
+        States\",\"default\":true}},\"discount_applications\":[{\"target_type\":\"line_item\",\"type\":\"discount_code\",\"value\":\"15.0\",\"value_type\":\"percentage\",\"allocation_method\":\"across\",\"target_selection\":\"all\",\"code\":\"RESET\"}],\"fulfillments\":[],\"line_items\":[{\"id\":11354868449303,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/LineItem\\/11354868449303\",\"destination_location\":{\"id\":3338110631959,\"country_code\":\"US\",\"province_code\":\"NY\",\"name\":\"Chase
+        Wiznack\",\"address1\":\"6099 Sentinel Road\",\"address2\":\"\",\"city\":\"Lake
+        Placid\",\"zip\":\"12946\"},\"fulfillable_quantity\":1,\"fulfillment_service\":\"manual\",\"fulfillment_status\":null,\"gift_card\":false,\"grams\":283,\"name\":\"The
+        Everyday Earbuds - Carbon Black\",\"origin_location\":{\"id\":1841946656791,\"country_code\":\"US\",\"province_code\":\"NJ\",\"name\":\"test-8192
+        \",\"address1\":\"1112 Corporate Road\",\"address2\":\"\",\"city\":\"North
+        Brunswick Township\",\"zip\":\"08902\"},\"pre_tax_price\":\"68.00\",\"pre_tax_price_set\":{\"shop_money\":{\"amount\":\"68.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"68.00\",\"currency_code\":\"USD\"}},\"price\":\"79.99\",\"price_set\":{\"shop_money\":{\"amount\":\"79.99\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"79.99\",\"currency_code\":\"USD\"}},\"product_exists\":true,\"product_id\":6634256728087,\"properties\":[],\"quantity\":1,\"requires_shipping\":true,\"sku\":\"RBE725-21E-BLA\",\"taxable\":true,\"title\":\"The
+        Everyday Earbuds\",\"total_discount\":\"0.00\",\"total_discount_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"}},\"variant_id\":39559430471703,\"variant_inventory_management\":\"shopify\",\"variant_title\":\"Carbon
+        Black\",\"vendor\":\"test-8192\",\"tax_lines\":[{\"channel_liable\":false,\"price\":\"2.72\",\"price_set\":{\"shop_money\":{\"amount\":\"2.72\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"2.72\",\"currency_code\":\"USD\"}},\"rate\":0.04,\"title\":\"NY
+        STATE TAX\"},{\"channel_liable\":false,\"price\":\"2.72\",\"price_set\":{\"shop_money\":{\"amount\":\"2.72\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"2.72\",\"currency_code\":\"USD\"}},\"rate\":0.04,\"title\":\"NY
+        COUNTY TAX\"}],\"duties\":[],\"discount_allocations\":[{\"amount\":\"11.99\",\"amount_set\":{\"shop_money\":{\"amount\":\"11.99\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"11.99\",\"currency_code\":\"USD\"}},\"discount_application_index\":0}]}],\"payment_details\":{\"credit_card_bin\":\"440393\",\"avs_result_code\":\"Y\",\"cvv_result_code\":\"M\",\"credit_card_number\":\"\u2022\u2022\u2022\u2022
+        \u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022 4936\",\"credit_card_company\":\"Visa\"},\"payment_terms\":null,\"refunds\":[],\"shipping_address\":{\"first_name\":\"Chase\",\"address1\":\"6099
+        Sentinel Road\",\"phone\":\"(518) 852-1749\",\"city\":\"Lake Placid\",\"zip\":\"12946\",\"province\":\"New
+        York\",\"country\":\"United States\",\"last_name\":\"Wiznack\",\"address2\":\"\",\"company\":null,\"latitude\":44.2768383,\"longitude\":-73.9818976,\"name\":\"Chase
+        Wiznack\",\"country_code\":\"US\",\"province_code\":\"NY\"},\"shipping_lines\":[{\"id\":3786254155799,\"carrier_identifier\":null,\"code\":\"Free
+        USA Ground Shipping (Delivered in 3-8 business days.)\",\"delivery_category\":null,\"discounted_price\":\"0.00\",\"discounted_price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"}},\"phone\":null,\"price\":\"0.00\",\"price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"}},\"requested_fulfillment_service_id\":null,\"source\":\"shopify\",\"title\":\"Free
+        USA Ground Shipping (Delivered in 3-8 business days.)\",\"tax_lines\":[{\"channel_liable\":false,\"price\":\"0.00\",\"price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"}},\"rate\":0.04,\"title\":\"NY
+        STATE TAX\"},{\"channel_liable\":false,\"price\":\"0.00\",\"price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"USD\"}},\"rate\":0.04,\"title\":\"NY
+        COUNTY TAX\"}],\"discount_allocations\":[]}]}]}"
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74671bbf88af68bf-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=3cbb42b5-2dbf-43b2-b282-310378200ff3'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 12:11:40 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/orders.json?limit=1&page_info=eyJsYXN0X2lkIjo0NTE1ODgxMDI1NTU5LCJsYXN0X3ZhbHVlIjoiMjAyMi0wOS0wNiAxMjoxMDoxNC41NDY0MzMiLCJkaXJlY3Rpb24iOiJuZXh0In0>;
+        rel="next"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=h6UumD%2FznBXDzg6wWGtoBI4vCoAy5AkpUw2fAvgJG5ekCRfMngy4Kq9CMeNlOvXvNRop6ob%2F6w6I%2FA0vuDr%2FcFNRogVtDt%2FaZjdAIHIiAopVRlQjChkdvbY04nrN5Zu6wvE1AUT3"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 3cbb42b5-2dbf-43b2-b282-310378200ff3
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/changelog/property-deprecations-in-the-admin-api-order-and-lineitem-resource
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=3cbb42b5-2dbf-43b2-b282-310378200ff3
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1

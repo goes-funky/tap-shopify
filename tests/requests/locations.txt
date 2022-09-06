@@ -1,0 +1,109 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/locations.json
+  response:
+    body:
+      string: '{"locations":[{"id":1986232343,"name":"1115 Broadway","address1":"1115
+        Broadway","address2":"Suite 12","city":"New York","zip":"10010","province":"NY","country":"US","phone":"+16462892466","created_at":"2017-09-28T14:14:27-04:00","updated_at":"2021-03-16T14:43:29-04:00","country_code":"US","country_name":"United
+        States","province_code":"NY","legacy":false,"active":false,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/1986232343","localized_country_name":"United
+        States","localized_province_name":"New York"},{"id":35380396055,"name":"Capacity
+        LLC","address1":"1112 Corporate Road","address2":"","city":"North Brunswick
+        Township","zip":"08902","province":"NJ","country":"US","phone":"+17327457770","created_at":"2020-05-11T11:10:03-04:00","updated_at":"2020-05-12T07:56:59-04:00","country_code":"US","country_name":"United
+        States","province_code":"NJ","legacy":false,"active":true,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/35380396055","localized_country_name":"United
+        States","localized_province_name":"New Jersey"},{"id":31177441303,"name":"ClydeFulfillment","address1":null,"address2":null,"city":null,"zip":null,"province":null,"country":"US","phone":null,"created_at":"2019-09-11T12:28:51-04:00","updated_at":"2019-09-11T12:28:51-04:00","country_code":"US","country_name":"United
+        States","province_code":null,"legacy":true,"active":true,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/31177441303","localized_country_name":"United
+        States","localized_province_name":null},{"id":37352767511,"name":"Fairview
+        Warehouse","address1":"10 Commercial Avenue","address2":"","city":"Fairview","zip":"07022","province":"NJ","country":"US","phone":"","created_at":"2020-09-24T14:04:25-04:00","updated_at":"2020-09-24T14:04:26-04:00","country_code":"US","country_name":"United
+        States","province_code":"NJ","legacy":false,"active":true,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/37352767511","localized_country_name":"United
+        States","localized_province_name":"New Jersey"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74679bed5cf21cea-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=a5831170-23ad-4588-ac09-73408fca82ea'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:39:09 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IaYxtDcXhbeOMI2LQv2LqA%2FDowy5lHXfs2VXwx9PyVnRHgKps05i4V6dfL1JOzZ3bQeHLP8rzue1X4FYgT01lgMG76fq%2FzoHjyq0H4EGylWTk4kTWHxSMcFeUluFTYGY8ed3%2Bhb2"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - a5831170-23ad-4588-ac09-73408fca82ea
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=a5831170-23ad-4588-ac09-73408fca82ea
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1

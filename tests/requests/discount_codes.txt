@@ -1,0 +1,1082 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-06+13%3A00%3A00%2B00%3A00&updated_at_max=2022-09-06+13%3A41%3A55%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[{"id":334151974935,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2018-11-28T13:20:08-05:00","ends_at":null,"created_at":"2018-11-28T13:20:08-05:00","updated_at":"2022-09-06T09:40:03-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"WELCOME15","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/334151974935"},{"id":616133984279,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2020-02-27T17:23:36-05:00","ends_at":null,"created_at":"2020-02-27T17:23:52-05:00","updated_at":"2022-09-06T09:25:02-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"CASEY15","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/616133984279"},{"id":617418915863,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2020-03-05T12:36:58-05:00","ends_at":null,"created_at":"2020-03-05T12:37:08-05:00","updated_at":"2022-09-06T09:30:02-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"EVAN15","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/617418915863"},{"id":933888720919,"value_type":"percentage","value":"-20.0","customer_selection":"all","target_type":"line_item","target_selection":"entitled","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2021-06-03T11:55:45-04:00","ends_at":null,"created_at":"2021-06-03T11:56:00-04:00","updated_at":"2022-09-06T09:20:02-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[154120683543],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"ELISE","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/933888720919"},{"id":943495479319,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2021-08-06T15:15:55-04:00","ends_at":null,"created_at":"2021-08-06T15:15:59-04:00","updated_at":"2022-09-06T09:35:02-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"BDUBS15","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/943495479319"},{"id":1014504718359,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2022-08-01T11:44:32-04:00","ends_at":null,"created_at":"2022-08-01T11:44:36-04:00","updated_at":"2022-09-06T09:05:02-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"HOUSEINHABIT","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1014504718359"},{"id":1016194859031,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":false,"usage_limit":null,"starts_at":"2022-08-10T16:51:51-04:00","ends_at":"2022-09-09T12:00:59-04:00","created_at":"2022-08-10T16:52:26-04:00","updated_at":"2022-09-06T09:35:05-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"RESET","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1016194859031"},{"id":1017198805015,"value_type":"percentage","value":"-15.0","customer_selection":"all","target_type":"line_item","target_selection":"all","allocation_method":"across","allocation_limit":null,"once_per_customer":true,"usage_limit":null,"starts_at":"2022-08-15T16:39:00-04:00","ends_at":null,"created_at":"2022-08-15T16:39:11-04:00","updated_at":"2022-09-06T09:00:10-04:00","entitled_product_ids":[],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"FSAFE22","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1017198805015"},{"id":1018937704471,"value_type":"percentage","value":"-20.0","customer_selection":"all","target_type":"line_item","target_selection":"entitled","allocation_method":"across","allocation_limit":null,"once_per_customer":false,"usage_limit":null,"starts_at":"2022-08-24T14:36:47-04:00","ends_at":"2022-09-06T12:00:59-04:00","created_at":"2022-08-24T14:37:49-04:00","updated_at":"2022-09-06T09:40:07-04:00","entitled_product_ids":[6573374013463,6715069267991],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":null,"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"SUMMER22","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1018937704471"},{"id":1018937835543,"value_type":"percentage","value":"-20.0","customer_selection":"all","target_type":"line_item","target_selection":"entitled","allocation_method":"across","allocation_limit":null,"once_per_customer":false,"usage_limit":null,"starts_at":"2022-08-24T14:38:19-04:00","ends_at":"2022-09-06T12:00:59-04:00","created_at":"2022-08-24T14:39:51-04:00","updated_at":"2022-09-06T09:35:05-04:00","entitled_product_ids":[6573374013463,6634256728087],"entitled_variant_ids":[],"entitled_collection_ids":[],"entitled_country_ids":[],"prerequisite_product_ids":[],"prerequisite_variant_ids":[],"prerequisite_collection_ids":[],"prerequisite_saved_search_ids":[],"prerequisite_customer_ids":[],"prerequisite_subtotal_range":{"greater_than_or_equal_to":"189.0"},"prerequisite_quantity_range":null,"prerequisite_shipping_price_range":null,"prerequisite_to_entitlement_quantity_ratio":{"prerequisite_quantity":null,"entitled_quantity":null},"prerequisite_to_entitlement_purchase":{"prerequisite_amount":null},"title":"ENDSUM22","admin_graphql_api_id":"gid:\/\/shopify\/PriceRule\/1018937835543"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74679fff1c9c1cc0-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=657523b9-0c96-4d75-afc8-b2c90a33c608'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:56 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?limit=250&page_info=eyJzdGF0dXMiOiJhbnkiLCJ1cGRhdGVkX2F0X21pbiI6IjIwMjItMDktMDYgMTM6MDA6MDAgVVRDIiwidXBkYXRlZF9hdF9tYXgiOiIyMDIyLTA5LTA2IDEzOjQxOjU1IFVUQyIsIm9yZGVyIjoiaWQgYXNjIiwibGFzdF9pZCI6MzM0MTUxOTc0OTM1LCJsYXN0X3ZhbHVlIjozMzQxNTE5NzQ5MzUsImRpcmVjdGlvbiI6InByZXYifQ>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=C%2FGczPmYyCFMZqg%2BZOoQSlVsI%2BzQMtk5uVVQbHPqDiNplPggqFgN%2FSum5flV5POkmSiykXaxgYEXZHpRWl1OrQ%2F5y6qT8spr7IuP%2BXk9Fj784WfxTHLgycbhqPNI%2FVaHQvOK5wp5"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 657523b9-0c96-4d75-afc8-b2c90a33c608
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=657523b9-0c96-4d75-afc8-b2c90a33c608
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/334151974935/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":1366505717783,"price_rule_id":334151974935,"code":"WELCOME15","usage_count":58804,"created_at":"2018-11-28T13:20:08-05:00","updated_at":"2022-09-06T09:40:02-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a00199d4c1be-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=1969871e-9f8a-46d2-8810-55697b43fe6b'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:56 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/334151974935/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjEzNjY1MDU3MTc3ODMsImxhc3RfdmFsdWUiOiIxMzY2NTA1NzE3NzgzIiwiZGlyZWN0aW9uIjoicHJldiJ9>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NfLFOhM6ZoyuicU%2F0mt%2Fo9V0HwQ7XQErq3SLVZb47k3Idbl8zc09CMa0S0Ef9noVvQ91KNxezc5tLV65FvQr%2FgPhoBl%2FSPHKB%2FxWUNuIqZ5uRLKRN6IuohFlK6WzshDhyENr2QI1"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 1969871e-9f8a-46d2-8810-55697b43fe6b
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=1969871e-9f8a-46d2-8810-55697b43fe6b
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/616133984279/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":3788717719575,"price_rule_id":616133984279,"code":"CASEY15","usage_count":444,"created_at":"2020-02-27T17:23:52-05:00","updated_at":"2022-09-06T09:25:02-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a003eb146847-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=ce59c28f-d721-4d0f-9425-96a41cd1ff50'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:56 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/616133984279/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjM3ODg3MTc3MTk1NzUsImxhc3RfdmFsdWUiOiIzNzg4NzE3NzE5NTc1IiwiZGlyZWN0aW9uIjoicHJldiJ9>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=f9lkudhi%2Bns1jakTVx%2BZTO2c70Ek7epSlQh69tRqCWM%2Ffku%2FneiSZzjMGDqu2prdQBucodxL08UKmFd5lbN0Ljj%2FssP1RbNXqDo3yygM8b0dyTtpcdK0FcdVsDL2GLhv0bTc5N8b"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - ce59c28f-d721-4d0f-9425-96a41cd1ff50
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=ce59c28f-d721-4d0f-9425-96a41cd1ff50
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/617418915863/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":3793021173783,"price_rule_id":617418915863,"code":"EVAN15","usage_count":3897,"created_at":"2020-03-05T12:37:08-05:00","updated_at":"2022-09-06T09:30:02-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a0064f81c1b4-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=1e203e5a-6b30-44d7-a817-158a4e083f72'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:57 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/617418915863/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjM3OTMwMjExNzM3ODMsImxhc3RfdmFsdWUiOiIzNzkzMDIxMTczNzgzIiwiZGlyZWN0aW9uIjoicHJldiJ9>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uPy8vdAa4X4j9SYs50MhYuvL0dyp1%2F8hsXC1nlVRgBDcyufWXh6REZk840s%2FZdbJRS2ieLkoKQUCNosWQPIOKAa%2B%2FfhbpDP45LhXlZbFhWcCNGZnaswBPPxejHCpdjhFGaiy4qi5"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 1e203e5a-6b30-44d7-a817-158a4e083f72
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=1e203e5a-6b30-44d7-a817-158a4e083f72
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/933888720919/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":11249809850391,"price_rule_id":933888720919,"code":"ELISE","usage_count":1817,"created_at":"2021-06-03T11:56:00-04:00","updated_at":"2022-09-06T09:20:01-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a009abd168b5-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=0cb999c0-b073-4033-a5c0-cc0d6c30cf95'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:57 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/933888720919/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjExMjQ5ODA5ODUwMzkxLCJsYXN0X3ZhbHVlIjoiMTEyNDk4MDk4NTAzOTEiLCJkaXJlY3Rpb24iOiJwcmV2In0>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rHucpci5wihSOTQO7BLcEsTkpq3bds%2Bsn4c1zannjaf7UDfHDk%2FPy4RQdcujAFdJnGArzjRZsxPC%2FJT9tgrLhxlHp%2Bp7IKh2PbJx0WtZKqQwJbL%2F07JFMbiueuUwfMLTl%2FWq%2B1Ye"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 0cb999c0-b073-4033-a5c0-cc0d6c30cf95
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=0cb999c0-b073-4033-a5c0-cc0d6c30cf95
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/943495479319/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":11347546701847,"price_rule_id":943495479319,"code":"BDUBS15","usage_count":635,"created_at":"2021-08-06T15:15:59-04:00","updated_at":"2022-09-06T09:35:02-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a00bcded68bc-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=6b85064e-39b1-4bff-bbc3-1dba57d00dd0'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:57 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/943495479319/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjExMzQ3NTQ2NzAxODQ3LCJsYXN0X3ZhbHVlIjoiMTEzNDc1NDY3MDE4NDciLCJkaXJlY3Rpb24iOiJwcmV2In0>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AX5l%2B9HwM86JFHWWL7cQj%2FVSMhdJE4qLyEQb7G6n9An4lpt6RNquYh1va%2BeyxjyqKWwP%2FW3p5%2FC9RGiab6ZdXIbfQfY0%2FjZEzs24oXH%2FCD%2FQrgGy2jr49K360eMDH7Th0GjOwhdU"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 6b85064e-39b1-4bff-bbc3-1dba57d00dd0
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=6b85064e-39b1-4bff-bbc3-1dba57d00dd0
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1014504718359/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":12473374474263,"price_rule_id":1014504718359,"code":"HOUSEINHABIT","usage_count":67,"created_at":"2022-08-01T11:44:36-04:00","updated_at":"2022-09-06T09:05:02-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a00de8f01cf2-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=05dc6261-7e84-4b5b-bbc3-716fcd064dce'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:58 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1014504718359/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjEyNDczMzc0NDc0MjYzLCJsYXN0X3ZhbHVlIjoiMTI0NzMzNzQ0NzQyNjMiLCJkaXJlY3Rpb24iOiJwcmV2In0>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9hzN%2BHQOIYCTtkQk6NdEQS6EFWstJKef8bAHderXcqofi7BFH85IIDhPUGqzyQHZzwLePqrajFjnpRye3S1XHlpHAoOzcjgQEQlAFBwbwHsd9h8Bf%2FzUSrkFs4x9WJU9yKhi5A59"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 05dc6261-7e84-4b5b-bbc3-716fcd064dce
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - canary
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=05dc6261-7e84-4b5b-bbc3-716fcd064dce
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1016194859031/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":12499606831127,"price_rule_id":1016194859031,"code":"RESET","usage_count":11251,"created_at":"2022-08-10T16:52:26-04:00","updated_at":"2022-09-06T09:35:03-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a0103cae68b0-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=950a35da-8d50-49f9-bc6c-d970a75da933'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:58 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1016194859031/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjEyNDk5NjA2ODMxMTI3LCJsYXN0X3ZhbHVlIjoiMTI0OTk2MDY4MzExMjciLCJkaXJlY3Rpb24iOiJwcmV2In0>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=esjLPjVesq%2FJHkhP4Y9yvk83UQ6S2lWp8VaYdPsGwJu8K19BNf%2Bccjp4o%2BpezRAhjgZAFq185U2uIM8KRwuzNTZbRVwek%2BjwncABL4s%2F8YIAUFLkBlaqaHKJ6WuP7jmLaxmNu%2BzT"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 950a35da-8d50-49f9-bc6c-d970a75da933
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=950a35da-8d50-49f9-bc6c-d970a75da933
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1017198805015/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":12510194466839,"price_rule_id":1017198805015,"code":"FSAFE22","usage_count":392,"created_at":"2022-08-15T16:39:11-04:00","updated_at":"2022-09-06T09:00:09-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a0143d5668b9-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=dfdb98d8-3f44-4627-a3ad-944277431283'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:59 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1017198805015/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjEyNTEwMTk0NDY2ODM5LCJsYXN0X3ZhbHVlIjoiMTI1MTAxOTQ0NjY4MzkiLCJkaXJlY3Rpb24iOiJwcmV2In0>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5f2yEeVwtXbpeYs1KGMkm%2Fz5mfycOZjQuHkiy%2FVuVnjFDYGx5N8E5G%2BT%2BcRaulsB%2F%2BJgCGIU4ZmkkRDprqZQfom44yTgwzAFNB00a9K38dg42yXinHe1a9IrWO%2BLM7LdDscBOD6J"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - dfdb98d8-3f44-4627-a3ad-944277431283
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=dfdb98d8-3f44-4627-a3ad-944277431283
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1018937704471/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":12532430635031,"price_rule_id":1018937704471,"code":"SUMMER22","usage_count":2173,"created_at":"2022-08-24T14:37:49-04:00","updated_at":"2022-09-06T09:40:05-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a0173ef11cf2-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=738f0d9a-6d5a-45a9-ac29-0c4e061a5a08'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:41:59 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1018937704471/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjEyNTMyNDMwNjM1MDMxLCJsYXN0X3ZhbHVlIjoiMTI1MzI0MzA2MzUwMzEiLCJkaXJlY3Rpb24iOiJwcmV2In0>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D3UoGS25peU08QzngeWJm21OhFTF9ej1mexn4UmJ8hgGKy0v6mogEFIBX%2BAzyamnEy3vLYslJCMPMCa82qo4eX3BN7K9SrFxVfH5iHORYatc2%2FWKwZioxoDvMLsa0fmxmy3s0zgC"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 738f0d9a-6d5a-45a9-ac29-0c4e061a5a08
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=738f0d9a-6d5a-45a9-ac29-0c4e061a5a08
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1018937835543/discount_codes.json?limit=250&order=id+asc&since_id=1
+  response:
+    body:
+      string: '{"discount_codes":[{"id":12532430798871,"price_rule_id":1018937835543,"code":"ENDSUM22","usage_count":83,"created_at":"2022-08-24T14:39:51-04:00","updated_at":"2022-09-06T09:35:03-04:00"}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 7467a019689d6844-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=2764eba2-9ebc-48df-b92a-b6fd9640ac73'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 06 Sep 2022 13:42:00 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/price_rules/1018937835543/discount_codes.json?limit=250&page_info=eyJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjEyNTMyNDMwNzk4ODcxLCJsYXN0X3ZhbHVlIjoiMTI1MzI0MzA3OTg4NzEiLCJkaXJlY3Rpb24iOiJwcmV2In0>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=20WTsIQMikSRs7yF62mntL1LBnQIcRjRlnknQm0zd%2B73NTrAIuMO2Q0zznWigdqpURzHFaV9Kcwple%2BeykDDWYnESIQemMI%2FchqMW0gsNjP95Y98tZUT%2FkPABdpYFO0aCagdxq8f"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 2764eba2-9ebc-48df-b92a-b6fd9640ac73
+      X-ShardId:
+      - '22'
+      X-ShopId:
+      - '24040041'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '22'
+      X-Sorting-Hat-ShopId:
+      - '24040041'
+      X-Stats-ApiClientId:
+      - '6573019'
+      X-Stats-ApiPermissionId:
+      - '325391843351'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules%2Fdiscount_codes&source%5Bsection%5D=admin_api&source%5Buuid%5D=2764eba2-9ebc-48df-b92a-b6fd9640ac73
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1
