@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-python:
-    uses: goes-funky/workflows/.github/workflows/build-python.yaml@make-ssh-private-key-optional-python
+    uses: goes-funky/workflows/.github/workflows/build-python.yaml@master
     with:
       python-version: "3.9"
       skip-mypy: true
@@ -14,6 +14,6 @@ jobs:
       skip-isort: true
       skip-format: true
       skip-lint: true
-    secrets:
-      # ssh-private-key: ${{ secrets.GH_REPO_READ_SSH_KEY }}
-      codecov-token: ${{ secrets.CODECOV_TOKEN }}
+#    secrets:
+#       ssh-private-key: ${{ secrets.GH_REPO_READ_SSH_KEY }}
+#       codecov-token: ${{ secrets.CODECOV_TOKEN }}
