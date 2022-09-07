@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-python:
-    uses: goes-funky/workflows/.github/workflows/build-python.yaml@master
+    uses: goes-funky/workflows/.github/workflows/build-python.yaml@make-ssh-private-key-optional-python
     with:
       python-version: "3.9"
       skip-mypy: true
