@@ -14,24 +14,14 @@ interactions:
     uri: https://test-8192.myshopify.com/admin/api/2022-01/locations.json
   response:
     body:
-      string: '{"locations":[{"id":1986232343,"name":"1115 Broadway","address1":"1115
-        Broadway","address2":"Suite 12","city":"New York","zip":"10010","province":"NY","country":"US","phone":"+16462892466","created_at":"2017-09-28T14:14:27-04:00","updated_at":"2021-03-16T14:43:29-04:00","country_code":"US","country_name":"United
-        States","province_code":"NY","legacy":false,"active":false,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/1986232343","localized_country_name":"United
-        States","localized_province_name":"New York"},{"id":35380396055,"name":"Capacity
-        LLC","address1":"1112 Corporate Road","address2":"","city":"North Brunswick
-        Township","zip":"08902","province":"NJ","country":"US","phone":"+17327457770","created_at":"2020-05-11T11:10:03-04:00","updated_at":"2020-05-12T07:56:59-04:00","country_code":"US","country_name":"United
-        States","province_code":"NJ","legacy":false,"active":true,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/35380396055","localized_country_name":"United
-        States","localized_province_name":"New Jersey"},{"id":31177441303,"name":"ClydeFulfillment","address1":null,"address2":null,"city":null,"zip":null,"province":null,"country":"US","phone":null,"created_at":"2019-09-11T12:28:51-04:00","updated_at":"2019-09-11T12:28:51-04:00","country_code":"US","country_name":"United
-        States","province_code":null,"legacy":true,"active":true,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/31177441303","localized_country_name":"United
-        States","localized_province_name":null},{"id":37352767511,"name":"Fairview
-        Warehouse","address1":"10 Commercial Avenue","address2":"","city":"Fairview","zip":"07022","province":"NJ","country":"US","phone":"","created_at":"2020-09-24T14:04:25-04:00","updated_at":"2020-09-24T14:04:26-04:00","country_code":"US","country_name":"United
-        States","province_code":"NJ","legacy":false,"active":true,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/37352767511","localized_country_name":"United
-        States","localized_province_name":"New Jersey"}]}'
+      string: '{"locations":[{"id":9102087,"name":"Am Kirschberg 9","address1":"Am
+        Kirschberg 9","address2":"","city":"Weisenheim am Berg","zip":"67273","province":"","country":"DE","phone":"00491785510709","created_at":"2016-06-14T21:38:30+02:00","updated_at":"2019-03-15T02:13:50+01:00","country_code":"DE","country_name":"Germany","province_code":null,"legacy":false,"active":false,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/9102087","localized_country_name":"Germany","localized_province_name":null},{"id":49939667,"name":"test-8192
+        GmbH Warehouse","address1":"Dudenstrasse 37-43","address2":"","city":"Mannheim","zip":"68167","province":"","country":"DE","phone":"+4932221099527","created_at":"2017-08-30T03:14:13+02:00","updated_at":"2019-11-15T17:45:06+01:00","country_code":"DE","country_name":"Germany","province_code":null,"legacy":false,"active":true,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/49939667","localized_country_name":"Germany","localized_province_name":null}]}'
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 74679bed5cf21cea-BUD
+      - 74781d471e0e8ee6-SOF
       Connection:
       - close
       Content-Security-Policy:
@@ -43,11 +33,11 @@ interactions:
         https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
         https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
         https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
-        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=a5831170-23ad-4588-ac09-73408fca82ea'
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=0e453d2d-8800-4277-8fee-4595d805068c'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Tue, 06 Sep 2022 13:39:09 GMT
+      - Thu, 08 Sep 2022 13:43:39 GMT
       HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
       - 1/80
       NEL:
@@ -55,7 +45,7 @@ interactions:
       Referrer-Policy:
       - origin-when-cross-origin
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IaYxtDcXhbeOMI2LQv2LqA%2FDowy5lHXfs2VXwx9PyVnRHgKps05i4V6dfL1JOzZ3bQeHLP8rzue1X4FYgT01lgMG76fq%2FzoHjyq0H4EGylWTk4kTWHxSMcFeUluFTYGY8ed3%2Bhb2"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XVtA%2Fkj4W71Ht%2FAg%2Bhw9t4C8vjSnhr8Xgkrk0nNgRrkIHyKk%2FZ2CdQltNJHTEhJ12FkwwVyzlojibxrmzMrLf8XhsTqvybsZoLmPJNzs914ksLIAbRGJ8rv5O8iO2dCF3Yyr3KQBJw%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -67,7 +57,7 @@ interactions:
       X-Content-Type-Options:
       - nosniff
       X-Dc:
-      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      - gcp-europe-west3,gcp-us-east1,gcp-us-east1
       X-Download-Options:
       - noopen
       X-Frame-Options:
@@ -75,11 +65,11 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-ID:
-      - a5831170-23ad-4588-ac09-73408fca82ea
+      - 0e453d2d-8800-4277-8fee-4595d805068c
       X-ShardId:
-      - '22'
+      - '264'
       X-ShopId:
-      - '24040041'
+      - '13286091'
       X-Shopify-API-Terms:
       - By accessing or using the Shopify API you agree to the Shopify API License
         and Terms of Use at https://www.shopify.com/legal/api-terms
@@ -90,17 +80,17 @@ interactions:
       X-Shopify-Stage:
       - production
       X-Sorting-Hat-PodId:
-      - '22'
+      - '264'
       X-Sorting-Hat-ShopId:
-      - '24040041'
+      - '13286091'
       X-Stats-ApiClientId:
-      - '6573019'
+      - '4234838017'
       X-Stats-ApiPermissionId:
-      - '325391843351'
+      - '394999202057'
       X-Stats-UserId:
       - ''
       X-XSS-Protection:
-      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=a5831170-23ad-4588-ac09-73408fca82ea
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=0e453d2d-8800-4277-8fee-4595d805068c
       alt-svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     status:

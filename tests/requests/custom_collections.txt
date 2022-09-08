@@ -11,27 +11,18 @@ interactions:
       X-Shopify-Access-Token:
       - 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
     method: GET
-    uri: https://test-8192.myshopify.com/admin/api/2022-01/custom_collections.json?since_id=1&updated_at_min=2022-09-06+13%3A00%3A00%2B00%3A00&updated_at_max=2022-09-06+13%3A43%3A39%2B00%3A00&limit=250&status=any
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/custom_collections.json?since_id=1&updated_at_min=2022-09-07+12%3A00%3A00%2B00%3A00&updated_at_max=2022-09-08+00%3A00%3A00%2B00%3A00&limit=250&status=any
   response:
     body:
-      string: '{"custom_collections":[{"id":33822834711,"handle":"shopall","title":"Shop","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":"2018-08-16T16:50:04-04:00","sort_order":"manual","template_suffix":"deals","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/33822834711"},{"id":36625874967,"handle":"products-fb","title":"Products
-        - FB","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":"2019-01-04T09:45:06-05:00","sort_order":"manual","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/36625874967"},{"id":150723035159,"handle":"loop-test-1","title":"LOOP
-        - E50 Exchange for Different Model","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":null,"sort_order":"manual","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/150723035159"},{"id":150736470039,"handle":"loop-wireless-earphones-shop-now","title":"Loop
-        - Wireless Earphones - Shop Now","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":null,"sort_order":"manual","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/150736470039"},{"id":150746824727,"handle":"loop-shop-all-shop-now","title":"Loop
-        - Shop All - Shop Now","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":null,"sort_order":"manual","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/150746824727"},{"id":154120683543,"handle":"earbuds","title":"Earbuds","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":"2019-11-05T10:08:28-05:00","sort_order":"manual","template_suffix":"earbuds2","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/154120683543"},{"id":155322908695,"handle":"warranty-exchange-for-e50","title":"Warranty
-        Exchange for E50","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":"2020-03-23T10:45:55-04:00","sort_order":"best-selling","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/155322908695"},{"id":174490255383,"handle":"best-sellers","title":"Best
-        Sellers","updated_at":"2022-09-06T09:40:32-04:00","body_html":"\u003cbr\u003e","published_at":"2020-12-01T15:13:55-05:00","sort_order":"manual","template_suffix":"deals","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/174490255383"},{"id":174867972119,"handle":"special","title":"Special","updated_at":"2022-09-06T09:40:32-04:00","body_html":"\u003cbr\u003e","published_at":"2021-06-14T13:22:16-04:00","sort_order":"manual","template_suffix":"campaign","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/174867972119"},{"id":261224595479,"handle":"loop-exchange-e25-2020","title":"Loop
-        - Exchange E25 2020","updated_at":"2022-09-06T09:35:23-04:00","body_html":"","published_at":"2021-07-01T18:00:00-04:00","sort_order":"best-selling","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/261224595479"},{"id":262650626071,"handle":"recommended-for-you","title":"Recommended
-        for You","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":"2021-11-17T15:29:55-05:00","sort_order":"best-selling","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/262650626071"},{"id":265898098711,"handle":"everyday-audio","title":"Everyday
-        Audio","updated_at":"2022-09-06T09:35:23-04:00","body_html":"","published_at":null,"sort_order":"best-selling","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/265898098711"},{"id":265898164247,"handle":"fitness-audio","title":"Fitness
-        Audio","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":null,"sort_order":"manual","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/265898164247"},{"id":268060098583,"handle":"the-fitness-collection","title":"The
-        Fitness Collection","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":"2022-05-12T14:11:55-04:00","sort_order":"best-selling","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/268060098583"},{"id":270145159191,"handle":"the-everyday-series-x-t-pain","title":"The
-        Everyday Series","updated_at":"2022-09-06T09:35:23-04:00","body_html":"","published_at":"2022-08-01T14:28:51-04:00","sort_order":"best-selling","template_suffix":"everyday","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/270145159191"},{"id":270560034839,"handle":"end-of-summer-sale","title":"sale","updated_at":"2022-09-06T09:40:32-04:00","body_html":"","published_at":"2022-08-26T10:45:35-04:00","sort_order":"best-selling","template_suffix":"","published_scope":"web","admin_graphql_api_id":"gid:\/\/shopify\/Collection\/270560034839"}]}'
+      string: "{\"custom_collections\":[{\"id\":162218278979,\"handle\":\"hawaiian-beach-sets\",\"title\":\"Hawaiian
+        Beach Sets\",\"updated_at\":\"2022-09-07T15:05:15+02:00\",\"body_html\":\"Auf
+        der Suche nach Layering-Looks perfekt f\xFCr den Sommer? Entdecke unsere Hawaiian
+        Beach Sets\",\"published_at\":\"2020-06-30T11:26:15+02:00\",\"sort_order\":\"manual\",\"template_suffix\":\"\",\"published_scope\":\"global\",\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Collection\\/162218278979\",\"image\":{\"created_at\":\"2020-07-03T14:27:06+02:00\",\"alt\":null,\"width\":2440,\"height\":880,\"src\":\"https:\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/1328\\/6091\\/collections\\/Kollektionsbanner_5066d2d0-548e-41f6-b107-88fcb44f37fe.jpg?v=1634715651\"}},{\"id\":265025192003,\"handle\":\"kates-diary\",\"title\":\"@kates.diary\",\"updated_at\":\"2022-09-07T14:30:18+02:00\",\"body_html\":\"\",\"published_at\":null,\"sort_order\":\"best-selling\",\"template_suffix\":\"influencer\",\"published_scope\":\"web\",\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Collection\\/265025192003\"}]}"
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 7467a286dab368b6-BUD
+      - 747862cc1a848ee4-SOF
       Connection:
       - close
       Content-Security-Policy:
@@ -43,22 +34,22 @@ interactions:
         https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
         https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
         https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
-        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fcustom_collections&source%5Bsection%5D=admin_api&source%5Buuid%5D=1252a806-08f3-45c0-b74c-a194b74dfbc9'
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fcustom_collections&source%5Bsection%5D=admin_api&source%5Buuid%5D=6f56d256-5aa4-4c4e-a259-f65500a06742'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Tue, 06 Sep 2022 13:43:39 GMT
+      - Thu, 08 Sep 2022 14:31:07 GMT
       HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
       - 1/80
       Link:
-      - <https://test-8192.myshopify.com/admin/api/2022-01/custom_collections.json?limit=250&page_info=eyJ1cGRhdGVkX2F0X21pbiI6IjIwMjItMDktMDYgMTM6MDA6MDAgVVRDIiwidXBkYXRlZF9hdF9tYXgiOiIyMDIyLTA5LTA2IDEzOjQzOjM5IFVUQyIsIm9yZGVyIjoiaWQgYXNjIiwibGFzdF9pZCI6MzM4MjI4MzQ3MTEsImxhc3RfdmFsdWUiOiIzMzgyMjgzNDcxMSIsImRpcmVjdGlvbiI6InByZXYifQ>;
+      - <https://test-8192.myshopify.com/admin/api/2022-01/custom_collections.json?limit=250&page_info=eyJ1cGRhdGVkX2F0X21pbiI6IjIwMjItMDktMDcgMTI6MDA6MDAgVVRDIiwidXBkYXRlZF9hdF9tYXgiOiIyMDIyLTA5LTA4IDAwOjAwOjAwIFVUQyIsIm9yZGVyIjoiaWQgYXNjIiwibGFzdF9pZCI6MTYyMjE4Mjc4OTc5LCJsYXN0X3ZhbHVlIjoiMTYyMjE4Mjc4OTc5IiwiZGlyZWN0aW9uIjoicHJldiJ9>;
         rel="previous"
       NEL:
       - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
       Referrer-Policy:
       - origin-when-cross-origin
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1pm85LkjRzdhVmifyb1QmA3dqrSBff4icaG8YLpw3bdCc9NH2ZznMlrL0ZZVagwxHOdPIQqeI%2BYfeDPTcpQnJ9mvCzC2fffT%2BgP3PeGPO4sOdI2YqHT9QD8ydWlrknhxk8U5akFk"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PInrkuxsFR%2B1nHs%2FB%2Bm4COrviOB1hdzFXHn15Sl18CyaCs%2FrKahqcCAgNxHGk0esJWWIFfcKUBr80v8EiyM90d%2FbxIhYHgTWQ5KCiiUgQ1V50GyZlId%2Fy5tDoBrknamHQ6EPQI22IQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -70,7 +61,7 @@ interactions:
       X-Content-Type-Options:
       - nosniff
       X-Dc:
-      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      - gcp-europe-west3,gcp-us-east1,gcp-us-east1
       X-Download-Options:
       - noopen
       X-Frame-Options:
@@ -78,11 +69,11 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-ID:
-      - 1252a806-08f3-45c0-b74c-a194b74dfbc9
+      - 6f56d256-5aa4-4c4e-a259-f65500a06742
       X-ShardId:
-      - '22'
+      - '264'
       X-ShopId:
-      - '24040041'
+      - '13286091'
       X-Shopify-API-Terms:
       - By accessing or using the Shopify API you agree to the Shopify API License
         and Terms of Use at https://www.shopify.com/legal/api-terms
@@ -93,17 +84,17 @@ interactions:
       X-Shopify-Stage:
       - production
       X-Sorting-Hat-PodId:
-      - '22'
+      - '264'
       X-Sorting-Hat-ShopId:
-      - '24040041'
+      - '13286091'
       X-Stats-ApiClientId:
-      - '6573019'
+      - '4234838017'
       X-Stats-ApiPermissionId:
-      - '325391843351'
+      - '394999202057'
       X-Stats-UserId:
       - ''
       X-XSS-Protection:
-      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fcustom_collections&source%5Bsection%5D=admin_api&source%5Buuid%5D=1252a806-08f3-45c0-b74c-a194b74dfbc9
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fcustom_collections&source%5Bsection%5D=admin_api&source%5Buuid%5D=6f56d256-5aa4-4c4e-a259-f65500a06742
       alt-svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     status:

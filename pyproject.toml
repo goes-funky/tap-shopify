@@ -17,6 +17,7 @@ requests = "2.26.0"
 singer-python = "5.12.2"
 gql-query-builder = ""
 ipdb = ""
+freezegun = "^1.2.2"
 
 [tool.poetry.dev-dependencies]
 integrations-testing-framework = {git = "git@github.com:goes-funky/integrations-testing-framework.git"}

@@ -134,6 +134,17 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "freezegun"
+version = "1.2.2"
+description = "Let your Python tests travel through time"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+python-dateutil = ">=2.7"
+
+[[package]]
 name = "gql-query-builder"
 version = "0.1.7"
 description = "This is a GraphQL query builder."
@@ -784,7 +795,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "c9400020ce94d368a984ad5aba45663d971d95080e5f88ea6758200797abdb64"
+content-hash = "f266b6b711fc17059bbcb4bf2de3d38b74d302f7c1639de4d650d9517ce0cf41"
 
 [metadata.files]
 appnope = []
@@ -809,6 +820,7 @@ colorama = []
 coverage = []
 decorator = []
 executing = []
+freezegun = []
 gql-query-builder = []
 idna = []
 importlib-metadata = []
