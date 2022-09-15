@@ -7,21 +7,20 @@ interactions:
       Host:
       - test-8192.myshopify.com
       User-Agent:
-      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      - ShopifyPythonAPI/10.0.0 Python/3.9.0
       X-Shopify-Access-Token:
-      - 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
+      - s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
     method: GET
     uri: https://test-8192.myshopify.com/admin/api/2022-01/locations.json
   response:
     body:
-      string: '{"locations":[{"id":9102087,"name":"Am Kirschberg 9","address1":"Am
-        Kirschberg 9","address2":"","city":"Weisenheim am Berg","zip":"67273","province":"","country":"DE","phone":"00491785510709","created_at":"2016-06-14T21:38:30+02:00","updated_at":"2019-03-15T02:13:50+01:00","country_code":"DE","country_name":"Germany","province_code":null,"legacy":false,"active":false,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/9102087","localized_country_name":"Germany","localized_province_name":null},{"id":49939667,"name":"test-8192
-        GmbH Warehouse","address1":"Dudenstrasse 37-43","address2":"","city":"Mannheim","zip":"68167","province":"","country":"DE","phone":"+4932221099527","created_at":"2017-08-30T03:14:13+02:00","updated_at":"2019-11-15T17:45:06+01:00","country_code":"DE","country_name":"Germany","province_code":null,"legacy":false,"active":true,"admin_graphql_api_id":"gid:\/\/shopify\/Location\/49939667","localized_country_name":"Germany","localized_province_name":null}]}'
+      string: "{\"locations\":[{\"id\":35617767476,\"name\":\"David Test\",\"address1\":null,\"address2\":null,\"city\":null,\"zip\":null,\"province\":null,\"country\":\"DE\",\"phone\":null,\"created_at\":\"2020-01-26T15:55:32+01:00\",\"updated_at\":\"2020-01-26T15:55:32+01:00\",\"country_code\":\"DE\",\"country_name\":\"Germany\",\"province_code\":null,\"legacy\":true,\"active\":true,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Location\\/35617767476\",\"localized_country_name\":\"Germany\",\"localized_province_name\":null},{\"id\":34903294004,\"name\":\"Isarwinkel\",\"address1\":\"Isarwinkel
+        4\",\"address2\":\"\",\"city\":\"M\xFCnchen\",\"zip\":\"81379\",\"province\":null,\"country\":\"DE\",\"phone\":\"+4989452067961\",\"created_at\":\"2019-11-09T14:12:09+01:00\",\"updated_at\":\"2021-06-28T13:54:17+02:00\",\"country_code\":\"DE\",\"country_name\":\"Germany\",\"province_code\":null,\"legacy\":false,\"active\":true,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Location\\/34903294004\",\"localized_country_name\":\"Germany\",\"localized_province_name\":null}]}"
     headers:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 74781d471e0e8ee6-SOF
+      - 74b1ab40f8ee0e1a-MXP
       Connection:
       - close
       Content-Security-Policy:
@@ -33,19 +32,19 @@ interactions:
         https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
         https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
         https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
-        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=0e453d2d-8800-4277-8fee-4595d805068c'
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=1c704abc-8f73-42a2-9413-ad2dfdb29504'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Thu, 08 Sep 2022 13:43:39 GMT
+      - Thu, 15 Sep 2022 13:22:03 GMT
       HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
-      - 1/80
+      - 2/80
       NEL:
       - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
       Referrer-Policy:
       - origin-when-cross-origin
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XVtA%2Fkj4W71Ht%2FAg%2Bhw9t4C8vjSnhr8Xgkrk0nNgRrkIHyKk%2FZ2CdQltNJHTEhJ12FkwwVyzlojibxrmzMrLf8XhsTqvybsZoLmPJNzs914ksLIAbRGJ8rv5O8iO2dCF3Yyr3KQBJw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FLhcWS44%2Bsl19CrCzN7PrWH%2FClVKuDY5Nw2azrsbh5ZErrResUJvHskblDJNy2Eth2Q%2BJAlUUik9RZWNFUCCRH8U4kyaZowPJTIt4d8hWYW6%2FmIu44JJNrIeCzIiiF9Nqv3qcTXRRi5J7A%3D%3D"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Strict-Transport-Security:
@@ -57,7 +56,7 @@ interactions:
       X-Content-Type-Options:
       - nosniff
       X-Dc:
-      - gcp-europe-west3,gcp-us-east1,gcp-us-east1
+      - gcp-europe-west8,gcp-us-east1,gcp-us-east1
       X-Download-Options:
       - noopen
       X-Frame-Options:
@@ -65,32 +64,32 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-ID:
-      - 0e453d2d-8800-4277-8fee-4595d805068c
+      - 1c704abc-8f73-42a2-9413-ad2dfdb29504
       X-ShardId:
-      - '264'
+      - '266'
       X-ShopId:
-      - '13286091'
+      - '27450834996'
       X-Shopify-API-Terms:
       - By accessing or using the Shopify API you agree to the Shopify API License
         and Terms of Use at https://www.shopify.com/legal/api-terms
       X-Shopify-API-Version:
       - 2022-01
       X-Shopify-Shop-Api-Call-Limit:
-      - 1/80
+      - 2/80
       X-Shopify-Stage:
       - production
       X-Sorting-Hat-PodId:
-      - '264'
+      - '266'
       X-Sorting-Hat-ShopId:
-      - '13286091'
+      - '27450834996'
       X-Stats-ApiClientId:
-      - '4234838017'
+      - '4596747'
       X-Stats-ApiPermissionId:
-      - '394999202057'
+      - '297257861313'
       X-Stats-UserId:
       - ''
       X-XSS-Protection:
-      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=0e453d2d-8800-4277-8fee-4595d805068c
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=1c704abc-8f73-42a2-9413-ad2dfdb29504
       alt-svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     status:
