@@ -125,6 +125,10 @@ def sync():
 
     # Emit all schemas first so we have them for child streams
     for stream in Context.catalog["streams"]:
+
+        # Update streams to map
+        Context.stream_map = {s["tap_stream_id"]: s for s in Context.catalog['streams']}
+
         if Context.is_selected(stream["tap_stream_id"]):
             singer.write_schema(stream["tap_stream_id"],
                                 stream["schema"],

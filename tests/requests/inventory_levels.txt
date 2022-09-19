@@ -7,7 +7,7 @@ interactions:
       Host:
       - test-8192.myshopify.com
       User-Agent:
-      - ShopifyPythonAPI/10.0.0 Python/3.9.0
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
       X-Shopify-Access-Token:
       - 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
     method: GET
@@ -19,7 +19,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 74b1cca148190f6e-MXP
+      - 74d1e1b6f9d468b5-BUD
       Connection:
       - close
       Content-Security-Policy:
@@ -31,11 +31,11 @@ interactions:
         https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
         https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
         https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
-        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=c2273b03-0c6d-463c-995c-b15c95a2272f'
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=3f26921a-d29c-4d06-b5bc-d2a9eb45f175'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Thu, 15 Sep 2022 13:44:50 GMT
+      - Mon, 19 Sep 2022 11:11:38 GMT
       HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
       - 1/40
       NEL:
@@ -43,7 +43,7 @@ interactions:
       Referrer-Policy:
       - origin-when-cross-origin
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wgezfj9jjejRb8oS4zGeMbJqEAI3B18VR7VPLzlhXNBQypgOK7t4wYttIqrtDJLLWs%2Bab%2FPIBc7UBbFBartCCJojZc76JSrsFmdkW09s9IWOZpjRC9ZXCQ8LSX6zRz3Rdve%2BxQfuResr"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WWpsRXbeN03z4bblLiH952kqlCXbGYHx%2BF%2F6qG5mmH6xMGdWUDH8maBNKuul33VJnXYttOdue6sRFFKRT2dO0on5uqExfxDjLj3jy%2BlM2VjyVP4huJxWd1D%2FgqBX8Ohx36rbNrzwLzkJ"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -53,7 +53,7 @@ interactions:
       X-Content-Type-Options:
       - nosniff
       X-Dc:
-      - gcp-europe-west8,gcp-us-central1,gcp-us-central1
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
       X-Download-Options:
       - noopen
       X-Frame-Options:
@@ -61,7 +61,7 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-ID:
-      - c2273b03-0c6d-463c-995c-b15c95a2272f
+      - 3f26921a-d29c-4d06-b5bc-d2a9eb45f175
       X-ShardId:
       - '154'
       X-ShopId:
@@ -86,7 +86,7 @@ interactions:
       X-Stats-UserId:
       - ''
       X-XSS-Protection:
-      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=c2273b03-0c6d-463c-995c-b15c95a2272f
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fsettings%2Flocations&source%5Bsection%5D=admin_api&source%5Buuid%5D=3f26921a-d29c-4d06-b5bc-d2a9eb45f175
       alt-svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     status:
@@ -100,7 +100,7 @@ interactions:
       Host:
       - test-8192.myshopify.com
       User-Agent:
-      - ShopifyPythonAPI/10.0.0 Python/3.9.0
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
       X-Shopify-Access-Token:
       - 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
     method: GET
@@ -112,7 +112,7 @@ interactions:
       CF-Cache-Status:
       - DYNAMIC
       CF-RAY:
-      - 74b1cca4ed9f0f82-MXP
+      - 74d1e1b98a1bc1a5-BUD
       Connection:
       - close
       Content-Security-Policy:
@@ -124,11 +124,11 @@ interactions:
         https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
         https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
         https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
-        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Finventory_levels&source%5Bsection%5D=admin_api&source%5Buuid%5D=5b2513b3-694f-41dd-8ce6-5fe174b13554'
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Finventory_levels&source%5Bsection%5D=admin_api&source%5Buuid%5D=7de8b7d4-09a3-45c0-8a5e-d429e229e67b'
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Thu, 15 Sep 2022 13:44:50 GMT
+      - Mon, 19 Sep 2022 11:11:38 GMT
       HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
       - 1/40
       NEL:
@@ -136,7 +136,7 @@ interactions:
       Referrer-Policy:
       - origin-when-cross-origin
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uEnmw1qSI2EC9CLw0X3FymASuvXsV9fMVqYF4Ti6xySUQ2lvsl0%2FjrR3l0ll5CgQ9IVxNm6miX85HxJwf7BLESL6lgqNcmY09mbX78ZzTF87gooH5aE5T7T0ueVq9uk4ouYICCymcD8a"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PjzuVY5TAGBKNFUUo9i8swjXCJIaGFF15wD1MQA9UNgAN4TbygYQMEab2%2FjpNHuYXS3QDNO5%2BgNgbj9t1F5JrtryT9fu3BqMBnflSaYuo%2FWtunLOmmiDIQqO6ThpYitVBwgUUamVqf9x"}],"group":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Transfer-Encoding:
@@ -146,7 +146,7 @@ interactions:
       X-Content-Type-Options:
       - nosniff
       X-Dc:
-      - gcp-europe-west8,gcp-us-central1,gcp-us-central1
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
       X-Download-Options:
       - noopen
       X-Frame-Options:
@@ -154,7 +154,7 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-ID:
-      - 5b2513b3-694f-41dd-8ce6-5fe174b13554
+      - 7de8b7d4-09a3-45c0-8a5e-d429e229e67b
       X-ShardId:
       - '154'
       X-ShopId:
@@ -179,7 +179,7 @@ interactions:
       X-Stats-UserId:
       - ''
       X-XSS-Protection:
-      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Finventory_levels&source%5Bsection%5D=admin_api&source%5Buuid%5D=5b2513b3-694f-41dd-8ce6-5fe174b13554
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Finventory_levels&source%5Bsection%5D=admin_api&source%5Buuid%5D=7de8b7d4-09a3-45c0-8a5e-d429e229e67b
       alt-svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     status:
