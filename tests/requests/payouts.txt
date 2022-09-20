@@ -1,0 +1,385 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.0
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/shopify_payments/payouts.json?since_id=1&date_min=2022-09-01+09%3A00%3A00%2B00%3A00&date_max=2022-09-02+09%3A00%3A00%2B00%3A00&limit=250
+  response:
+    body:
+      string: '{"payouts":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74b1ad2a2eeff91f-MXP
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshopify_payments%2Fapi%2Fpayouts&source%5Bsection%5D=admin_api&source%5Buuid%5D=bc14e674-45d9-4a4f-ad07-55342da8b030'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 15 Sep 2022 13:23:21 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ky3e35Dm%2B189bPJsrC0fDR4eJafQwwWBe4F9xXBgPfpweoneIeGMTX4Aicu3OF4ElGk9jiOrxYG2NFsDzfSFkYEjT3d%2B3xN63PPSivYNzUEYJD4tQ5Z088Yrmd6cS7T30dR87fA7DomxBw%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west8,gcp-us-east1,gcp-us-east1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - bc14e674-45d9-4a4f-ad07-55342da8b030
+      X-ShardId:
+      - '266'
+      X-ShopId:
+      - '27450834996'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '266'
+      X-Sorting-Hat-ShopId:
+      - '27450834996'
+      X-Stats-ApiClientId:
+      - '4596747'
+      X-Stats-ApiPermissionId:
+      - '297257861313'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshopify_payments%2Fapi%2Fpayouts&source%5Bsection%5D=admin_api&source%5Buuid%5D=bc14e674-45d9-4a4f-ad07-55342da8b030
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.0
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/shopify_payments/payouts.json?since_id=1&date_min=2022-09-03+09%3A00%3A01%2B00%3A00&date_max=2022-09-04+09%3A00%3A01%2B00%3A00&limit=250
+  response:
+    body:
+      string: '{"payouts":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74b1ad2c9dea0e02-MXP
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshopify_payments%2Fapi%2Fpayouts&source%5Bsection%5D=admin_api&source%5Buuid%5D=c3356c98-e392-4492-9633-70b178cd6a92'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 15 Sep 2022 13:23:21 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TjBHmY2HVXuCu3yZDaAwM6nHPjD8yI4Wl8Oc2ISSp2DCscZ4aY0kL9gtTBLQz35UslykRHnTSbO%2BAe5c7Ue%2FYr03E7KZARXvxsWdM5qHsu%2BhPdEGXJFSpfeyB7yP1ty84QvgjeT%2FJ%2BXBcA%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west8,gcp-us-east1,gcp-us-east1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - c3356c98-e392-4492-9633-70b178cd6a92
+      X-ShardId:
+      - '266'
+      X-ShopId:
+      - '27450834996'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '266'
+      X-Sorting-Hat-ShopId:
+      - '27450834996'
+      X-Stats-ApiClientId:
+      - '4596747'
+      X-Stats-ApiPermissionId:
+      - '297257861313'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshopify_payments%2Fapi%2Fpayouts&source%5Bsection%5D=admin_api&source%5Buuid%5D=c3356c98-e392-4492-9633-70b178cd6a92
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.0
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/shopify_payments/payouts.json?since_id=1&date_min=2022-09-05+09%3A00%3A02%2B00%3A00&date_max=2022-09-06+09%3A00%3A02%2B00%3A00&limit=250
+  response:
+    body:
+      string: '{"payouts":[{"id":94930141451,"status":"paid","date":"2022-09-05","currency":"EUR","amount":"86474.39","summary":{"adjustments_fee_amount":"0.00","adjustments_gross_amount":"-25.88","charges_fee_amount":"2768.60","charges_gross_amount":"90432.84","refunds_fee_amount":"0.00","refunds_gross_amount":"-1163.97","reserved_funds_fee_amount":"0.00","reserved_funds_gross_amount":"0.00","retried_payouts_fee_amount":"0.00","retried_payouts_gross_amount":"0.00"}}]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74b1ad2eeae53763-MXP
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshopify_payments%2Fapi%2Fpayouts&source%5Bsection%5D=admin_api&source%5Buuid%5D=3a9b859a-59b1-48ec-8788-b74f20244b2c'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 15 Sep 2022 13:23:22 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      Link:
+      - <https://test-8192.myshopify.com/admin/api/2022-01/shopify_payments/payouts.json?limit=250&page_info=eyJpc3N1ZWRfYXRfbWluIjoiMjAyMi0wOS0wNSAwOTowMDowMiBVVEMiLCJpc3N1ZWRfYXRfbWF4IjoiMjAyMi0wOS0wNiAwOTowMDowMiBVVEMiLCJvcmRlciI6ImlkIGFzYyIsImxhc3RfaWQiOjk0OTMwMTQxNDUxLCJsYXN0X3ZhbHVlIjoiOTQ5MzAxNDE0NTEiLCJkaXJlY3Rpb24iOiJwcmV2In0>;
+        rel="previous"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r4hoWEhw49V0ynndGBA04xe4gJMfLuP96NDFbcfZrnzpEs49IKZ1A2NEjF9w2WR2fcP8vhmyoPOZ8Hsbsa4gHS3AuAhX7BcsPIfNHN0cNTfqmyZ%2Fk35UCg8F8av9%2BEJ1HwNXtoso7%2BduqQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west8,gcp-us-east1,gcp-us-east1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 3a9b859a-59b1-48ec-8788-b74f20244b2c
+      X-ShardId:
+      - '266'
+      X-ShopId:
+      - '27450834996'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '266'
+      X-Sorting-Hat-ShopId:
+      - '27450834996'
+      X-Stats-ApiClientId:
+      - '4596747'
+      X-Stats-ApiPermissionId:
+      - '297257861313'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshopify_payments%2Fapi%2Fpayouts&source%5Bsection%5D=admin_api&source%5Buuid%5D=3a9b859a-59b1-48ec-8788-b74f20244b2c
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.0
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/shopify_payments/payouts.json?since_id=1&date_min=2022-09-07+09%3A00%3A03%2B00%3A00&date_max=2022-09-08+00%3A00%3A00%2B00%3A00&limit=250
+  response:
+    body:
+      string: '{"payouts":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74b1ad31bb0c0e12-MXP
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshopify_payments%2Fapi%2Fpayouts&source%5Bsection%5D=admin_api&source%5Buuid%5D=51af7bfc-3411-451d-abe4-eae7420223e7'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 15 Sep 2022 13:23:22 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/80
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6sw55PN1Wfn190LpHw91WYGKrk6WiJjrranbBvHJqprl0l%2BHjH7lg%2FLbH2TC4U5J0Bi9jd2Rke9SeXoe0nU8pT5MbVVJCCDqIwAns0XKxBL0BmTc3QdKMwk6Eiuk%2B30N5vbSPZT%2BWuF71w%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west8,gcp-us-east1,gcp-us-east1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 51af7bfc-3411-451d-abe4-eae7420223e7
+      X-ShardId:
+      - '266'
+      X-ShopId:
+      - '27450834996'
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '266'
+      X-Sorting-Hat-ShopId:
+      - '27450834996'
+      X-Stats-ApiClientId:
+      - '4596747'
+      X-Stats-ApiPermissionId:
+      - '297257861313'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fshopify_payments%2Fapi%2Fpayouts&source%5Bsection%5D=admin_api&source%5Buuid%5D=51af7bfc-3411-451d-abe4-eae7420223e7
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1

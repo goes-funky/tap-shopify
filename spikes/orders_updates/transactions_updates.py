@@ -60,7 +60,7 @@ new_order = {
     "currency": "USD"
   }
 }
-order_post_endpoint = 'orders.json'
+order_post_endpoint = 'customer_journey.json'
 orders_post_resp = shopify_post(order_post_endpoint, new_order)
 new_order_id = orders_post_resp['order']['id']
 order_created_updated_at = orders_post_resp['order']['updated_at']

@@ -1,0 +1,667 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-01+09%3A00%3A00%2B00%3A00&updated_at_max=2022-09-02+09%3A00%3A00%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74d9eeb94e59c1c6-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=a03acd50-49cf-4b5a-93fa-08e230c09166'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 20 Sep 2022 10:38:37 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/40
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ukITpFqFSzslmHm6IZBNsbLNKQrWRy0NaHEx0gPLW7XUuVe8lXiPEPzjkXtj8ealN3yRmGvG5ijF2qkNh%2FdHfcvIaphNIIjIc5vlUrxxy8Uamxgzd1MZW%2FMJev1hTQL7sqLkRy3acBb8"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - a03acd50-49cf-4b5a-93fa-08e230c09166
+      X-ShardId:
+      - '154'
+      X-ShopId:
+      - '60695937179'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '154'
+      X-Sorting-Hat-ShopId:
+      - '60695937179'
+      X-Stats-ApiClientId:
+      - '8548745217'
+      X-Stats-ApiPermissionId:
+      - '388890591387'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=a03acd50-49cf-4b5a-93fa-08e230c09166
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-02+09%3A00%3A01%2B00%3A00&updated_at_max=2022-09-03+09%3A00%3A01%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74d9eebf28431cdc-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=a6e1bfe0-4a26-4356-87d3-6d6cb360d1cd'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 20 Sep 2022 10:38:38 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/40
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Z3eATdjnAuSyUvrHvCGLNQ2PMsL1ux%2F9Ow1KgXrqWRuxUVekUwBdcfTRNVcpRrZZtaVQJDNo2FlattL1tpxJyvb7Imq5e7IZ7eFT9IO85a72JBwXgbkv2K6XsY2eoNnz212LHIUTR1HU"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - a6e1bfe0-4a26-4356-87d3-6d6cb360d1cd
+      X-ShardId:
+      - '154'
+      X-ShopId:
+      - '60695937179'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '154'
+      X-Sorting-Hat-ShopId:
+      - '60695937179'
+      X-Stats-ApiClientId:
+      - '8548745217'
+      X-Stats-ApiPermissionId:
+      - '388890591387'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=a6e1bfe0-4a26-4356-87d3-6d6cb360d1cd
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-03+09%3A00%3A02%2B00%3A00&updated_at_max=2022-09-04+09%3A00%3A02%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74d9eec1fc1868b9-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=25ce70dd-49a3-4402-8402-6bfdb2d6d0ee'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 20 Sep 2022 10:38:38 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/40
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=weapq2EkPztbSAPKUQ2HznC%2FiZ3H9MhgPjyMlCoInoW3FFU8SJdmKiRgSsEt1BlW9lvb0ueKHv%2F48JP4UypVw%2BdKWbo%2BlnhdAkbhMGLiHjC%2FE1quCGvIUjJY0h9IhekWTUlLAwn15mpz"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 25ce70dd-49a3-4402-8402-6bfdb2d6d0ee
+      X-ShardId:
+      - '154'
+      X-ShopId:
+      - '60695937179'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '154'
+      X-Sorting-Hat-ShopId:
+      - '60695937179'
+      X-Stats-ApiClientId:
+      - '8548745217'
+      X-Stats-ApiPermissionId:
+      - '388890591387'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=25ce70dd-49a3-4402-8402-6bfdb2d6d0ee
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-04+09%3A00%3A03%2B00%3A00&updated_at_max=2022-09-05+09%3A00%3A03%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74d9eec44d371cbc-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=c673206b-3791-451a-9e35-1cbe92041374'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 20 Sep 2022 10:38:39 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 1/40
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=T0x6ojdpL%2Fl4OhHPIuKmcAM9RlqkjT7sWbjQeqUabz3koNtrfNLUGhHqBy0rRayRtgAONIfVsvlbVDvKPEEMuDE%2FoAXK7iBESTbU4vRDjKEQXmxAWr2YX1uMqmpZddEe%2F%2B8b54L3D4n0"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - c673206b-3791-451a-9e35-1cbe92041374
+      X-ShardId:
+      - '154'
+      X-ShopId:
+      - '60695937179'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 1/40
+      X-Shopify-Stage:
+      - canary
+      X-Sorting-Hat-PodId:
+      - '154'
+      X-Sorting-Hat-ShopId:
+      - '60695937179'
+      X-Stats-ApiClientId:
+      - '8548745217'
+      X-Stats-ApiPermissionId:
+      - '388890591387'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=c673206b-3791-451a-9e35-1cbe92041374
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-05+09%3A00%3A04%2B00%3A00&updated_at_max=2022-09-06+09%3A00%3A04%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74d9eec6cfa5c1c1-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=9b992170-e2e0-4617-88f2-ff1ee80e2abd'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 20 Sep 2022 10:38:39 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 2/40
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kZDgCWwOnPyo0IDvz8gv%2Bj6vIWRWFmTWAARmCwSgkgHwC7Pvhe0XUAKpbl%2F6TvK%2FVjRQAFjkEubK5dOqE2b11XuKInj%2Bog7qkkZWQ3L0jIxXuXQKD1eyszWq6U2UcNFoemyghKhMinsa"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 9b992170-e2e0-4617-88f2-ff1ee80e2abd
+      X-ShardId:
+      - '154'
+      X-ShopId:
+      - '60695937179'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 2/40
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '154'
+      X-Sorting-Hat-ShopId:
+      - '60695937179'
+      X-Stats-ApiClientId:
+      - '8548745217'
+      X-Stats-ApiPermissionId:
+      - '388890591387'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=9b992170-e2e0-4617-88f2-ff1ee80e2abd
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-06+09%3A00%3A05%2B00%3A00&updated_at_max=2022-09-07+09%3A00%3A05%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74d9eec9a975684c-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=f5a3b025-aeda-4811-8b01-5c733019d689'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 20 Sep 2022 10:38:39 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 2/40
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=X%2FgG9mHiUh2MCg7qYUyjdwbNIucyGVKb8R9xGSdCQKMvx0fioNDIoZd1fbCLyzge7%2FYUfJhshCCOwkxwemS5Sl7obzUbJZbJZv9iW67cCwozIELjW6NX8cVi5rVkCLvWMgsVPVXbOvYR"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - f5a3b025-aeda-4811-8b01-5c733019d689
+      X-ShardId:
+      - '154'
+      X-ShopId:
+      - '60695937179'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 2/40
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '154'
+      X-Sorting-Hat-ShopId:
+      - '60695937179'
+      X-Stats-ApiClientId:
+      - '8548745217'
+      X-Stats-ApiPermissionId:
+      - '388890591387'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=f5a3b025-aeda-4811-8b01-5c733019d689
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - test-8192.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.13
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://test-8192.myshopify.com/admin/api/2022-01/price_rules.json?since_id=1&updated_at_min=2022-09-07+09%3A00%3A06%2B00%3A00&updated_at_max=2022-09-08+00%3A00%3A00%2B00%3A00&limit=250&status=any
+  response:
+    body:
+      string: '{"price_rules":[]}'
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74d9eecc482368bc-BUD
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=ce767ddd-7ef4-4669-87d9-a7b05cb35120'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 20 Sep 2022 10:38:40 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 2/40
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6GY%2BtLxD6d3AUSWWC9bPv%2BPL5PhRPPBK9dSXmVtgOxhpKy1klmP%2FYmzhv9fViRMZVkWbY6sPjEMn%2BXYPQrwotOsDqd66N461kTKSrKx1gXSqIjbtDVp9XkcGbRkR%2BT6vfzUOMZiPYKFj"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west3,gcp-us-central1,gcp-us-central1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - ce767ddd-7ef4-4669-87d9-a7b05cb35120
+      X-ShardId:
+      - '154'
+      X-ShopId:
+      - '60695937179'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/beta/segmentation-api/migrate-your-app
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 2/40
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '154'
+      X-Sorting-Hat-ShopId:
+      - '60695937179'
+      X-Stats-ApiClientId:
+      - '8548745217'
+      X-Stats-ApiPermissionId:
+      - '388890591387'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fprice_rules&source%5Bsection%5D=admin_api&source%5Buuid%5D=ce767ddd-7ef4-4669-87d9-a7b05cb35120
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1

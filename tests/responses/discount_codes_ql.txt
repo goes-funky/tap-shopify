@@ -1,0 +1,2 @@
+{"type": "SCHEMA", "stream": "discount_codes_ql", "schema": {"properties": {"code": {"type": ["null", "string"]}, "usageCount": {"type": ["null", "string"]}, "created_at": {"format": "date-time", "type": ["null", "string", "generated"]}, "updated_at": {"format": "date-time", "type": ["null", "string", "generated"]}, "id": {"type": ["null", "string"]}, "parentId": {"type": ["null", "string", "generated"]}}, "type": "object"}, "key_properties": ["id"], "bookmark_properties": ["createdAt"]}
+{"type": "STATE", "value": {"bookmarks": {}}}
