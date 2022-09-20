@@ -346,7 +346,7 @@ class Stream():
 
     #This function for streams that don't have 1 day request param tends to compare 'updated_at' values and save the > on self.last_bookmark
     def compare_bookmark(self, new_bookmark):
-        if utils.strptime_with_tz(new_bookmark) > self.last_bookmark:
+        if str(utils.strptime_with_tz(new_bookmark)) > str(self.last_bookmark):
             self.last_bookmark = new_bookmark
 
     # This function in streams that accept to query by since id, push the id into the state

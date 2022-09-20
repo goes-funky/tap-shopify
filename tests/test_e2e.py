@@ -35,6 +35,15 @@ def test_balance_transactions():
 
 
 @freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
+@assert_stdout_matches('tests/responses/collects.txt')
+@intercept_requests('tests/requests/collects.txt', generate=False)
+@with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
+    'tests/streams.json', 'collects', 'stream')])
+def test_collects():
+    tap_shopify.main()
+
+
+@freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
 @assert_stdout_matches('tests/responses/custom_collections.txt')
 @intercept_requests('tests/requests/custom_collections.txt', generate=False)
 @with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
@@ -62,6 +71,24 @@ def test_customers():
 
 
 @freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
+@assert_stdout_matches('tests/responses/discount_codes.txt')
+@intercept_requests('tests/requests/discount_codes.txt', generate=False)
+@with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
+    'tests/streams.json', 'discount_codes', 'stream')])
+def test_discount_codes():
+    tap_shopify.main()
+
+
+@freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
+@assert_stdout_matches('tests/responses/discount_codes_ql.txt')
+@intercept_requests('tests/requests/discount_codes_ql.txt', generate=False)
+@with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
+    'tests/streams.json', 'discount_codes_ql', 'stream')])
+def test_discount_codes_ql():
+    tap_shopify.main()
+
+
+@freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
 @assert_stdout_matches('tests/responses/giftcards.txt')
 @intercept_requests('tests/requests/giftcards.txt', generate=False)
 @with_sys_args(['--config', config_path, '--catalog', utils.select_schema('tests/streams.json', 'giftcards', 'stream')])
@@ -79,8 +106,8 @@ def test_inventory_items():
 
 
 @freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
-@write_stdout('tests/responses/inventory_levels.txt')
-@intercept_requests('tests/requests/inventory_levels.txt', generate=True)
+@assert_stdout_matches('tests/responses/inventory_levels.txt')
+@intercept_requests('tests/requests/inventory_levels.txt', generate=False)
 @with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
     'tests/streams.json', 'inventory_levels', 'stream')])
 def test_inventory_levels():
@@ -105,10 +132,37 @@ def test_metafields_custom_collections():
 
 
 @freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
+@assert_stdout_matches('tests/responses/order_refunds.txt')
+@intercept_requests('tests/requests/order_refunds.txt', generate=False)
+@with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
+    'tests/streams.json', 'order_refunds', 'stream')])
+def test_order_refunds():
+    tap_shopify.main()
+
+
+@freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
+@assert_stdout_matches('tests/responses/orders.txt')
+@intercept_requests('tests/requests/orders.txt', generate=False)
+@with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
+    'tests/streams.json', 'orders', 'stream')])
+def test_orders():
+    tap_shopify.main()
+
+
+@freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
 @assert_stdout_matches('tests/responses/payouts.txt')
 @intercept_requests('tests/requests/payouts.txt', generate=False)
 @with_sys_args(['--config', config_path, '--catalog', utils.select_schema('tests/streams.json', 'payouts', 'stream')])
 def test_payouts():
+    tap_shopify.main()
+
+
+@freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
+@assert_stdout_matches('tests/responses/price_rules.txt')
+@intercept_requests('tests/requests/price_rules.txt', generate=False)
+@with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
+    'tests/streams.json', 'price_rules', 'stream')])
+def test_price_rules():
     tap_shopify.main()
 
 
@@ -119,3 +173,11 @@ def test_payouts():
 def test_products():
     tap_shopify.main()
 
+
+@freeze_time(datetime.datetime.strptime("2022-09-08T00:00:00Z", "%Y-%m-%dT%H:%M:%SZ"))
+@assert_stdout_matches('tests/responses/transactions.txt')
+@intercept_requests('tests/requests/transactions.txt', generate=False)
+@with_sys_args(['--config', config_path, '--catalog', utils.select_schema(
+    'tests/streams.json', 'transactions', 'stream')])
+def test_transactions():
+    tap_shopify.main()
