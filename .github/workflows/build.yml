@@ -16,4 +16,4 @@ jobs:
       skip-isort: true
       skip-format: true
       skip-lint: true
-      skip-sonar: false
+      skip-sonar: true
