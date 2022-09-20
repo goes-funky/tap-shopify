@@ -6,8 +6,6 @@ on:
 jobs:
   build-python:
     uses: goes-funky/workflows/.github/workflows/build-python.yaml@master
-    secrets:
-      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     with:
       python-version: "3.9"
       is-repo-public: true
@@ -16,4 +14,3 @@ jobs:
       skip-isort: true
       skip-format: true
       skip-lint: true
-      skip-sonar: true
