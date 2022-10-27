@@ -12,7 +12,7 @@ setup(
     install_requires=[
         "ShopifyAPI==10.0.0",
         "singer-python==5.12.2",
-        'gql-query-builder'
+        'gql-query-builder=0.1.7'
     ],
     extras_require={
         'dev': [
