@@ -24,7 +24,7 @@ _A table listing all possible feature integration can have that we support. Any 
 | **Feature Name**                                                                        | **Supported** | **Comment**                             |
 | --------------------------------------------------------------------------------------- | ------------- | --------------------------------------- |
 | [Full Import](https://docs.y42.com/docs/features#full-import)                           | Yes           |                                         |
-| [Partial Import](https://docs.y42.com/docs/features#partial-import)                     | Yes           | Yearly data                             |
+| [Incremental Import](https://docs.y42.com/docs/features#partial-import)                     | Yes           | Yearly data                             |
 | [Start Date Selection](https://docs.y42.com/docs/features#start-date-selection)         | Yes           |                                         |
 | [Import Empty Tables](https://docs.y42.com/docs/features#import-empty-table)            | No            | Empty streams will not generate a table |
 | [Custom Data](https://docs.y42.com/docs/features#custom-data)                           | No            |                                         |
