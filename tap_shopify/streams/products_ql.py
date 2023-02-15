@@ -29,11 +29,6 @@ class ProductsQL(GraphQlStream):
 
         return schema
 
-    def transform_obj(self, obj):
-        if "receipt" in obj and obj["receipt"] is not None:
-            obj["receipt"] = obj["receipt"].replace("=>", ":").replace("nil", "null")
-        return obj
-
     def get_graph_edges(self) -> str:
         fields = self.get_graph_ql_prop(self.get_table_schema())
         node = GqlQuery().fields(fields, name='node').generate()
