@@ -18,3 +18,4 @@ import tap_shopify.streams.customer_journey
 import tap_shopify.streams.giftcards
 import tap_shopify.streams.discount_codes_ql
 import tap_shopify.streams.metafields_ql
+import tap_shopify.streams.products_ql
