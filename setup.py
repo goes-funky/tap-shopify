@@ -10,7 +10,7 @@ setup(
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["tap_shopify"],
     install_requires=[
-        "ShopifyAPI==10.0.0",
+        "ShopifyAPI==12.0.1",
         "singer-python==5.12.2",
         'gql-query-builder'
     ],
