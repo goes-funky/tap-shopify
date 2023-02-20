@@ -565,13 +565,6 @@
         "object"
       ]
     },
-    "total_price_usd": {
-      "type": [
-        "null",
-        "number"
-      ],
-      "multipleOf": 1e-10
-    },
     "closed_at": {
       "type": [
         "null",
