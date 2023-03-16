@@ -24,7 +24,7 @@ class Collects(Stream):
                 "limit": RESULTS_PER_PAGE,
             }
             if since_id != 1:
-                LOGGER.info("Resuming sync from since_id %d", since_id)
+                LOGGER.info("Resuming sync from since_id %d", int(since_id))
 
             objects = self.call_api(query_params)
 
@@ -36,7 +36,7 @@ class Collects(Stream):
                     LOGGER.info('Collect with id: %d does not have an updated_at, syncing it!',
                                 obj.id)
                 if not obj.updated_at or utils.strptime_with_tz(obj.updated_at) > bookmark:
-                    if obj.id < since_id:
+                    if obj.id < int(since_id):
                         raise OutOfOrderIdsError("obj.id < since_id: {} < {}".format(
                             obj.id, since_id))
                     self.compare_bookmark(obj.updated_at)
