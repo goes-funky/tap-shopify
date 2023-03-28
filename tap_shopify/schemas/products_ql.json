@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "properties": {
+    "createdAt": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "descriptionHtml": {
+      "type": "string"
+    },
+    "handle": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "isGiftCard": {
+      "type": "boolean"
+    },
+    "legacyResourceId": {
+      "type": "string"
+    },
+    "mediaCount": {
+      "type": "integer"
+    },
+    "onlineStorePreviewUrl": {
+      "type": "string"
+    },
+    "onlineStoreUrl": {
+      "type": ["null", "string"]
+    },
+    "options": {
+      "items": {
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "position": {
+            "type": "integer"
+          },
+          "values": {
+              "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "productType": {
+      "type": "string"
+    },
+    "publishedAt": {
+      "type": ["null", "string"]
+    },
+    "status": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "totalInventory": {
+      "type": "integer"
+    },
+    "totalVariants": {
+      "type": "integer"
+    },
+    "tracksInventory": {
+      "type": "boolean"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "vendor": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
