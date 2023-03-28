@@ -1,0 +1,2 @@
+{"type": "SCHEMA", "stream": "inventory_levels", "schema": {"properties": {"available": {"type": ["null", "number"]}, "inventory_item_id": {"type": ["null", "number"]}, "location_id": {"type": ["null", "number"]}, "updated_at": {"format": "date-time", "type": ["null", "string"]}}}, "key_properties": ["id"], "bookmark_properties": ["updated_at"]}
+{"type": "STATE", "value": {"bookmarks": {}}}

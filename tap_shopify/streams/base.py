@@ -194,7 +194,7 @@ class Stream():
             # name is overridden by some substreams
             self.name,
             bookmark_key or self.replication_key,
-            bookmark_value
+            str(bookmark_value)
         )
         singer.write_state(Context.state)
 
@@ -346,6 +346,8 @@ class Stream():
 
     #This function for streams that don't have 1 day request param tends to compare 'updated_at' values and save the > on self.last_bookmark
     def compare_bookmark(self, new_bookmark):
+        if type(self.last_bookmark) == str:
+            self.last_bookmark = utils.strptime_with_tz(self.last_bookmark)
         if utils.strptime_with_tz(new_bookmark) > self.last_bookmark:
             self.last_bookmark = new_bookmark
 

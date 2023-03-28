@@ -131,9 +131,10 @@ class DiscountCodesQL(GraphQlChildStream):
                     LOGGER.info("Imorted till {} of created price rules".format(record_date))
                 yield node
 
-            created = utils.strftime(utils.strptime_with_tz(node["createdAt"])
-                                     + datetime.timedelta(seconds=1))
-            replication_obj.update_bookmark(created)
+            if node.get("createdAt", False):
+                created = utils.strftime(utils.strptime_with_tz(node["createdAt"])
+                                         + datetime.timedelta(seconds=1))
+                replication_obj.update_bookmark(created)
 
             if not page_info["hasNextPage"]:
                 # Price rule created date is used as state

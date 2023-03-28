@@ -1,24 +1,97 @@
-# tap-shopify
+# Shopify
+
+This tap pulls raw data from [Shopify](https://shopify.dev/api/admin-rest)
+
+
+## Supported Features
+| Feature Name                                                                            | Supported | Comment                                 |
+| ------------                                                                            |---------|-----------------------------------------|
+| [Full Import](https://docs.y42.com/docs/features#full-import)                           | ✅        |                                         |
+| [Partial Import](https://docs.y42.com/docs/features#partial-import)                     | ✅      | Yearly data                             |
+| [Start Date Selection](https://docs.y42.com/docs/features#start-date-selection)         | ✅      |                                         |
+| [Import Empty Tables](https://docs.y42.com/docs/features#import-empty-table)            | ❌      | Empty streams will not generate a table |
+| [Custom Data](https://docs.y42.com/docs/features#custom-data)                           | ❌      |                                         |
+| [Retroactive Updating](https://docs.y42.com/docs/features#retroactive-updating)         | ✅      | Historical data                         |
+| [Dynamic Column Selection](https://docs.y42.com/docs/features#dynamic-column-selection) | ✅      | Select optional, non mandatory columns  |      
+
+
+## Connector
 
 This is a [Singer](https://singer.io) tap that produces JSON-formatted data
-following the [Singer
-spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
+following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
 
-This tap:
+### Supported Streams
 
-- Pulls raw data from [Shopify](https://help.shopify.com/en/api/reference)
-- Extracts the following resources:
-  - [Abandoned Checkouts](https://help.shopify.com/en/api/reference/orders/abandoned_checkouts)
-  - [Collects](https://help.shopify.com/en/api/reference/products/collect)
-  - [Custom Collections](https://help.shopify.com/en/api/reference/products/customcollection)
-  - [Customers](https://help.shopify.com/en/api/reference/customers)
-  - [Metafields](https://help.shopify.com/en/api/reference/metafield)
-  - [Orders](https://help.shopify.com/en/api/reference/orders)
-  - [Products](https://help.shopify.com/en/api/reference/products)
-  - [Transactions](https://help.shopify.com/en/api/reference/orders/transaction)
-- Outputs the schema for each resource
-- Incrementally pulls data based on the input state
-- When Metafields are selected, this tap will sync the Shopify store's top-level Metafields and any additional Metafields for selected tables that also have them (ie: Orders, Products, Customers)
+| Name                                                                              | Description                                                                                                                                                                     | Stream Type | Historical Data Based on |
+|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-------------------------|
+| [Abandoned Checkouts](https://shopify.dev/api/admin-rest/2022-01/resources/abandoned-checkouts) | Information on customers who have abandoned their carts/ checkouts                                                                                                              | INCREMENTAL | updated date            |
+| [Balance Transactions](https://shopify.dev/api/admin-rest/2022-07/resources/transactions)       | Every single movement of money in or out of the account is recorded here                                                                                                        | INCREMENTAL | updated date            |
+| [Collects](https://shopify.dev/api/admin-rest/2022-01/resources/collect)   | The relationship between products and custom collections                                                                                                                        | INCREMENTAL | updated date            |
+| [Custom Collections](https://shopify.dev/api/admin-rest/2022-01/resources/customcollection)     | A grouping of products that a merchant can create to make their store easier to browse                                                                                          | INCREMENTAL | updated date            |
+| [Customer Journey]()                |                                                                                                                                                                                 | INCREMENTAL | updated date            |
+| [Customers](https://shopify.dev/api/admin-rest/2022-01/resources/customer)  | Stores information about a shop's customers, such as their contact details, their order history, and whether they've agreed to receive email marketing.                         | INCREMENTAL | updated date            |
+| [Discount Codes](https://shopify.dev/api/admin-rest/2022-01/resources/discountcode) | Belongs to a price rules, which holds the logic for the discount to be redeemed.                                                                                                | INCREMENTAL | updated date            |      
+| [Giftcards](https://shopify.dev/api/admin-graphql/2022-01/objects/GiftCard) | Requires read_gift_cards access scope. Also: The API client must be a private or custom app installed on a Shopify Plus or Shopify Plus Partner Sandbox store.                  | INCREMENTAL | created date            |      
+| [Inventory Items](https://shopify.dev/api/admin-rest/2022-01/resources/inventoryitem) | Represents a physical good with its essential information holding SKU and whether its inventory is tracked.                                                                     | FULL TABLE  |                         |      
+| [Inventory Levels](https://shopify.dev/api/admin-rest/2022-01/resources/inventorylevel) | Represents the quantities of an inventory item for a location.                                                                                                                  | FULL TABLE  |             |      
+| [Locations](https://shopify.dev/api/admin-rest/2022-01/resources/location) | Represents a geographical location where your stores, pop-up stores, headquarters, and warehouses exist.                                                                        | FULL TABLE  |             |      
+| [Metafields](https://shopify.dev/api/admin-rest/2022-01/resources/metafield) | A flexible way to attach additional information to a Shopify resource, for example specifications, size charts, downloadable documents, release dates, images, or part numbers. | INCREMENTAL | updated date            |      
+| [Metafields Custom Collections](https://shopify.dev/api/admin-rest/2022-01/resources/metafield) | A flexible way to attach additional information to custom collections                                                                                                           | INCREMENTAL | updated date            |      
+| [Metafields Customers](https://shopify.dev/api/admin-rest/2022-01/resources/metafield) | A flexible way to attach additional information to customers                                                                                                                    | INCREMENTAL | updated date            |      
+| [Metafields Orders](https://shopify.dev/api/admin-rest/2022-01/resources/metafield) | A flexible way to attach additional information to orders                                                                                                                       | INCREMENTAL | updated date            |      
+| [Metafields Products](https://shopify.dev/api/admin-rest/2022-01/resources/metafield) | A flexible way to attach additional information to products                                                                                                                     | INCREMENTAL | updated date            |      
+| [Order Refunds](https://shopify.dev/api/admin-rest/2022-01/resources/refund) | Returned orders                                                                                                                                                                 | INCREMENTAL | updated date            |      
+| [Orders](https://shopify.dev/api/admin-rest/2022-01/resources/order) | An order is a customer's request to purchase one or more products from a shop.                                                                                                  | INCREMENTAL | updated date            |      
+| [Payouts](https://shopify.dev/api/admin-rest/2022-01/resources/payouts) | Represent the movement of money between a Shopify Payments account balance and a connected bank account.                                                                        | INCREMENTAL | updated date            |      
+| [Price Rules](https://shopify.dev/api/admin-rest/2022-07/resources/pricerule) | Rules on prices such as discount application                                                                                                                                    | INCREMENTAL | updated date            |      
+| [Products](https://shopify.dev/api/admin-rest/2022-01/resources/product) | A item/ service offered for sale                                                                                                                                                | INCREMENTAL | updated date            |      
+| [Transactions](https://shopify.dev/api/admin-rest/2022-01/resources/transaction) | Transactions are created for every order that results in an exchange of money.                                                                                                  | INCREMENTAL | updated date            |      
+| [Transactions](https://shopify.dev/api/admin-rest/2022-01/resources/transaction) | Transactions are created for every order that results in an exchange of money.                                                                                                  | INCREMENTAL | updated date            |      
+
+
+  - Outputs the schema for each resource
+  - Incrementally pulls data based on the input state
+  - When Metafields are selected, this tap will sync the Shopify store's top-level Metafields and any additional Metafields for selected tables that also have them (ie: Orders, Products, Customers)
+
+
+### Workflow
+
+User authenticates through credentials of his own private app and gets data for a store per integration. Data is retrieved using 2 request types: REST & GraphQL.
+For both of them, there is a yearly timeframe set on sync where the query is repeated by incrementing inside this timeframe with a configured daily window size.
+If there is no data in the initial sync, the calendar year timeframe will be expanded until first record occurred.
+
+> Quotas 
+
+- Per app, per store:
+
+| API                    | Rate-limiting method | Standard limit    | Shopify Plus limit  |
+|------------------------|----------------------|-------------------|---------------------|
+| [Admin API (GraphQL)]() | Calculated query cost | 50 points/second  | 100 points/second   |
+| [Admin API (REST)]() | Admin API (REST) | 2 requests/second  |  4 requests/second         |
+| | Admin API (REST) | 40 requests/minute  |  80 requests/minute         |
+
+
+- Admin API (Rest) Request-based limit:   
+
+second -> 2 Requests per second    
+minute -> 40 Requests per minute    
+
+Apps can make a maximum number (2 or 4 requests per second) of requests per minute and 40 API requests within 60 seconds. Each request counts equally, regardless of how much or how little data is returned. 
+
+- Admin API (GraphQL) Calculated query cost: 
+
+minute (app <> store combination) → Total points to use: 1000           
+second → Points replenished per Second: +50       
+
+The API supports a maximum of 1000 cost points per app per store per minute. This quota replenishes at a rate of 50 cost points per second.
+
+- Pagination
+
+Max 250 records per page, configured per stream. (Could have also different load depending on stream)
+
+
+
+---
 
 ## Quick Start
 
@@ -58,4 +131,23 @@ This tap:
 
 ---
 
-Copyright &copy; 2019 Stitch
+# How To Setup
+## Resources
+
+
+### Overview
+ 
+**Authentication**: App Credentials     
+**Settings**: Historical Date selection     
+**Schema type**: Fixed  
+**Update Type**: Full import and incremental    
+
+
+### Authorization and Access
+
+First, you have to specify the subdomain of your Shopify store, e.g. **"yourshopname"** for a Shopify store that has the domain **"http://yourshopname.shopify.com/"**
+ 
+The app authentication for Shopify uses a Admin API token from the custom app that you have created in Shopify. This custom app is strictly isolated to the Shopify in which it was created and can only be used to access data from the account in which they were created. 
+ 
+To read more about custom apps in Shopify, please go [here](https://help.shopify.com/en/manual/apps/custom-apps).
+Watch [this](https://www.loom.com/share/f6576d7a7fa2466ba48361c37fa2aa68) video for a step-by-step guide to create a custom app in Shopify for Y42.

@@ -1,0 +1,40 @@
+[tool.black]
+line-length = 120
+
+[tool.flake8]
+max-line-length = 120
+extend-ignore = "E203"
+[tool.poetry]
+name = "tap-shopify"
+version = "0.1.0"
+description = "A tap to connect to shopify"
+authors = ["y42 developers <info@y42.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ShopifyAPI = "10.0.0"
+requests = "2.26.0"
+singer-python = "5.12.2"
+gql-query-builder = "^0.1.7"
+ipdb = "^0.13.11"
+freezegun = "^1.2.2"
+bandit = "^1.7.4"
+
+[tool.poetry.dev-dependencies]
+integrations-testing-framework = {git = "http://github.com/goes-funky/integrations-testing-framework.git"}
+pdoc3 = "0.10.0"
+mypy = "0.910"
+pylint = "2.11.1"
+pytest = "6.2.4"
+coverage = "^6.4.2"
+
+[tool.poetry.scripts]
+tap-shopify = "tap_shopify:main"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

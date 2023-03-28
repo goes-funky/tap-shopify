@@ -18,7 +18,7 @@ start = datetime.now()
 
 
 def request_orders(lim):
-    req_url = shop_url + '/orders.json'
+    req_url = shop_url + '/customer_journey.json'
     req_params = {"limit": str(lim)}
     resp = requests.get(req_url,params=req_params)
     if resp.status_code == 429:

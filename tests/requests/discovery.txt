@@ -1,0 +1,124 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Connection:
+      - close
+      Host:
+      - everdropug.myshopify.com
+      User-Agent:
+      - ShopifyPythonAPI/10.0.0 Python/3.9.0
+      X-Shopify-Access-Token:
+      - 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
+    method: GET
+    uri: https://everdropug.myshopify.com/admin/api/2022-01/orders.json?limit=1
+  response:
+    body:
+      string: "{\"orders\":[{\"id\":5184648380683,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Order\\/5184648380683\",\"app_id\":6342595,\"browser_ip\":\"80.122.15.190\",\"buyer_accepts_marketing\":false,\"cancel_reason\":null,\"cancelled_at\":null,\"cart_token\":null,\"checkout_id\":35455659606283,\"checkout_token\":\"c97250f4136d5f645dd3b337c2ebddea\",\"client_details\":{\"accept_language\":\"de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7\",\"browser_height\":937,\"browser_ip\":\"80.122.15.190\",\"browser_width\":1903,\"session_hash\":null,\"user_agent\":\"Mozilla\\/5.0
+        (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/105.0.0.0
+        Safari\\/537.36\"},\"closed_at\":null,\"confirmed\":true,\"contact_email\":\"sonjawittmann1983@gmail.com\",\"created_at\":\"2022-09-15T10:56:09+02:00\",\"currency\":\"EUR\",\"current_subtotal_price\":\"34.97\",\"current_subtotal_price_set\":{\"shop_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"}},\"current_total_discounts\":\"0.00\",\"current_total_discounts_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"current_total_duties_set\":null,\"current_total_price\":\"34.97\",\"current_total_price_set\":{\"shop_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"}},\"current_total_tax\":\"5.83\",\"current_total_tax_set\":{\"shop_money\":{\"amount\":\"5.83\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"5.83\",\"currency_code\":\"EUR\"}},\"customer_locale\":\"de\",\"device_id\":null,\"discount_codes\":[],\"email\":\"sonjawittmann1983@gmail.com\",\"estimated_taxes\":false,\"financial_status\":\"paid\",\"fulfillment_status\":null,\"gateway\":\"shopify_payments\",\"landing_site\":null,\"landing_site_ref\":null,\"location_id\":null,\"name\":\"#1189741523\",\"note\":\"\",\"note_attributes\":[],\"number\":1188741,\"order_number\":1189741,\"order_status_url\":\"https:\\/\\/checkout.everdrop.de\\/27450834996\\/orders\\/16e146f9a7bd360b7ca8364dac617e9e\\/authenticate?key=670447d485ef71f17b111ab4a74c367a\",\"original_total_duties_set\":null,\"payment_gateway_names\":[\"shopify_payments\"],\"phone\":null,\"presentment_currency\":\"EUR\",\"processed_at\":\"2022-09-15T10:56:08+02:00\",\"processing_method\":\"payment_service_redirect\",\"reference\":null,\"referring_site\":null,\"source_identifier\":null,\"source_name\":\"web\",\"source_url\":null,\"subtotal_price\":\"34.97\",\"subtotal_price_set\":{\"shop_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"}},\"tags\":\"\",\"tax_lines\":[{\"price\":\"5.83\",\"rate\":0.2,\"title\":\"AT
+        VAT\",\"price_set\":{\"shop_money\":{\"amount\":\"5.83\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"5.83\",\"currency_code\":\"EUR\"}},\"channel_liable\":false}],\"taxes_included\":true,\"test\":false,\"token\":\"16e146f9a7bd360b7ca8364dac617e9e\",\"total_discounts\":\"0.00\",\"total_discounts_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"total_line_items_price\":\"34.97\",\"total_line_items_price_set\":{\"shop_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"}},\"total_outstanding\":\"0.00\",\"total_price\":\"34.97\",\"total_price_set\":{\"shop_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"34.97\",\"currency_code\":\"EUR\"}},\"total_price_usd\":\"34.90\",\"total_shipping_price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"total_tax\":\"5.83\",\"total_tax_set\":{\"shop_money\":{\"amount\":\"5.83\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"5.83\",\"currency_code\":\"EUR\"}},\"total_tip_received\":\"0.00\",\"total_weight\":0,\"updated_at\":\"2022-09-15T10:56:22+02:00\",\"user_id\":null,\"billing_address\":{\"first_name\":\"Sonja\",\"address1\":\"Dechantskirchen
+        226\",\"phone\":null,\"city\":\"Dechantskirchen\",\"zip\":\"8241\",\"province\":null,\"country\":\"Austria\",\"last_name\":\"Wittmann\",\"address2\":null,\"company\":\"\",\"latitude\":47.4175285,\"longitude\":16.0211276,\"name\":\"Sonja
+        Wittmann\",\"country_code\":\"AT\",\"province_code\":null},\"customer\":{\"id\":6574259077387,\"email\":\"sonjawittmann1983@gmail.com\",\"accepts_marketing\":false,\"created_at\":\"2022-09-06T14:52:40+02:00\",\"updated_at\":\"2022-09-15T10:56:10+02:00\",\"first_name\":\"Sonja\",\"last_name\":\"Wittmann\",\"orders_count\":1,\"state\":\"disabled\",\"total_spent\":\"34.97\",\"last_order_id\":5184648380683,\"note\":null,\"verified_email\":true,\"multipass_identifier\":null,\"tax_exempt\":false,\"tags\":\"\",\"last_order_name\":\"#1189741523\",\"currency\":\"EUR\",\"phone\":null,\"accepts_marketing_updated_at\":\"2022-09-15T10:56:10+02:00\",\"marketing_opt_in_level\":null,\"tax_exemptions\":[],\"sms_marketing_consent\":null,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/Customer\\/6574259077387\",\"default_address\":{\"id\":8387745874187,\"customer_id\":6574259077387,\"first_name\":\"Sonja\",\"last_name\":\"Wittmann\",\"company\":\"\",\"address1\":\"Dechantskirchen
+        226\",\"address2\":null,\"city\":\"Dechantskirchen\",\"province\":null,\"country\":\"Austria\",\"zip\":\"8241\",\"phone\":null,\"name\":\"Sonja
+        Wittmann\",\"province_code\":null,\"country_code\":\"AT\",\"country_name\":\"Austria\",\"default\":true}},\"discount_applications\":[],\"fulfillments\":[],\"line_items\":[{\"id\":12847487680779,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/LineItem\\/12847487680779\",\"fulfillable_quantity\":1,\"fulfillment_service\":\"manual\",\"fulfillment_status\":null,\"gift_card\":false,\"grams\":0,\"name\":\"Probierpaket
+        (mit WC Reiniger)\",\"origin_location\":{\"id\":2989075792065,\"country_code\":\"DE\",\"province_code\":\"\",\"name\":\"everdrop\",\"address1\":\"Isarwinkel
+        4\",\"address2\":\"\",\"city\":\"M\xFCnchen\",\"zip\":\"81379\"},\"price\":\"14.99\",\"price_set\":{\"shop_money\":{\"amount\":\"14.99\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"14.99\",\"currency_code\":\"EUR\"}},\"product_exists\":true,\"product_id\":7091994263745,\"properties\":[],\"quantity\":1,\"requires_shipping\":true,\"sku\":\"ED-B13107-01\",\"taxable\":true,\"title\":\"Probierpaket
+        (mit WC Reiniger)\",\"total_discount\":\"0.00\",\"total_discount_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"variant_id\":41228403146945,\"variant_inventory_management\":null,\"variant_title\":\"\",\"vendor\":\"everdrop\",\"tax_lines\":[{\"channel_liable\":false,\"price\":\"2.50\",\"price_set\":{\"shop_money\":{\"amount\":\"2.50\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"2.50\",\"currency_code\":\"EUR\"}},\"rate\":0.2,\"title\":\"AT
+        VAT\"}],\"duties\":[],\"discount_allocations\":[]},{\"id\":12847487713547,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/LineItem\\/12847487713547\",\"fulfillable_quantity\":1,\"fulfillment_service\":\"manual\",\"fulfillment_status\":null,\"gift_card\":false,\"grams\":0,\"name\":\"Schwammt\xFCcher
+        - Wei\xDF \\/ Grau\",\"origin_location\":{\"id\":2989075792065,\"country_code\":\"DE\",\"province_code\":\"\",\"name\":\"everdrop\",\"address1\":\"Isarwinkel
+        4\",\"address2\":\"\",\"city\":\"M\xFCnchen\",\"zip\":\"81379\"},\"price\":\"5.99\",\"price_set\":{\"shop_money\":{\"amount\":\"5.99\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"5.99\",\"currency_code\":\"EUR\"}},\"product_exists\":true,\"product_id\":7097939001537,\"properties\":[],\"quantity\":1,\"requires_shipping\":true,\"sku\":\"ED-Y00007\",\"taxable\":true,\"title\":\"Schwammt\xFCcher\",\"total_discount\":\"0.00\",\"total_discount_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"variant_id\":41239110222017,\"variant_inventory_management\":null,\"variant_title\":\"Wei\xDF
+        \\/ Grau\",\"vendor\":\"everdrop\",\"tax_lines\":[{\"channel_liable\":false,\"price\":\"1.00\",\"price_set\":{\"shop_money\":{\"amount\":\"1.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"1.00\",\"currency_code\":\"EUR\"}},\"rate\":0.2,\"title\":\"AT
+        VAT\"}],\"duties\":[],\"discount_allocations\":[]},{\"id\":12847487746315,\"admin_graphql_api_id\":\"gid:\\/\\/shopify\\/LineItem\\/12847487746315\",\"fulfillable_quantity\":1,\"fulfillment_service\":\"manual\",\"fulfillment_status\":null,\"gift_card\":false,\"grams\":0,\"name\":\"Klarsp\xFCler-Pulver
+        Starter Set\",\"origin_location\":{\"id\":2989075792065,\"country_code\":\"DE\",\"province_code\":\"\",\"name\":\"everdrop\",\"address1\":\"Isarwinkel
+        4\",\"address2\":\"\",\"city\":\"M\xFCnchen\",\"zip\":\"81379\"},\"price\":\"13.99\",\"price_set\":{\"shop_money\":{\"amount\":\"13.99\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"13.99\",\"currency_code\":\"EUR\"}},\"product_exists\":true,\"product_id\":7218310742209,\"properties\":[],\"quantity\":1,\"requires_shipping\":true,\"sku\":\"ED-G14001\",\"taxable\":true,\"title\":\"Klarsp\xFCler-Pulver
+        Starter Set\",\"total_discount\":\"0.00\",\"total_discount_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"variant_id\":41557645918401,\"variant_inventory_management\":null,\"variant_title\":\"\",\"vendor\":\"everdrop\",\"tax_lines\":[{\"channel_liable\":false,\"price\":\"2.33\",\"price_set\":{\"shop_money\":{\"amount\":\"2.33\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"2.33\",\"currency_code\":\"EUR\"}},\"rate\":0.2,\"title\":\"AT
+        VAT\"}],\"duties\":[],\"discount_allocations\":[]}],\"payment_terms\":null,\"refunds\":[],\"shipping_address\":{\"first_name\":\"Sonja\",\"address1\":\"Dechantskirchen
+        226\",\"phone\":null,\"city\":\"Dechantskirchen\",\"zip\":\"8241\",\"province\":null,\"country\":\"Austria\",\"last_name\":\"Wittmann\",\"address2\":null,\"company\":\"\",\"latitude\":47.4175285,\"longitude\":16.0211276,\"name\":\"Sonja
+        Wittmann\",\"country_code\":\"AT\",\"province_code\":null},\"shipping_lines\":[{\"id\":4404688191755,\"carrier_identifier\":null,\"code\":\"Versand\",\"delivery_category\":null,\"discounted_price\":\"0.00\",\"discounted_price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"phone\":null,\"price\":\"0.00\",\"price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"requested_fulfillment_service_id\":null,\"source\":\"shopify\",\"title\":\"Versand\",\"tax_lines\":[{\"channel_liable\":false,\"price\":\"0.00\",\"price_set\":{\"shop_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"},\"presentment_money\":{\"amount\":\"0.00\",\"currency_code\":\"EUR\"}},\"rate\":0.2,\"title\":\"AT
+        VAT\"}],\"discount_allocations\":[]}]}]}"
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 74b0272a2989bb20-MXP
+      Connection:
+      - close
+      Content-Security-Policy:
+      - 'default-src ''self'' data: blob: ''unsafe-inline'' ''unsafe-eval'' https://*
+        shopify-pos://*; block-all-mixed-content; child-src ''self'' https://* shopify-pos://*;
+        connect-src ''self'' wss://* https://*; frame-ancestors ''none''; img-src
+        ''self'' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net
+        https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com
+        https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com
+        https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com
+        https://v.shopify.com ''self'' ''unsafe-inline'' ''unsafe-eval''; upgrade-insecure-requests;
+        report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=2b26a4bd-08e0-466d-8466-675a7e38dc33'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Thu, 15 Sep 2022 08:57:07 GMT
+      HTTP_X_SHOPIFY_SHOP_API_CALL_LIMIT:
+      - 2/80
+      Link:
+      - <https://everdropug.myshopify.com/admin/api/2022-01/orders.json?limit=1&page_info=eyJsYXN0X2lkIjo1MTg0NjQ4MzgwNjgzLCJsYXN0X3ZhbHVlIjoiMjAyMi0wOS0xNSAwODo1NjowOS44MzA5NDgiLCJkaXJlY3Rpb24iOiJuZXh0In0>;
+        rel="next"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Referrer-Policy:
+      - origin-when-cross-origin
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Cym1LCXxJc5OdVmeqO4ifpKZaFhIxWPP37m3M0D3KRLdnoelrmyIzmPuXrHwrAOJ%2BJbHx3ZXCVaWfxzTywvfn6820%2BOc7LOfyPOrx5YsUZ3CGt5oPQhjoS%2BlwgOafTxZxIbOBHee%2F93lKQ%3D%3D"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Strict-Transport-Security:
+      - max-age=7889238
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Dc:
+      - gcp-europe-west8,gcp-us-east1,gcp-us-east1
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - DENY
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-ID:
+      - 2b26a4bd-08e0-466d-8466-675a7e38dc33
+      X-ShardId:
+      - '266'
+      X-ShopId:
+      - '27450834996'
+      X-Shopify-API-Deprecated-Reason:
+      - https://shopify.dev/changelog/property-deprecations-in-the-admin-api-order-and-lineitem-resource
+      X-Shopify-API-Terms:
+      - By accessing or using the Shopify API you agree to the Shopify API License
+        and Terms of Use at https://www.shopify.com/legal/api-terms
+      X-Shopify-API-Version:
+      - 2022-01
+      X-Shopify-Shop-Api-Call-Limit:
+      - 2/80
+      X-Shopify-Stage:
+      - production
+      X-Sorting-Hat-PodId:
+      - '266'
+      X-Sorting-Hat-ShopId:
+      - '27450834996'
+      X-Stats-ApiClientId:
+      - '4596747'
+      X-Stats-ApiPermissionId:
+      - '297257861313'
+      X-Stats-UserId:
+      - ''
+      X-XSS-Protection:
+      - 1; mode=block; report=/xss-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Forders&source%5Bsection%5D=admin_api&source%5Buuid%5D=2b26a4bd-08e0-466d-8466-675a7e38dc33
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1
