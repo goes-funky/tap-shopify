@@ -31,7 +31,7 @@ class InventoryLevel(ChildStream):
             while True:
                 for child in children:
                     yield child
-                if len(children) < RESULTS_PER_PAGE:
+                if len(children) < RESULTS_PER_PAGE or children.next_page_url is None:
                     break
                 children = self.get_next_page(children)
 
