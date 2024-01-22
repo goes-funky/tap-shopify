@@ -190,12 +190,6 @@
       ],
       "format": "date-time"
     },
-    "gateway": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
     "referring_site": {
       "type": [
         "null",
@@ -380,12 +374,6 @@
               "integer"
             ]
           },
-          "delivery_category": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
           "markup": {
             "type": [
               "null",
@@ -532,12 +520,6 @@
         "number"
       ],
       "multipleOf": 1e-10
-    },
-    "cart_token": {
-      "type": [
-        "null",
-        "string"
-      ]
     },
     "taxes_included": {
       "type": [

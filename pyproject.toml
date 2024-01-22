@@ -12,7 +12,7 @@ authors = ["y42 developers <info@y42.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-ShopifyAPI = "10.0.0"
+ShopifyAPI = "12.4.0"
 requests = "2.26.0"
 singer-python = "5.12.2"
 gql-query-builder = "^0.1.7"
