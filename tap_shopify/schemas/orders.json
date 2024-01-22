@@ -12,6 +12,42 @@
     "total_price_set": {},
     "total_shipping_price_set": {},
     "total_tax_set": {},
+    "current_subtotal_price_set": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "current_total_duties_set": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "current_total_discounts_set": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "current_total_price_set": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "current_total_tax_set": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
+    "original_total_duties_set": {
+      "type": [
+        "null",
+        "object"
+      ]
+    },
     "total_price": {
       "type": [
         "null",
@@ -21,6 +57,12 @@
     },
     "line_items": {
       "$ref": "definitions.json#/line_items"
+    },
+    "processing_method": {
+      "type": [
+        "null",
+        "string"
+      ]
     },
     "order_number": {
       "type": [
@@ -102,6 +144,12 @@
             "type": [
               "null",
               "array"
+            ]
+          },
+          "delivery_category": {
+            "type": [
+              "null",
+              "string"
             ]
           },
           "discounted_price": {
@@ -892,6 +940,12 @@
         "boolean"
       ]
     },
+    "checkout_token": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "tags": {
       "type": [
         "null",
@@ -920,6 +974,18 @@
       "type": [
         "null",
         "integer"
+      ]
+    },
+    "gateway": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "cart_token": {
+      "type": [
+        "null",
+        "string"
       ]
     },
     "cancelled_at": {
@@ -1068,6 +1134,179 @@
         "null",
         "string"
       ]
+    },
+    "current_total_discounts": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "multipleOf": 1e-10
+    },
+    "current_total_tax": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "multipleOf": 1e-10
+    },
+    "total_outstanding": {
+      "type": [
+        "null",
+        "number"
+      ],
+      "multipleOf": 1e-10
+    },
+    "payment_terms": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "amount": {
+          "type": [
+            "null",
+            "integer",
+            "string"
+          ]
+        },
+        "currency": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "due_in_days": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "payment_schedules": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "properties": {
+              "amount": {
+                "type": [
+                  "null",
+                  "integer",
+                  "string"
+                ]
+              },
+              "due_at": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "format": "date-time"
+              },
+              "currency": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "issued_at": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "format": "date-time"
+              },
+              "completed_at": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "expected_payment_method": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            },
+            "type": [
+              "null",
+              "object"
+            ]
+          }
+        },
+        "payment_terms_name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "payment_terms_type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "estimated_taxes": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "merchant_of_record_app_id": {
+      "type": ["null", "integer"]
+    },
+    "current_total_additional_fees_set": {
+      "type": ["null", "object"],
+      "properties": {
+        "presentment_money": {
+          "type": ["null", "object"],
+          "properties": {
+            "amount": {
+              "type": ["null", "number"],
+              "multipleOf": 1e-10},
+            "currency": {
+              "type": ["null", "string"]}
+          }
+        },
+        "shop_money": {
+          "type": ["null", "object"],
+          "properties": {
+            "amount": {
+              "type": ["null", "number"],
+              "multipleOf": 1e-10},
+            "currency": {
+              "type": ["null", "string"]}
+          }
+        }
+      }
+    },
+    "original_total_additional_fees_set": {
+      "type": ["null", "object"],
+      "properties": {
+        "presentment_money": {
+          "type": ["null", "object"],
+          "properties": {
+            "amount": {
+              "type": ["null", "number"],
+              "multipleOf": 1e-10},
+            "currency": {
+              "type": ["null", "string"]
+            }
+          }
+        },
+        "shop_money": {
+          "type": ["null", "object"],
+          "properties": {
+            "amount": {
+              "type": ["null", "number"],
+              "multipleOf": 1e-10},
+            "currency": {
+              "type": ["null", "string"]}
+          }
+        }
+      }
     }
   },
   "type": "object"
