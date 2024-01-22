@@ -130,12 +130,6 @@
         "string"
       ]
     },
-    "gateway": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
     "formattedGateway": {
       "type": [
         "null",
