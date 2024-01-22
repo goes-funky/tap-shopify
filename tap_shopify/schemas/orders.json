@@ -58,12 +58,6 @@
     "line_items": {
       "$ref": "definitions.json#/line_items"
     },
-    "processing_method": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
     "order_number": {
       "type": [
         "null",
@@ -144,12 +138,6 @@
             "type": [
               "null",
               "array"
-            ]
-          },
-          "delivery_category": {
-            "type": [
-              "null",
-              "string"
             ]
           },
           "discounted_price": {
@@ -938,12 +926,6 @@
       "type": [
         "null",
         "boolean"
-      ]
-    },
-    "checkout_token": {
-      "type": [
-        "null",
-        "string"
       ]
     },
     "tags": {
