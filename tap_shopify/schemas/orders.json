@@ -976,12 +976,6 @@
         "integer"
       ]
     },
-    "gateway": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
     "cart_token": {
       "type": [
         "null",
