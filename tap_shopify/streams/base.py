@@ -146,6 +146,32 @@ class OutOfOrderIdsError(Error):
     """Raised if our expectation of ordering by ID is violated"""
 
 
+def get_next_since_id(objects, since_id):
+    """Returns the since_id to request the page following `objects`.
+
+    Shopify is expected to return pages ordered by id, but it has been
+    observed to swap orders created in the same second (e.g. order numbers
+    running opposite to their ids). Using the last id of such a page could
+    skip records, and failing blocks the sync indefinitely. Instead, rewind to
+    just before the smallest id that appears at or after the page's max id,
+    so every record in the out-of-order tail is refetched (duplicates are
+    deduplicated downstream by primary key).
+    """
+    ids = [o.id for o in objects]
+    max_id = max(ids)
+    if ids[-1] == max_id:
+        return max_id
+
+    max_index = ids.index(max_id)
+    next_since_id = min(ids[max_index:]) - 1
+    if next_since_id <= since_id:
+        # Rewinding would not make progress, fall back to the max id.
+        next_since_id = max_id
+    LOGGER.warning("Page is not ordered by id: %d is not the max id in objects (%d). "
+                   "Continuing from since_id %d", ids[-1], max_id, next_since_id)
+    return next_since_id
+
+
 class HiddenPrints:
     def __enter__(self):
         self._original_stdout = sys.stdout
@@ -248,6 +274,7 @@ class Stream():
             min_filer_key = self.get_min_replication_key()
             max_filer_key = self.get_max_replication_key()
 
+            objects = None
             while True:
                 # Check if import start time until now exceeds max allowed hours
                 run_days = (datetime.datetime.now() - started_at).days
@@ -257,19 +284,27 @@ class Stream():
                                 int(run_days), max_time)
                     break
 
-                status_key = self.status_key or "status"
-                query_params = {
-                    "since_id": since_id,
-                    min_filer_key: updated_at_min,
-                    max_filer_key: updated_at_max,
-                    "limit": results_per_page,
-                }
+                if getattr(objects, "next_page_url", None):
+                    # Follow Shopify's cursor pagination when available. Unlike
+                    # paging by since_id, it can't skip records when the API
+                    # doesn't return them strictly ordered by id (e.g. orders
+                    # created in the same second).
+                    with metrics.http_request_timer(self.name):
+                        objects = self.get_next_page(objects)
+                else:
+                    status_key = self.status_key or "status"
+                    query_params = {
+                        "since_id": since_id,
+                        min_filer_key: updated_at_min,
+                        max_filer_key: updated_at_max,
+                        "limit": results_per_page,
+                    }
 
-                if self.add_status:
-                    query_params[status_key] = "any"
+                    if self.add_status:
+                        query_params[status_key] = "any"
 
-                with metrics.http_request_timer(self.name):
-                    objects = self.call_api(query_params)
+                    with metrics.http_request_timer(self.name):
+                        objects = self.call_api(query_params)
 
                 for obj in objects:
                     if obj.id < since_id:
@@ -284,7 +319,7 @@ class Stream():
                 # less than the request size limits you set.
                 records += len(objects)
                 singer.log_info(f"Got {len(objects)} records")
-                if len(objects) < results_per_page:
+                if len(objects) < results_per_page and not getattr(objects, "next_page_url", None):
                     # Save the updated_at_max as our bookmark as we've synced all rows up in our
                     # window and can move forward. Also remove the since_id because we want to
                     # restart at 1.
@@ -295,13 +330,8 @@ class Stream():
                     self.update_bookmark(utils.strftime(state_val))
                     break
 
-                if objects[-1].id != max([o.id for o in objects]):
-                    # This verifies the api behavior expectation we have
-                    # that all pages are internally ordered by the
-                    # `since_id`.
-                    raise OutOfOrderIdsError("{} is not the max id in objects ({})".format(
-                        objects[-1].id, max([o.id for o in objects])))
-                since_id = objects[-1].id
+                if not getattr(objects, "next_page_url", None):
+                    since_id = get_next_since_id(objects, since_id)
 
             updated_at_min = updated_at_max + datetime.timedelta(seconds=1)
 
@@ -328,7 +358,8 @@ class Stream():
 
     @shopify_error_handling
     def get_next_page(self, resource_find):
-        return resource_find.next_page()
+        # no_cache avoids keeping a reference chain to every previous page.
+        return resource_find.next_page(no_cache=True)
 
     def get_max_replication_key(self):
         switch = {

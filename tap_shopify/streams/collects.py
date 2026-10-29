@@ -3,7 +3,8 @@ import singer
 from singer import utils
 from tap_shopify.streams.base import (Stream,
                                       RESULTS_PER_PAGE,
-                                      OutOfOrderIdsError)
+                                      OutOfOrderIdsError,
+                                      get_next_since_id)
 from tap_shopify.context import Context
 
 LOGGER = singer.get_logger()
@@ -49,10 +50,7 @@ class Collects(Stream):
                 self.update_bookmark(max_bookmark)
                 break
 
-            if objects[-1].id != max([o.id for o in objects]):
-                raise OutOfOrderIdsError("{} is not the max id in objects ({})".format(
-                    objects[-1].id, max([o.id for o in objects])))
-            since_id = objects[-1].id
+            since_id = get_next_since_id(objects, int(since_id))
             self.push_id(since_id)
 
 

@@ -1,7 +1,8 @@
 from tap_shopify.streams.base import (Stream,
                                       RESULTS_PER_PAGE,
                                       shopify_error_handling,
-                                      OutOfOrderIdsError)
+                                      OutOfOrderIdsError,
+                                      get_next_since_id)
 
 from tap_shopify.context import Context
 
@@ -37,10 +38,7 @@ class ChildStream(Stream):
                     yield child
                 if len(children) < RESULTS_PER_PAGE:
                     break
-                if children[-1].id != max([o.id for o in children]):
-                    raise OutOfOrderIdsError("{} is not the max id in children ({})".format(
-                        children[-1].id, max([o.id for o in children])))
-                since_id = children[-1].id
+                since_id = get_next_since_id(children, since_id)
 
     @abstractmethod
     def get_parent_name(self):

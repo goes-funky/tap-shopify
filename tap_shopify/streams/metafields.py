@@ -7,7 +7,8 @@ from tap_shopify.context import Context
 from tap_shopify.streams.base import (Stream,
                                       shopify_error_handling,
                                       RESULTS_PER_PAGE,
-                                      OutOfOrderIdsError)
+                                      OutOfOrderIdsError,
+                                      get_next_since_id)
 
 LOGGER = singer.get_logger()
 
@@ -64,11 +65,7 @@ class Metafields(Stream):
             if len(metafields) < RESULTS_PER_PAGE:
                 break
 
-            if metafields[-1].id != max([o.id for o in metafields]):
-                raise OutOfOrderIdsError("{} is not the max id in metafields ({})".format(
-                    metafields[-1].id, max([o.id for o in metafields])))
-
-            since_id = metafields[-1].id
+            since_id = get_next_since_id(metafields, since_id)
 
     def sync(self):
         # Shop metafields
